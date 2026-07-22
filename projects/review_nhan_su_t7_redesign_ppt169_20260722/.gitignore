@@ -1,0 +1,16 @@
+# Local previews and review scratch data; regenerated from svg_output/.
+.preview/
+.review/
+
+# Export-time snapshots; svg_output/ is the editable source of truth.
+backup/
+
+# Local browser runtime state and logs.
+live_preview/
+.confirm_ui.lock
+confirm_ui/server.log
+confirm_ui/session.json
+
+# Python/editor noise if introduced locally.
+__pycache__/
+*.pyc

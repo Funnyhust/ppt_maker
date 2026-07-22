@@ -1,0 +1,1 @@
+Trong giai đoạn đánh giá có 114 task được ghi nhận, trong đó 102 task đã Done, tương đương 89,5%. Có 98 task thuộc KNX và tổng cộng bảy nhóm dự án. Các trạng thái còn lại gồm 5 Ongoing, 4 Not yet started, 2 Late và 1 Closed.

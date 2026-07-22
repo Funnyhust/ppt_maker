@@ -1,0 +1,1 @@
+Tài liệu được xem như một phần của đầu ra kỹ thuật. API và flow hỗ trợ phát triển; hướng dẫn tool và Jig hỗ trợ thao tác; slide và Quiz hỗ trợ đào tạo; Q&A và Topology hỗ trợ xử lý tình huống. Nhờ vậy quá trình bàn giao có một nguồn thông tin nhất quán.

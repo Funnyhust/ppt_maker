@@ -1,0 +1,218 @@
+{
+  "schema": "ppt-master.pptx-postflight-report.v1",
+  "status": "passed",
+  "output": {
+    "path": "D:\\DuongNV\\ppt-master\\projects\\review_nhan_su_t7_redesign_ppt169_20260722\\exports\\review_nhan_su_t7_redesign_20260722_215349.pptx",
+    "bytes": 664329
+  },
+  "source": {
+    "svg_slide_count": 15,
+    "layout_definition_count": 0,
+    "fingerprint": {
+      "algorithm": "sha256",
+      "digest": "c58f4ca5c39868aa4fac47e2b8796a7acd5897a7664515e599e47e41ba6579cb",
+      "file_count": 15,
+      "files": [
+        {
+          "file": "01_review_nhan_su.svg",
+          "sha256": "9f01810ba841d9f98abf594ba4b6e31ae5bc55ee7ff51997c11b6042be8bc47c"
+        },
+        {
+          "file": "02_noi_dung_1.svg",
+          "sha256": "7ecc37db74639363d6d6f817bb0b9d9de930849273bdc0f2aa45b8a4c745c2fa"
+        },
+        {
+          "file": "03_noi_dung_2.svg",
+          "sha256": "ff0ae20e76f65b275173cc21e5cd8830dc8bd1ce8f34a9da94944677e7a9fd95"
+        },
+        {
+          "file": "04_ket_qua_noi_bat.svg",
+          "sha256": "6b13d0b0acdbe42000993d4d41d80956372f455fe60f8d71d1bd905be75ebbb6"
+        },
+        {
+          "file": "05_hanh_trinh.svg",
+          "sha256": "7be76afe3cb0c26557b9fa13a12f7a418b702237480a3f28381943c957bf6bbe"
+        },
+        {
+          "file": "06_thiet_bi_firmware_knx.svg",
+          "sha256": "87ca5d0ab8c8fc6b2ed2af7e973c69edcb54ceef2698e9f8c2e31d75acfd67a3"
+        },
+        {
+          "file": "07_tool_jig_loader.svg",
+          "sha256": "8b257a85e55c9c9d6c0ed5b134feaa2e42640644b7748d7fce7d30fca230b200"
+        },
+        {
+          "file": "08_kiem_thu_he_thong.svg",
+          "sha256": "34e0c2bcf1e5ae050a36e3abe85f217f42f7b77474b2cabf6fbee7485ea20c61"
+        },
+        {
+          "file": "09_dao_tao_knx.svg",
+          "sha256": "9cacf01256b8710ae1563177e8f7273239473475314ceef5ad7d61e20c4b2c72"
+        },
+        {
+          "file": "10_tai_lieu_ban_giao.svg",
+          "sha256": "2db1e982b1d5a41435f4e551f7e895926c5a276dd3a709eb4793ee62fb71f465"
+        },
+        {
+          "file": "11_auto_test_tool_design.svg",
+          "sha256": "05954184eb736d24d77a2f03e2c5062b4a9d51c11f72bbc2c4ac9250bec14583"
+        },
+        {
+          "file": "12_du_an_tool_khac.svg",
+          "sha256": "1f996430e36e85f57191b8be25085864d482a9bab28d914912a8fc5bdb7897e4"
+        },
+        {
+          "file": "13_nang_luc.svg",
+          "sha256": "15a21d98fa76b7626bce27cf421ba436ccedd8c1e11a1094cf738d406321fa8f"
+        },
+        {
+          "file": "14_trong_tam_tiep_theo.svg",
+          "sha256": "5bb39f1d68d99521a1e405aaced61f828533658d5ecd3f384733823f7b8b0c13"
+        },
+        {
+          "file": "15_cam_on.svg",
+          "sha256": "22f7044afb51cc233039b30ee6140be62568d530217831216eb4504848a2d8bd"
+        }
+      ]
+    }
+  },
+  "package": {
+    "zip_integrity": "passed",
+    "corrupt_member": null,
+    "slides": 15,
+    "notes": 15,
+    "masters": 1,
+    "layouts": 1
+  },
+  "checks": {
+    "zip_integrity": "passed",
+    "slide_count": "passed",
+    "internal_relationships": "enforced-at-build",
+    "structured_package": "not-applicable",
+    "transitions": "enforced-at-build",
+    "animations": "enforced-at-build",
+    "quality_gate": "passed",
+    "quality_warnings": "passed",
+    "template_tokens": "passed",
+    "external_images": "passed",
+    "font_portability": "passed"
+  },
+  "quality": {
+    "status": "loaded",
+    "path": "projects\\review_nhan_su_t7_redesign_ppt169_20260722\\validation\\svg_quality_report.json",
+    "schema": "ppt-master.svg-quality-report.v1",
+    "stage": "final",
+    "source_match": "passed",
+    "source_fingerprint": {
+      "algorithm": "sha256",
+      "digest": "c58f4ca5c39868aa4fac47e2b8796a7acd5897a7664515e599e47e41ba6579cb",
+      "file_count": 15,
+      "files": [
+        {
+          "file": "01_review_nhan_su.svg",
+          "sha256": "9f01810ba841d9f98abf594ba4b6e31ae5bc55ee7ff51997c11b6042be8bc47c"
+        },
+        {
+          "file": "02_noi_dung_1.svg",
+          "sha256": "7ecc37db74639363d6d6f817bb0b9d9de930849273bdc0f2aa45b8a4c745c2fa"
+        },
+        {
+          "file": "03_noi_dung_2.svg",
+          "sha256": "ff0ae20e76f65b275173cc21e5cd8830dc8bd1ce8f34a9da94944677e7a9fd95"
+        },
+        {
+          "file": "04_ket_qua_noi_bat.svg",
+          "sha256": "6b13d0b0acdbe42000993d4d41d80956372f455fe60f8d71d1bd905be75ebbb6"
+        },
+        {
+          "file": "05_hanh_trinh.svg",
+          "sha256": "7be76afe3cb0c26557b9fa13a12f7a418b702237480a3f28381943c957bf6bbe"
+        },
+        {
+          "file": "06_thiet_bi_firmware_knx.svg",
+          "sha256": "87ca5d0ab8c8fc6b2ed2af7e973c69edcb54ceef2698e9f8c2e31d75acfd67a3"
+        },
+        {
+          "file": "07_tool_jig_loader.svg",
+          "sha256": "8b257a85e55c9c9d6c0ed5b134feaa2e42640644b7748d7fce7d30fca230b200"
+        },
+        {
+          "file": "08_kiem_thu_he_thong.svg",
+          "sha256": "34e0c2bcf1e5ae050a36e3abe85f217f42f7b77474b2cabf6fbee7485ea20c61"
+        },
+        {
+          "file": "09_dao_tao_knx.svg",
+          "sha256": "9cacf01256b8710ae1563177e8f7273239473475314ceef5ad7d61e20c4b2c72"
+        },
+        {
+          "file": "10_tai_lieu_ban_giao.svg",
+          "sha256": "2db1e982b1d5a41435f4e551f7e895926c5a276dd3a709eb4793ee62fb71f465"
+        },
+        {
+          "file": "11_auto_test_tool_design.svg",
+          "sha256": "05954184eb736d24d77a2f03e2c5062b4a9d51c11f72bbc2c4ac9250bec14583"
+        },
+        {
+          "file": "12_du_an_tool_khac.svg",
+          "sha256": "1f996430e36e85f57191b8be25085864d482a9bab28d914912a8fc5bdb7897e4"
+        },
+        {
+          "file": "13_nang_luc.svg",
+          "sha256": "15a21d98fa76b7626bce27cf421ba436ccedd8c1e11a1094cf738d406321fa8f"
+        },
+        {
+          "file": "14_trong_tam_tiep_theo.svg",
+          "sha256": "5bb39f1d68d99521a1e405aaced61f828533658d5ecd3f384733823f7b8b0c13"
+        },
+        {
+          "file": "15_cam_on.svg",
+          "sha256": "22f7044afb51cc233039b30ee6140be62568d530217831216eb4504848a2d8bd"
+        }
+      ]
+    },
+    "summary": {
+      "total": 15,
+      "passed": 15,
+      "warnings": 0,
+      "errors": 0
+    },
+    "categories": {
+      "blocking": {
+        "count": 0,
+        "issues": []
+      },
+      "introduced": {
+        "count": 0,
+        "issues": []
+      },
+      "inherited": {
+        "count": 0,
+        "issues": []
+      },
+      "source-import": {
+        "count": 0,
+        "summary": {
+          "warning_count": 0,
+          "by_code": {}
+        }
+      }
+    }
+  },
+  "resources": {
+    "unresolved_template_tokens": [],
+    "fonts": {
+      "stacks": [
+        "Arial, sans-serif"
+      ],
+      "generic_only_stacks": []
+    },
+    "images": {
+      "data_uri": 0,
+      "local": 25,
+      "external": 0,
+      "external_references": []
+    }
+  },
+  "backup_path": "D:\\DuongNV\\ppt-master\\projects\\review_nhan_su_t7_redesign_ppt169_20260722\\backup\\20260722_215349\\svg_output",
+  "conversion_trace_path": null
+}

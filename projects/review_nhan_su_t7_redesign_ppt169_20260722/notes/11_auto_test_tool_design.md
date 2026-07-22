@@ -1,0 +1,1 @@
+Ở Auto Test, mình đang xây nền với ba lớp: API servo/cảm biến, luồng điều phối và phần cứng điều khiển. Tại ngày 22 tháng 7 có năm task Ongoing, trong đó trọng tâm gần nhất là hoàn thiện module servo/cảm biến và chức năng trên mạch điều khiển.

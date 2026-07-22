@@ -1,0 +1,28 @@
+{
+  "schema": "ppt-master.source_to_md.profile.v1",
+  "converter": "ppt_to_md.py",
+  "conversion_type": "pptx",
+  "source": {
+    "path": "review_nhan_su_alignment_20260722_202409.pptx",
+    "name": "review_nhan_su_alignment_20260722_202409.pptx",
+    "suffix": ".pptx",
+    "kind": "file",
+    "exists": true,
+    "size_bytes": 1017037
+  },
+  "outputs": {
+    "markdown": "review_nhan_su_alignment_20260722_202409.md",
+    "asset_dir": "review_nhan_su_alignment_20260722_202409_files",
+    "image_manifest": "review_nhan_su_alignment_20260722_202409_files/image_manifest.json",
+    "image_count": 14
+  },
+  "markdown": {
+    "line_count": 570,
+    "char_count": 14609,
+    "heading_count": 35,
+    "table_count": 0,
+    "image_ref_count": 30,
+    "link_count": 0
+  },
+  "warnings": []
+}

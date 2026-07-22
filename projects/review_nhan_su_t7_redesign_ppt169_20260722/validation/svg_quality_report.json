@@ -1,0 +1,591 @@
+{
+  "schema": "ppt-master.svg-quality-report.v1",
+  "stage": "final",
+  "target": "D:\\DuongNV\\ppt-master\\projects\\review_nhan_su_t7_redesign_ppt169_20260722",
+  "source_fingerprint": {
+    "algorithm": "sha256",
+    "digest": "c58f4ca5c39868aa4fac47e2b8796a7acd5897a7664515e599e47e41ba6579cb",
+    "file_count": 15,
+    "files": [
+      {
+        "file": "01_review_nhan_su.svg",
+        "sha256": "9f01810ba841d9f98abf594ba4b6e31ae5bc55ee7ff51997c11b6042be8bc47c"
+      },
+      {
+        "file": "02_noi_dung_1.svg",
+        "sha256": "7ecc37db74639363d6d6f817bb0b9d9de930849273bdc0f2aa45b8a4c745c2fa"
+      },
+      {
+        "file": "03_noi_dung_2.svg",
+        "sha256": "ff0ae20e76f65b275173cc21e5cd8830dc8bd1ce8f34a9da94944677e7a9fd95"
+      },
+      {
+        "file": "04_ket_qua_noi_bat.svg",
+        "sha256": "6b13d0b0acdbe42000993d4d41d80956372f455fe60f8d71d1bd905be75ebbb6"
+      },
+      {
+        "file": "05_hanh_trinh.svg",
+        "sha256": "7be76afe3cb0c26557b9fa13a12f7a418b702237480a3f28381943c957bf6bbe"
+      },
+      {
+        "file": "06_thiet_bi_firmware_knx.svg",
+        "sha256": "87ca5d0ab8c8fc6b2ed2af7e973c69edcb54ceef2698e9f8c2e31d75acfd67a3"
+      },
+      {
+        "file": "07_tool_jig_loader.svg",
+        "sha256": "8b257a85e55c9c9d6c0ed5b134feaa2e42640644b7748d7fce7d30fca230b200"
+      },
+      {
+        "file": "08_kiem_thu_he_thong.svg",
+        "sha256": "34e0c2bcf1e5ae050a36e3abe85f217f42f7b77474b2cabf6fbee7485ea20c61"
+      },
+      {
+        "file": "09_dao_tao_knx.svg",
+        "sha256": "9cacf01256b8710ae1563177e8f7273239473475314ceef5ad7d61e20c4b2c72"
+      },
+      {
+        "file": "10_tai_lieu_ban_giao.svg",
+        "sha256": "2db1e982b1d5a41435f4e551f7e895926c5a276dd3a709eb4793ee62fb71f465"
+      },
+      {
+        "file": "11_auto_test_tool_design.svg",
+        "sha256": "05954184eb736d24d77a2f03e2c5062b4a9d51c11f72bbc2c4ac9250bec14583"
+      },
+      {
+        "file": "12_du_an_tool_khac.svg",
+        "sha256": "1f996430e36e85f57191b8be25085864d482a9bab28d914912a8fc5bdb7897e4"
+      },
+      {
+        "file": "13_nang_luc.svg",
+        "sha256": "15a21d98fa76b7626bce27cf421ba436ccedd8c1e11a1094cf738d406321fa8f"
+      },
+      {
+        "file": "14_trong_tam_tiep_theo.svg",
+        "sha256": "5bb39f1d68d99521a1e405aaced61f828533658d5ecd3f384733823f7b8b0c13"
+      },
+      {
+        "file": "15_cam_on.svg",
+        "sha256": "22f7044afb51cc233039b30ee6140be62568d530217831216eb4504848a2d8bd"
+      }
+    ]
+  },
+  "summary": {
+    "total": 15,
+    "passed": 15,
+    "warnings": 0,
+    "errors": 0
+  },
+  "issue_types": {},
+  "categories": {
+    "blocking": {
+      "count": 0,
+      "issues": []
+    },
+    "introduced": {
+      "count": 0,
+      "issues": []
+    },
+    "inherited": {
+      "count": 0,
+      "issues": []
+    },
+    "source-import": {
+      "count": 0,
+      "summary": {
+        "warning_count": 0,
+        "by_code": {}
+      }
+    }
+  },
+  "drift": {
+    "colors": {
+      "#5E6862": [
+        "01_review_nhan_su.svg",
+        "05_hanh_trinh.svg",
+        "08_kiem_thu_he_thong.svg",
+        "09_dao_tao_knx.svg",
+        "10_tai_lieu_ban_giao.svg",
+        "11_auto_test_tool_design.svg",
+        "12_du_an_tool_khac.svg",
+        "13_nang_luc.svg",
+        "14_trong_tam_tiep_theo.svg",
+        "15_cam_on.svg"
+      ],
+      "#7A827E": [
+        "01_review_nhan_su.svg",
+        "02_noi_dung_1.svg",
+        "03_noi_dung_2.svg",
+        "04_ket_qua_noi_bat.svg",
+        "05_hanh_trinh.svg",
+        "06_thiet_bi_firmware_knx.svg",
+        "07_tool_jig_loader.svg",
+        "08_kiem_thu_he_thong.svg",
+        "09_dao_tao_knx.svg",
+        "10_tai_lieu_ban_giao.svg",
+        "11_auto_test_tool_design.svg",
+        "12_du_an_tool_khac.svg",
+        "13_nang_luc.svg",
+        "14_trong_tam_tiep_theo.svg"
+      ],
+      "#89918D": [
+        "01_review_nhan_su.svg",
+        "02_noi_dung_1.svg",
+        "03_noi_dung_2.svg",
+        "04_ket_qua_noi_bat.svg",
+        "05_hanh_trinh.svg",
+        "06_thiet_bi_firmware_knx.svg",
+        "07_tool_jig_loader.svg",
+        "08_kiem_thu_he_thong.svg",
+        "09_dao_tao_knx.svg",
+        "10_tai_lieu_ban_giao.svg",
+        "11_auto_test_tool_design.svg",
+        "12_du_an_tool_khac.svg",
+        "13_nang_luc.svg",
+        "14_trong_tam_tiep_theo.svg"
+      ],
+      "#CFE4D8": [
+        "02_noi_dung_1.svg",
+        "03_noi_dung_2.svg",
+        "05_hanh_trinh.svg",
+        "09_dao_tao_knx.svg",
+        "13_nang_luc.svg"
+      ],
+      "#DCE4DF": [
+        "02_noi_dung_1.svg",
+        "03_noi_dung_2.svg",
+        "04_ket_qua_noi_bat.svg"
+      ],
+      "#E1E6E3": [
+        "02_noi_dung_1.svg",
+        "03_noi_dung_2.svg",
+        "04_ket_qua_noi_bat.svg",
+        "05_hanh_trinh.svg",
+        "06_thiet_bi_firmware_knx.svg",
+        "07_tool_jig_loader.svg",
+        "08_kiem_thu_he_thong.svg",
+        "09_dao_tao_knx.svg",
+        "10_tai_lieu_ban_giao.svg",
+        "11_auto_test_tool_design.svg",
+        "12_du_an_tool_khac.svg",
+        "13_nang_luc.svg",
+        "14_trong_tam_tiep_theo.svg"
+      ],
+      "#EAF5EF": [
+        "05_hanh_trinh.svg",
+        "06_thiet_bi_firmware_knx.svg",
+        "07_tool_jig_loader.svg",
+        "09_dao_tao_knx.svg",
+        "11_auto_test_tool_design.svg",
+        "12_du_an_tool_khac.svg",
+        "13_nang_luc.svg",
+        "14_trong_tam_tiep_theo.svg"
+      ]
+    },
+    "fonts": {},
+    "sizes": {
+      "60": [
+        "15_cam_on.svg"
+      ],
+      "64": [
+        "14_trong_tam_tiep_theo.svg"
+      ]
+    }
+  },
+  "project_issues": {
+    "template": [],
+    "animation": [],
+    "illustration": [],
+    "communication_trace": [],
+    "pptx_structure": []
+  },
+  "files": [
+    {
+      "file": "01_review_nhan_su.svg",
+      "path": "projects\\review_nhan_su_t7_redesign_ppt169_20260722\\svg_output\\01_review_nhan_su.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Arial, sans-serif"
+        ],
+        "text_elements": 7,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#5E6862",
+            "#7A827E",
+            "#89918D"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "9f01810ba841d9f98abf594ba4b6e31ae5bc55ee7ff51997c11b6042be8bc47c"
+    },
+    {
+      "file": "02_noi_dung_1.svg",
+      "path": "projects\\review_nhan_su_t7_redesign_ppt169_20260722\\svg_output\\02_noi_dung_1.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Arial, sans-serif"
+        ],
+        "text_elements": 11,
+        "tspan_elements": 2,
+        "contextual_values": {
+          "colors": [
+            "#7A827E",
+            "#89918D",
+            "#CFE4D8",
+            "#DCE4DF",
+            "#E1E6E3"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "7ecc37db74639363d6d6f817bb0b9d9de930849273bdc0f2aa45b8a4c745c2fa"
+    },
+    {
+      "file": "03_noi_dung_2.svg",
+      "path": "projects\\review_nhan_su_t7_redesign_ppt169_20260722\\svg_output\\03_noi_dung_2.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Arial, sans-serif"
+        ],
+        "text_elements": 9,
+        "tspan_elements": 2,
+        "contextual_values": {
+          "colors": [
+            "#7A827E",
+            "#89918D",
+            "#CFE4D8",
+            "#DCE4DF",
+            "#E1E6E3"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "ff0ae20e76f65b275173cc21e5cd8830dc8bd1ce8f34a9da94944677e7a9fd95"
+    },
+    {
+      "file": "04_ket_qua_noi_bat.svg",
+      "path": "projects\\review_nhan_su_t7_redesign_ppt169_20260722\\svg_output\\04_ket_qua_noi_bat.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Arial, sans-serif"
+        ],
+        "text_elements": 17,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#7A827E",
+            "#89918D",
+            "#DCE4DF",
+            "#E1E6E3"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "6b13d0b0acdbe42000993d4d41d80956372f455fe60f8d71d1bd905be75ebbb6"
+    },
+    {
+      "file": "05_hanh_trinh.svg",
+      "path": "projects\\review_nhan_su_t7_redesign_ppt169_20260722\\svg_output\\05_hanh_trinh.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Arial, sans-serif"
+        ],
+        "text_elements": 17,
+        "tspan_elements": 4,
+        "contextual_values": {
+          "colors": [
+            "#5E6862",
+            "#7A827E",
+            "#89918D",
+            "#CFE4D8",
+            "#E1E6E3",
+            "#EAF5EF"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "7be76afe3cb0c26557b9fa13a12f7a418b702237480a3f28381943c957bf6bbe"
+    },
+    {
+      "file": "06_thiet_bi_firmware_knx.svg",
+      "path": "projects\\review_nhan_su_t7_redesign_ppt169_20260722\\svg_output\\06_thiet_bi_firmware_knx.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Arial, sans-serif"
+        ],
+        "text_elements": 13,
+        "tspan_elements": 8,
+        "contextual_values": {
+          "colors": [
+            "#7A827E",
+            "#89918D",
+            "#E1E6E3",
+            "#EAF5EF"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "87ca5d0ab8c8fc6b2ed2af7e973c69edcb54ceef2698e9f8c2e31d75acfd67a3"
+    },
+    {
+      "file": "07_tool_jig_loader.svg",
+      "path": "projects\\review_nhan_su_t7_redesign_ppt169_20260722\\svg_output\\07_tool_jig_loader.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Arial, sans-serif"
+        ],
+        "text_elements": 14,
+        "tspan_elements": 6,
+        "contextual_values": {
+          "colors": [
+            "#7A827E",
+            "#89918D",
+            "#E1E6E3",
+            "#EAF5EF"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "8b257a85e55c9c9d6c0ed5b134feaa2e42640644b7748d7fce7d30fca230b200"
+    },
+    {
+      "file": "08_kiem_thu_he_thong.svg",
+      "path": "projects\\review_nhan_su_t7_redesign_ppt169_20260722\\svg_output\\08_kiem_thu_he_thong.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Arial, sans-serif"
+        ],
+        "text_elements": 12,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#5E6862",
+            "#7A827E",
+            "#89918D",
+            "#E1E6E3"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "34e0c2bcf1e5ae050a36e3abe85f217f42f7b77474b2cabf6fbee7485ea20c61"
+    },
+    {
+      "file": "09_dao_tao_knx.svg",
+      "path": "projects\\review_nhan_su_t7_redesign_ppt169_20260722\\svg_output\\09_dao_tao_knx.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Arial, sans-serif"
+        ],
+        "text_elements": 19,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#5E6862",
+            "#7A827E",
+            "#89918D",
+            "#CFE4D8",
+            "#E1E6E3",
+            "#EAF5EF"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "9cacf01256b8710ae1563177e8f7273239473475314ceef5ad7d61e20c4b2c72"
+    },
+    {
+      "file": "10_tai_lieu_ban_giao.svg",
+      "path": "projects\\review_nhan_su_t7_redesign_ppt169_20260722\\svg_output\\10_tai_lieu_ban_giao.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Arial, sans-serif"
+        ],
+        "text_elements": 15,
+        "tspan_elements": 12,
+        "contextual_values": {
+          "colors": [
+            "#5E6862",
+            "#7A827E",
+            "#89918D",
+            "#E1E6E3"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "2db1e982b1d5a41435f4e551f7e895926c5a276dd3a709eb4793ee62fb71f465"
+    },
+    {
+      "file": "11_auto_test_tool_design.svg",
+      "path": "projects\\review_nhan_su_t7_redesign_ppt169_20260722\\svg_output\\11_auto_test_tool_design.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Arial, sans-serif"
+        ],
+        "text_elements": 15,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#5E6862",
+            "#7A827E",
+            "#89918D",
+            "#E1E6E3",
+            "#EAF5EF"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "05954184eb736d24d77a2f03e2c5062b4a9d51c11f72bbc2c4ac9250bec14583"
+    },
+    {
+      "file": "12_du_an_tool_khac.svg",
+      "path": "projects\\review_nhan_su_t7_redesign_ppt169_20260722\\svg_output\\12_du_an_tool_khac.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Arial, sans-serif"
+        ],
+        "text_elements": 18,
+        "tspan_elements": 2,
+        "contextual_values": {
+          "colors": [
+            "#5E6862",
+            "#7A827E",
+            "#89918D",
+            "#E1E6E3",
+            "#EAF5EF"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "1f996430e36e85f57191b8be25085864d482a9bab28d914912a8fc5bdb7897e4"
+    },
+    {
+      "file": "13_nang_luc.svg",
+      "path": "projects\\review_nhan_su_t7_redesign_ppt169_20260722\\svg_output\\13_nang_luc.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Arial, sans-serif"
+        ],
+        "text_elements": 16,
+        "tspan_elements": 1,
+        "contextual_values": {
+          "colors": [
+            "#5E6862",
+            "#7A827E",
+            "#89918D",
+            "#CFE4D8",
+            "#E1E6E3",
+            "#EAF5EF"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "15a21d98fa76b7626bce27cf421ba436ccedd8c1e11a1094cf738d406321fa8f"
+    },
+    {
+      "file": "14_trong_tam_tiep_theo.svg",
+      "path": "projects\\review_nhan_su_t7_redesign_ppt169_20260722\\svg_output\\14_trong_tam_tiep_theo.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Arial, sans-serif"
+        ],
+        "text_elements": 23,
+        "tspan_elements": 16,
+        "contextual_values": {
+          "colors": [
+            "#5E6862",
+            "#7A827E",
+            "#89918D",
+            "#E1E6E3",
+            "#EAF5EF"
+          ]
+        },
+        "sparse_typography_sizes": {
+          "64": 1
+        }
+      },
+      "passed": true,
+      "source_sha256": "5bb39f1d68d99521a1e405aaced61f828533658d5ecd3f384733823f7b8b0c13"
+    },
+    {
+      "file": "15_cam_on.svg",
+      "path": "projects\\review_nhan_su_t7_redesign_ppt169_20260722\\svg_output\\15_cam_on.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Arial, sans-serif"
+        ],
+        "text_elements": 6,
+        "tspan_elements": 2,
+        "contextual_values": {
+          "colors": [
+            "#5E6862"
+          ]
+        },
+        "sparse_typography_sizes": {
+          "60": 1
+        }
+      },
+      "passed": true,
+      "source_sha256": "22f7044afb51cc233039b30ee6140be62568d530217831216eb4504848a2d8bd"
+    }
+  ]
+}

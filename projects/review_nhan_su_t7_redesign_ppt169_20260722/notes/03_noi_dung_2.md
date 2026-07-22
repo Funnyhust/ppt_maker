@@ -1,0 +1,1 @@
+Phần sau trình bày hoạt động đào tạo và tài liệu, các dự án hoặc tool ngoài KNX, cuối cùng là năng lực hình thành và kế hoạch tiếp theo. Như vậy deck có bảy nhóm nội dung chính thay vì chỉ bốn mục chung như bản cũ.

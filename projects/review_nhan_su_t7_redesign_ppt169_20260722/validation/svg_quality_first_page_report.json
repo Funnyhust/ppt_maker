@@ -1,0 +1,107 @@
+{
+  "schema": "ppt-master.svg-quality-report.v1",
+  "stage": "first-page",
+  "target": "D:\\DuongNV\\ppt-master\\projects\\review_nhan_su_t7_redesign_ppt169_20260722",
+  "source_fingerprint": {
+    "algorithm": "sha256",
+    "digest": "a3889550b1ae916e2641e237698fc59554fa56a6a12569384fcca33d1fc1100e",
+    "file_count": 1,
+    "files": [
+      {
+        "file": "01_review_nhan_su.svg",
+        "sha256": "9f01810ba841d9f98abf594ba4b6e31ae5bc55ee7ff51997c11b6042be8bc47c"
+      }
+    ]
+  },
+  "summary": {
+    "total": 1,
+    "passed": 1,
+    "warnings": 0,
+    "errors": 0
+  },
+  "issue_types": {},
+  "categories": {
+    "blocking": {
+      "count": 0,
+      "issues": []
+    },
+    "introduced": {
+      "count": 0,
+      "issues": []
+    },
+    "inherited": {
+      "count": 0,
+      "issues": []
+    },
+    "source-import": {
+      "count": 0,
+      "summary": {
+        "warning_count": 0,
+        "by_code": {}
+      }
+    }
+  },
+  "drift": {
+    "colors": {
+      "#5E6862": [
+        "01_review_nhan_su.svg"
+      ],
+      "#7A827E": [
+        "01_review_nhan_su.svg"
+      ],
+      "#89918D": [
+        "01_review_nhan_su.svg"
+      ]
+    },
+    "fonts": {},
+    "sizes": {
+      "15": [
+        "01_review_nhan_su.svg"
+      ],
+      "21": [
+        "01_review_nhan_su.svg"
+      ],
+      "56": [
+        "01_review_nhan_su.svg"
+      ]
+    }
+  },
+  "project_issues": {
+    "template": [],
+    "animation": [],
+    "illustration": [],
+    "communication_trace": [],
+    "pptx_structure": []
+  },
+  "files": [
+    {
+      "file": "01_review_nhan_su.svg",
+      "path": "projects\\review_nhan_su_t7_redesign_ppt169_20260722\\svg_output\\01_review_nhan_su.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "fonts": [
+          "Arial, sans-serif"
+        ],
+        "text_elements": 7,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "colors": [
+            "#5E6862",
+            "#7A827E",
+            "#89918D"
+          ]
+        },
+        "sparse_typography_sizes": {
+          "15": 2,
+          "21": 1,
+          "56": 1
+        }
+      },
+      "passed": true,
+      "source_sha256": "9f01810ba841d9f98abf594ba4b6e31ae5bc55ee7ff51997c11b6042be8bc47c"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+Ngoài KNX và Auto Test, kinh nghiệm được áp dụng trên nhiều nhóm khác: LumesV2 với test, source và programming; MSB với Jig kiểm tra năng lượng; IoT với Luto loader; Smart Lighting với tool test Deep Dimming và CCT Tunable.
