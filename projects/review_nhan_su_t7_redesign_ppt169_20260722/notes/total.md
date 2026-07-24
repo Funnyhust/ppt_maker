@@ -8,7 +8,7 @@ Bài trình bày giữ nguyên bốn phần của template cũ: dự án, AI, t�
 
 # 03_danh_muc_du_an
 
-Trong kỳ có 114 task thuộc 7 nhóm dự án; 102 task đã Done, tương đương 89,5%.
+Trong kỳ có 114 task được quy hoạch thành bốn nhóm dự án chính; 102 task đã Done, tương đương 89,5%. KNX, Auto Test và MSB giữ phạm vi riêng, còn toàn bộ tool test và tool loader sản xuất được gom dưới Tool Design.
 
 # 04_knx_tong_quan
 
@@ -48,27 +48,27 @@ Auto Test đang ở giai đoạn xây nền, đã hoàn thành 4 trên 5 task tr
 
 # 13_tool_design
 
-Tool Design tập trung chỉnh sửa tool nguồn DC cho flow vận hành thực tế tại nhà máy.
+Tool Design là nhóm dự án mẹ cho tool nguồn DC, loader Luto, tool test và loader Lumes V2, cùng tool test Smart Lighting. Cách gom này giúp thể hiện rõ một năng lực xuyên suốt: tích hợp phần cứng–phần mềm, thiết kế theo operator và chuẩn hóa bàn giao.
 
 # 14_tool_design_bang_chung
 
 Ảnh giao diện phóng lớn minh họa hai vòng chỉnh sửa, ưu tiên độ ổn định, dễ dùng và dễ bảo trì.
 
-# 15_iot_team
+# 15_tool_design_loader
 
-Đóng góp cho IoT gồm loader Luto và phối hợp định hướng Auto Test; cả hai task đã hoàn thành.
+Hai đầu ra loader chính là loader Luto và loader mạch main Lumes V2 đều thuộc Tool Design. Cả hai dùng chung tư duy nhận cấu hình, giao tiếp thiết bị, nạp và xác nhận, sau đó lưu log để dễ vận hành và truy vết.
 
-# 16_lumes_v2
+# 16_tool_design_test_lumes_v2
 
-LumesV2 đã có tool test nguồn và tool nạp code cho mạch main V2.
+Với Lumes V2, phần tool test nguồn được tách rõ khỏi công đoạn nạp code. Tool đã hoàn thành theo flow nhà máy, đồng thời cho thấy bài học cần xác nhận sớm fixture, tương thích mạch và tiêu chí acceptance.
 
 # 17_msb_office
 
-MSB tập trung xử lý lỗi đo sai năng lượng và kiểm tra Jig tại nhà máy.
+MSB là dự án riêng, tập trung xử lý lỗi đo sai năng lượng và kiểm tra Jig tại nhà máy.
 
-# 18_smart_lighting
+# 18_tool_design_test_smart_lighting
 
-Smart Lighting mới khởi động từ 20/07, đang dựng nền tool test cho Deep Dimming và CCT Tunable.
+Nhánh Tool Design cho Smart Lighting bắt đầu từ ngày 20 tháng 7 và đang dựng nền tool test cho Deep Dimming và CCT Tunable. Trọng tâm hiện tại là chốt dải đo, cấu trúc dữ liệu và tiêu chí pass fail trước khi hoàn thiện tool.
 
 # 19_ai_trong_cong_viec
 

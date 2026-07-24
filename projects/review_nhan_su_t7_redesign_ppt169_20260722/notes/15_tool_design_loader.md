@@ -1,0 +1,1 @@
+Hai đầu ra loader chính là loader Luto và loader mạch main Lumes V2 đều thuộc Tool Design. Cả hai dùng chung tư duy nhận cấu hình, giao tiếp thiết bị, nạp và xác nhận, sau đó lưu log để dễ vận hành và truy vết.

@@ -7,11 +7,11 @@
 | --- | --- |
 | Project Name | Review nhân sự T7 — Nguyễn Văn Dương — V2 |
 | Canvas Format | PPT 16:9, 1280 × 720 px |
-| Page Count | 17 |
+| Page Count | 23 |
 | Target Audience | Quản lý trực tiếp, quản lý kỹ thuật và HR tham gia kỳ review nhân sự tháng 7. |
 | Communication Intent | Báo cáo theo từng dự án: thời gian, công việc, kết quả, kỹ năng, tư duy, bài học, khó khăn và thành tích; sau đó tự đánh giá và thống nhất mục tiêu tiếp theo. |
 | Desired Audience Outcome | Người xem hiểu rõ đóng góp của từng dự án và có đủ bằng chứng để đánh giá năng lực, tiến bộ và định hướng phát triển. |
-| Core Message / Ask / Action | Giai đoạn 20/03–22/07 tạo ra kết quả rõ ràng ở KNX và mở rộng sang Auto Test, Tool Design, IoT, LumesV2, MSB và Smart Lighting. |
+| Core Message / Ask / Action | Giai đoạn 20/03–22/07 tạo ra kết quả rõ ràng ở KNX, Auto Test, Tool Design và MSB; các tool test và tool loader được quy hoạch chung dưới dự án Tool Design. |
 | Delivery Context | Review trực tiếp ngày 23/07/2026, thời lượng 15–20 phút; file dùng lại sau buổi họp. |
 | Artifact Afterlife | Hồ sơ review nhân sự và mốc đối chiếu cho kỳ review tiếp theo. |
 | Reading Mode | balanced |
@@ -165,11 +165,11 @@
 ### Part 2: Các dự án tham gia và kết quả
 
 #### Slide 03 - Danh mục dự án
-- **Audience move**: Biết bốn phần → thấy toàn bộ 7 dự án và thời gian triển khai.
-- **Layout**: Timeline portfolio 20/03–22/07, mỗi dự án là một lane ngắn; KPI 114 task và 102 Done.
+- **Audience move**: Biết bốn phần → thấy bốn nhóm dự án chính và thời gian triển khai.
+- **Layout**: Timeline portfolio 20/03–22/07, mỗi dự án là một lane rõ ràng; KPI 114 task và 102 Done.
 - **Title**: Các dự án tham gia và kết quả
-- **Core message**: 7 nhóm dự án trải từ firmware, tool đến automation và kiểm thử.
-- **Content**: KNX; Auto Test; Tool Design; IoT; LumesV2; MSB; Smart Lighting; mốc bắt đầu/kết thúc tương ứng.
+- **Core message**: Bốn nhóm dự án bao phủ firmware, automation, thiết kế tool và kiểm thử nhà máy.
+- **Content**: KNX; Auto Test; Tool Design; MSB Office; các đầu việc loader Luto, tool test/tool loader Lumes V2 và tool test Smart Lighting được xếp trong Tool Design.
 - **Visualization**: Timeline data-driven từ CSV.
 
 #### Slide 04 - KNX: Tổng quan dự án
@@ -241,11 +241,11 @@
 - **Images**: Jig Auto Test.
 
 #### Slide 13 - Tool Design
-- **Audience move**: Biết Auto Test → hiểu đóng góp với tool nguồn nhà máy.
-- **Layout**: Dải thời gian 21/05–27/05; bốn thẻ review 2×2 và KPI thành tích; screenshot chuyển sang trang riêng.
+- **Audience move**: Biết Auto Test → hiểu Tool Design là nhóm dự án mẹ cho các tool test và tool loader sản xuất.
+- **Layout**: Dải thời gian 18/05–đang triển khai; bốn thẻ review 2×2 và danh mục bốn nhánh tool; screenshot chuyển sang trang riêng.
 - **Title**: 3. Dự án Tool Design
-- **Core message**: Chỉnh sửa tool nguồn DC để phù hợp vận hành nhà máy.
-- **Content**: Hai task Done; hai task chưa khởi tạo trong dữ liệu; kỹ năng phần cứng/tool; tư duy ưu tiên khả năng bảo trì; bài học về yêu cầu nhà máy; khó khăn thiếu mô tả ở các task mở; thành tích hoàn tất hai vòng chỉnh sửa.
+- **Core message**: Quy hoạch các tool test và tool loader theo một hướng thiết kế thống nhất, bám sát flow nhà máy.
+- **Content**: Tool nguồn DC; loader Luto; tool test nguồn và loader Lumes V2; tool test Driver Deep Dimming/CCT Tunable; kỹ năng tích hợp phần cứng–phần mềm; tư duy tái sử dụng, bảo trì và acceptance rõ ràng.
 - **Images**: Không dùng ở trang tổng hợp.
 
 #### Slide 14 - Tool Design: Bằng chứng giao diện
@@ -255,35 +255,35 @@
 - **Core message**: Ưu tiên flow nhà máy, ổn định và khả năng bảo trì.
 - **Images**: du_an_tool_design/tool_nap_code/image.png.
 
-#### Slide 15 - IoT Team
-- **Audience move**: Hiểu tool nhà máy → thấy khả năng hỗ trợ team khác.
-- **Layout**: Dải thời gian 26/05–15/06; lưới 2×3 review, nhấn 2/2 Done.
-- **Title**: 4. Dự án IoT
-- **Core message**: Hoàn thành tool nạp code Luto và phối hợp định hướng Auto Test.
-- **Content**: Công việc; kết quả 2/2 Done; kỹ năng loader và phối hợp; tư duy tái sử dụng; bài học làm rõ interface; khó khăn đồng bộ nhiều team; thành tích bàn giao tool.
+#### Slide 15 - Tool Design: Loader sản xuất
+- **Audience move**: Hiểu định hướng Tool Design → thấy các đầu ra loader đã được triển khai cho sản phẩm thực tế.
+- **Layout**: Hai nhánh Luto và Lumes V2 theo trục input–process–output; nhấn mạnh trạng thái hoàn thành và khả năng dùng lại.
+- **Title**: Tool Design — Loader sản xuất
+- **Core message**: Loader Luto và loader mạch main Lumes V2 được gom về một năng lực thiết kế tool chung.
+- **Content**: Loader Luto hoàn thành và bàn giao; loader Lumes V2 hoàn thành; kỹ năng giao tiếp thiết bị, nạp code, logging và thiết kế thao tác cho operator; bài học về interface và acceptance.
 
-#### Slide 16 - LumesV2
-- **Audience move**: Biết IoT → thấy đầu ra tool cho công tắc cơ smart.
-- **Layout**: Dải thời gian 18/05–16/06; ảnh sản phẩm; lưới 2×3 review.
-- **Title**: 5. Dự án LumesV2
-- **Core message**: Hoàn thành tool test nguồn và tool nạp code cho mạch main V2.
-- **Content**: Hai đầu việc Done; kỹ năng test nguồn/nạp code; tư duy tách công đoạn; bài học về flow nhà máy; khó khăn tương thích mạch; thành tích 2/2 Done.
-- **Images**: ảnh công tắc Lumes.
+#### Slide 16 - Tool Design: Tool test Lumes V2
+- **Audience move**: Thấy năng lực loader → hiểu cách Tool Design chuẩn hóa công đoạn test nguồn.
+- **Layout**: Review 2×3 cho tool test nguồn Lumes V2; ảnh sản phẩm dùng như ngữ cảnh, không biến LumesV2 thành dự án độc lập.
+- **Title**: Tool Design — Tool test nguồn Lumes V2
+- **Core message**: Hoàn thành tool test nguồn theo flow nhà máy và tách rõ công đoạn test với công đoạn nạp code.
+- **Content**: Tool test nguồn Done; kiểm tra theo flow nhà máy; kỹ năng đo nguồn và tích hợp mạch; tư duy thiết kế theo công đoạn; bài học về fixture, tương thích mạch và acceptance.
+- **Images**: ảnh công tắc Lumes dùng làm ngữ cảnh sản phẩm.
 
 #### Slide 17 - MSB Office
-- **Audience move**: Hiểu Lumes → thấy năng lực xử lý lỗi Jig tại nhà máy.
+- **Audience move**: Hiểu phạm vi Tool Design → thấy năng lực xử lý lỗi Jig trong một dự án sản phẩm riêng.
 - **Layout**: Dải thời gian 07/04–10/04; ảnh Jig; lưới 2×3 review.
-- **Title**: 6. Dự án MSB Office
+- **Title**: 4. Dự án MSB Office
 - **Core message**: Fix lỗi đo sai năng lượng và hỗ trợ kiểm tra Jig tại nhà máy.
 - **Content**: Công việc; kết quả; kỹ năng đo lường/debug Jig; tư duy dựa trên dữ liệu; bài học về hiệu chuẩn; khó khăn tái hiện lỗi thực địa; thành tích xử lý lỗi đo sai.
 - **Images**: ảnh Jig/tool.
 
-#### Slide 18 - Smart Lighting
-- **Audience move**: Biết MSB → thấy dự án mới đang triển khai.
-- **Layout**: Dải thời gian từ 20/07, trạng thái Ongoing; lưới 2×3 review với phần dự kiến rõ ràng.
-- **Title**: 7. Dự án Smart Lighting
-- **Core message**: Khởi động tool test cho Driver Deep Dimming/CCT Tunable.
-- **Content**: Công việc chính; kết quả hiện tại là xác định phạm vi; kỹ năng cần dùng; tư duy test theo dải; bài học ban đầu; khó khăn chưa đủ dữ liệu; thành tích là dựng nền tool test.
+#### Slide 18 - Tool Design: Tool test Smart Lighting
+- **Audience move**: Biết kết quả MSB → thấy nhánh Tool Design tiếp theo đang được triển khai.
+- **Layout**: Dải thời gian từ 20/07, trạng thái Ongoing; lưới 2×3 review và nhãn rõ đây là hạng mục Tool Design cho Smart Lighting.
+- **Title**: Tool Design — Tool test Smart Lighting
+- **Core message**: Khởi động tool test Driver Deep Dimming/CCT Tunable trong cùng hệ năng lực Tool Design.
+- **Content**: Xác định phạm vi test; xây nền tool; kỹ năng đo dimming/CCT; tư duy test theo dải; bài học về chuẩn dữ liệu; khó khăn thiếu dữ liệu đầu vào; trạng thái Ongoing.
 
 ### Part 3: AI và tự đánh giá
 

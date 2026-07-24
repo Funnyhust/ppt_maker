@@ -1,5 +1,14 @@
 # Project Context & Handoff
 
+## Cập nhật 24/07/2026 — Quy hoạch lại Tool Design
+
+- Deck vẫn có 23 trang nhưng chỉ còn 4 nhóm dự án chính: KNX, Auto Test, Tool Design và MSB Office.
+- Đã bỏ IoT Team khỏi danh mục dự án độc lập.
+- Tool Design hiện bao gồm tool nguồn DC, loader Luto, tool test/tool loader Lumes V2 và tool test Smart Lighting.
+- Trang 15, 16 và 18 lần lượt là `Tool Design — Loader sản xuất`, `Tool Design — Tool test nguồn Lumes V2` và `Tool Design — Tool test Smart Lighting`.
+- Bản xuất mới nhất: `exports/review_nhan_su_t7_redesign_20260724_210106.pptx`.
+- Postflight: `passed-with-warnings`, quality gate passed, 23 slides; SVG quality 23/23 passed, 0 lỗi.
+
 ## Cập nhật 24/07/2026 — KNX Partner
 
 Phần cập nhật này thay thế số trang, bản xuất mới nhất và thứ tự trang ở các mục trạng thái/cấu trúc bên dưới:
@@ -26,9 +35,9 @@ Tạo deck review nhân sự tháng 7 cho Nguyễn Văn Dương, tổng hợp c�
 - Cấu trúc PPTX: flat; chữ và shape được xuất thành đối tượng PowerPoint editable.
 - Kiểm tra SVG: 23/23 trang passed, 0 lỗi; cảnh báo còn lại là advisory về group/bounds.
 - Postflight PPTX: `passed-with-warnings`, quality gate passed, 23 slides.
-- Bản mới nhất có chứng chỉ KNX Partner: `exports/review_nhan_su_t7_redesign_20260724_204315.pptx`.
+- Bản mới nhất đã quy hoạch lại Tool Design: `exports/review_nhan_su_t7_redesign_20260724_210106.pptx`.
 - Bản chính thức dùng chế độ `--no-merge` để giữ từng dòng chữ độc lập khi chuyển sang DrawingML.
-- Bản 23 trang mới đã render đầy đủ bằng Microsoft PowerPoint tại `validation/pptx_render_20260724_204315/`; slide chứng chỉ và các trang giáp ranh đã được kiểm tra trực quan, không có chữ chồng hoặc lệch bố cục.
+- Bản 23 trang có chứng chỉ trước đó đã render đầy đủ bằng Microsoft PowerPoint tại `validation/pptx_render_20260724_204315/`; bản Tool Design hiện tại đã qua SVG quality gate và PPTX postflight.
 
 ## 3. Dữ liệu nguồn và số liệu khóa
 
@@ -37,7 +46,7 @@ Nguồn công việc chính là `sources/List_task.csv`. Deck sử dụng các s
 - 114 task được ghi nhận.
 - 102 task Done, tương đương 89,5%.
 - 98 task thuộc KNX.
-- 7 nhóm dự án: KNX, Auto Test, Tool Design, IoT, LumesV2, MSB và Smart Lighting.
+- 4 nhóm dự án chính: KNX, Auto Test, Tool Design và MSB. Loader Luto, tool test/tool loader Lumes V2 và tool test Smart Lighting được xếp dưới Tool Design.
 - Trạng thái còn lại tại 22/07: 5 Ongoing, 4 Not yet started, 2 Late, 1 Closed.
 
 Deck LUMI tham chiếu nằm tại `sources/review_nhan_su_alignment_20260722_202409.pptx`. Các ảnh đã tách và chuẩn hóa nằm trong `images/`; không cần tách lại khi chỉnh slide thông thường.
@@ -60,7 +69,7 @@ Deck LUMI tham chiếu nằm tại `sources/review_nhan_su_alignment_20260722_20
 
 1. Bìa Review nhân sự — giữ template gốc, thêm ngày/giai đoạn review.
 2. Nội dung — điện thoại và bốn ô số cắt góc của template cũ.
-3. Danh mục 7 dự án và timeline 20/03–22/07.
+3. Danh mục 4 dự án chính và timeline 20/03–22/07.
 4. KNX — tổng quan, thời gian, KPI và thành tích.
 5. KNX — tổng hợp công việc chính và kết quả.
 6–8. KNX Benchmark — ba screenshot lớn: bảng điều khiển, tạo test case và báo cáo.
@@ -68,12 +77,12 @@ Deck LUMI tham chiếu nằm tại `sources/review_nhan_su_alignment_20260722_20
 10. KNX — screenshot lớn tool nạp code.
 11. KNX Partner — chứng chỉ chính thức, Partner No. 147063, cấp ngày 31/05/2026; kết quả Passed với 88,5% lý thuyết và 96% thực hành.
 12. Auto Test — review đầy đủ.
-13. Tool Design — review tổng hợp.
+13. Tool Design — tổng quan các nhánh tool test và tool loader.
 14. Tool Design — screenshot lớn giao diện vận hành.
-15. IoT — review đầy đủ.
-16. LumesV2 — review đầy đủ.
+15. Tool Design — loader sản xuất Luto và Lumes V2.
+16. Tool Design — tool test nguồn Lumes V2.
 17. MSB Office — review đầy đủ.
-18. Smart Lighting — review đầy đủ, ghi rõ Ongoing.
+18. Tool Design — tool test Smart Lighting, ghi rõ Ongoing.
 19. Sử dụng AI trong công việc.
 20. Tự đánh giá ưu, nhược điểm.
 21. Bài học và khó khăn xuyên dự án.

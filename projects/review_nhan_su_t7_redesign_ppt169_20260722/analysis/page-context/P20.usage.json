@@ -13,13 +13,13 @@
       "scope": "project",
       "path": "spec_lock.md",
       "exists": true,
-      "sha256": "4d0d344c0f919af604d7d8aea36a5c31c33caa89ea009a6406472689f6631967"
+      "sha256": "43c66fbecac4eecfb1a979f1cfdf593b2c2abd05919b8038385d4d406e47bd26"
     },
     {
       "scope": "project",
       "path": "design_spec.md",
       "exists": true,
-      "sha256": "b10d74f0e4833dbbccd5aa902c04d488ae8cf977f79edc788834302ad276ab83"
+      "sha256": "e4a8cc7d9254ba0fb0300a380e24bb71f56fc80c032d6167ff147da2681e465a"
     }
   ],
   "references": [
@@ -27,7 +27,7 @@
       "kind": "design-spec",
       "scope": "project",
       "path": "design_spec.md",
-      "sha256": "b10d74f0e4833dbbccd5aa902c04d488ae8cf977f79edc788834302ad276ab83",
+      "sha256": "e4a8cc7d9254ba0fb0300a380e24bb71f56fc80c032d6167ff147da2681e465a",
       "load_policy": "once-per-execution-context",
       "same_context_edit_policy": "targeted-readback-and-rebind"
     }
@@ -37,25 +37,25 @@
       "kind": "page-context",
       "scope": "page",
       "path": "stdout:page-context",
-      "sha256": "82e6e901af5ccd8a728b5fb5823b3fadd31c79a2888ce29ae12df9ba7f9cb711",
-      "utf8_bytes": 3711,
-      "characters": 3474,
+      "sha256": "778d7574085a3dffcf0542a1808a8c4137d551d7a0568b3098a34db57401766e",
+      "utf8_bytes": 3764,
+      "characters": 3526,
       "tokens": null
     },
     {
       "kind": "lock-projection",
       "scope": "component",
       "path": "stdout:global",
-      "sha256": "9b37a8ee1a0be62f6ecae3f1669b6062f39877811a37f4a5bd81767e74bbb1eb",
-      "utf8_bytes": 1216,
-      "characters": 1127,
+      "sha256": "f08b1fb30b72768cbbaa8ed7ca4e41b4166928d1c44097ea102f3f669e9bad1d",
+      "utf8_bytes": 1269,
+      "characters": 1179,
       "tokens": null
     }
   ],
   "controlled_output": {
-    "sha256": "82e6e901af5ccd8a728b5fb5823b3fadd31c79a2888ce29ae12df9ba7f9cb711",
-    "utf8_bytes": 3711,
-    "characters": 3474,
+    "sha256": "778d7574085a3dffcf0542a1808a8c4137d551d7a0568b3098a34db57401766e",
+    "utf8_bytes": 3764,
+    "characters": 3526,
     "tokens": null
   },
   "totals": {

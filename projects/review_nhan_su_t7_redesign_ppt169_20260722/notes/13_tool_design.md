@@ -1,1 +1,1 @@
-Tool Design tập trung chỉnh sửa tool nguồn DC cho flow vận hành thực tế tại nhà máy.
+Tool Design là nhóm dự án mẹ cho tool nguồn DC, loader Luto, tool test và loader Lumes V2, cùng tool test Smart Lighting. Cách gom này giúp thể hiện rõ một năng lực xuyên suốt: tích hợp phần cứng–phần mềm, thiết kế theo operator và chuẩn hóa bàn giao.

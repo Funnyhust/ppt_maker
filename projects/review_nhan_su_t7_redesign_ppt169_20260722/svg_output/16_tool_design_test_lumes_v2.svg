@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content">
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <image id="logo" data-pptx-role="logo" href="../images/image_8fa7a601c29ca778.png" x="50" y="28" width="140" height="40" preserveAspectRatio="xMidYMid meet"/>
+  <g id="page-header" data-pptx-bounds="260 28 960 52" font-family="Arial, sans-serif">
+    <text x="260" y="68" font-size="36" font-weight="700" fill="#008C4F">Tool Design — Tool test nguồn Lumes V2</text>
+    <rect x="1010" y="28" width="210" height="42" rx="4" fill="#EAF6F0"/>
+    <text x="1115" y="55" text-anchor="middle" font-size="17" font-weight="700" fill="#008C4F">18/05/2026 · DONE</text>
+  </g>
+  <g id="test-objective" data-pptx-bounds="56 116 716 104" font-family="Arial, sans-serif">
+    <rect x="56" y="116" width="716" height="104" rx="4" fill="#008C4F"/>
+    <text x="82" y="150" font-size="15" font-weight="700" fill="#FFFFFF">MỤC TIÊU CÔNG ĐOẠN</text>
+    <text x="82" y="178" font-size="22" font-weight="700" fill="#FFFFFF"><tspan x="82">Kiểm tra nguồn ổn định trước khi chuyển sang</tspan><tspan x="82" dy="28">bước nạp code.</tspan></text>
+  </g>
+  <g id="product-context" data-pptx-bounds="804 116 420 488" font-family="Arial, sans-serif">
+    <rect x="804" y="116" width="420" height="488" rx="4" fill="#F4F7F5"/>
+    <image href="../images/image_deea19358d7d9df9.jpg" x="824" y="140" width="380" height="340" preserveAspectRatio="xMidYMid meet"/>
+    <line x1="824" y1="500" x2="1204" y2="500" stroke="#B8D8C7" stroke-width="2"/>
+    <text x="824" y="532" font-size="15" font-weight="700" fill="#008C4F">NGỮ CẢNH SẢN PHẨM</text>
+    <text x="824" y="565" font-size="19" font-weight="700" fill="#1F2329">Mạch main công tắc Lumes V2</text>
+    <text x="824" y="589" font-size="17" fill="#66706A">Tool thuộc dự án Tool Design</text>
+  </g>
+  <g id="test-work" data-pptx-bounds="56 248 348 156" font-family="Arial, sans-serif">
+    <text x="56" y="276" font-size="17" font-weight="700" fill="#008C4F">CÔNG VIỆC &amp; KẾT QUẢ</text>
+    <text x="56" y="314" font-size="19" fill="#1F2329"><tspan x="56">• Dev tool test nguồn</tspan><tspan x="56" dy="34">• Kiểm tra theo flow nhà máy</tspan><tspan x="56" dy="34">• Hoàn thành và xác nhận đầu ra</tspan></text>
+  </g>
+  <g id="test-capability" data-pptx-bounds="424 248 348 156" font-family="Arial, sans-serif">
+    <text x="424" y="276" font-size="17" font-weight="700" fill="#1456F0">KỸ NĂNG</text>
+    <text x="424" y="314" font-size="19" fill="#1F2329"><tspan x="424">• Đo nguồn và xác nhận ngưỡng</tspan><tspan x="424" dy="34">• Tích hợp với mạch main</tspan><tspan x="424" dy="34">• Chuẩn hóa thao tác operator</tspan></text>
+  </g>
+  <g id="test-thinking" data-pptx-bounds="56 430 348 152" font-family="Arial, sans-serif">
+    <text x="56" y="458" font-size="17" font-weight="700" fill="#008C4F">TƯ DUY THIẾT KẾ</text>
+    <text x="56" y="496" font-size="19" fill="#1F2329"><tspan x="56">• Tách test và nạp code</tspan><tspan x="56" dy="34">• Thiết kế theo công đoạn</tspan><tspan x="56" dy="34">• Giảm thao tác thừa</tspan></text>
+  </g>
+  <g id="test-lessons" data-pptx-bounds="424 430 348 152" font-family="Arial, sans-serif">
+    <text x="424" y="458" font-size="17" font-weight="700" fill="#B56A00">BÀI HỌC &amp; KHÓ KHĂN</text>
+    <text x="424" y="496" font-size="19" fill="#1F2329"><tspan x="424">• Xác nhận tương thích mạch sớm</tspan><tspan x="424" dy="34">• Fixture cần được kiểm chứng</tspan><tspan x="424" dy="34">• Acceptance phải rõ ràng</tspan></text>
+  </g>
+  <g id="test-result" data-pptx-bounds="56 620 1168 46" font-family="Arial, sans-serif">
+    <text x="56" y="649" font-size="17" font-weight="700" fill="#008C4F">THÀNH TÍCH</text>
+    <text x="182" y="649" font-size="17" fill="#1F2329">Tool test nguồn hoàn thành; flow test và flow loader được tách rõ để dễ vận hành.</text>
+  </g>
+  <text id="page-number" data-pptx-role="page-number" x="1220" y="708" text-anchor="end" font-family="Arial, sans-serif" font-size="14" fill="#66706A">16 / 23</text>
+</svg>

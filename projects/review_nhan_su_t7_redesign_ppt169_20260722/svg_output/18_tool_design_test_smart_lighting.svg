@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content">
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <image id="logo" data-pptx-role="logo" href="../images/image_8fa7a601c29ca778.png" x="50" y="28" width="140" height="40" preserveAspectRatio="xMidYMid meet"/>
+  <g id="page-header" data-pptx-bounds="260 28 960 52" font-family="Arial, sans-serif">
+    <text x="260" y="68" font-size="36" font-weight="700" fill="#008C4F">Tool Design — Tool test Smart Lighting</text>
+    <rect x="984" y="28" width="236" height="42" rx="4" fill="#FFF7E8"/>
+    <text x="1102" y="55" text-anchor="middle" font-size="17" font-weight="700" fill="#B56A00">TỪ 20/07 · ONGOING</text>
+  </g>
+  <g id="lighting-scope" data-pptx-bounds="56 112 1168 112" font-family="Arial, sans-serif">
+    <rect x="56" y="112" width="1168" height="112" rx="4" fill="#1456F0"/>
+    <text x="82" y="148" font-size="15" font-weight="700" fill="#FFFFFF">HẠNG MỤC THUỘC TOOL DESIGN</text>
+    <text x="82" y="188" font-size="28" font-weight="700" fill="#FFFFFF">Driver Deep Dimming &amp; CCT Tunable</text>
+    <text x="1178" y="188" text-anchor="end" font-size="19" fill="#FFFFFF">Xây nền tool test theo dải</text>
+  </g>
+  <g id="lighting-current" data-pptx-bounds="56 258 548 160" font-family="Arial, sans-serif">
+    <text x="56" y="286" font-size="17" font-weight="700" fill="#008C4F">CÔNG VIỆC &amp; KẾT QUẢ HIỆN TẠI</text>
+    <text x="56" y="326" font-size="19" fill="#1F2329"><tspan x="56">• Xác định phạm vi test</tspan><tspan x="56" dy="36">• Xây dựng nền tool và cấu trúc dữ liệu</tspan><tspan x="56" dy="36">• Chưa có mốc kết thúc chính thức</tspan></text>
+    <line x1="56" y1="416" x2="604" y2="416" stroke="#D7E4DD" stroke-width="2"/>
+  </g>
+  <g id="lighting-capability" data-pptx-bounds="646 258 578 160" font-family="Arial, sans-serif">
+    <text x="646" y="286" font-size="17" font-weight="700" fill="#1456F0">KỸ NĂNG &amp; TƯ DUY</text>
+    <text x="646" y="326" font-size="19" fill="#1F2329"><tspan x="646">• Đo dimming và CCT theo dải</tspan><tspan x="646" dy="36">• Thiết kế tiêu chí pass/fail rõ ràng</tspan><tspan x="646" dy="36">• Ưu tiên khả năng lặp lại của phép đo</tspan></text>
+    <line x1="646" y1="416" x2="1224" y2="416" stroke="#D7E4DD" stroke-width="2"/>
+  </g>
+  <g id="lighting-test-model" data-pptx-bounds="56 454 1168 120" font-family="Arial, sans-serif">
+    <rect x="56" y="454" width="1168" height="120" rx="4" fill="#F4F7F5"/>
+    <text x="82" y="484" font-size="15" font-weight="700" fill="#66706A">MÔ HÌNH TEST DỰ KIẾN</text>
+    <text x="82" y="532" font-size="22" font-weight="700" fill="#1F2329">Thiết lập dải đo</text>
+    <line x1="292" y1="520" x2="396" y2="520" stroke="#79C6A3" stroke-width="4"/>
+    <text x="430" y="532" font-size="22" font-weight="700" fill="#1F2329">Thu thập dữ liệu</text>
+    <line x1="648" y1="520" x2="752" y2="520" stroke="#79C6A3" stroke-width="4"/>
+    <text x="786" y="532" font-size="22" font-weight="700" fill="#1F2329">Đánh giá pass/fail</text>
+    <rect x="1070" y="494" width="126" height="48" rx="4" fill="#008C4F"/>
+    <text x="1133" y="524" text-anchor="middle" font-size="17" font-weight="700" fill="#FFFFFF">LẶP LẠI</text>
+  </g>
+  <g id="lighting-lessons" data-pptx-bounds="56 606 1168 60" font-family="Arial, sans-serif">
+    <text x="56" y="634" font-size="17" font-weight="700" fill="#B56A00">BÀI HỌC &amp; KHÓ KHĂN</text>
+    <text x="270" y="634" font-size="17" fill="#1F2329">Dữ liệu đầu vào còn hạn chế; cần thống nhất chuẩn đo, dải test và acceptance trước khi hoàn thiện tool.</text>
+    <text x="56" y="660" font-size="15" fill="#66706A">Trạng thái: đang triển khai trong dự án Tool Design, không tách thành dự án Smart Lighting độc lập.</text>
+  </g>
+  <text id="page-number" data-pptx-role="page-number" x="1220" y="708" text-anchor="end" font-family="Arial, sans-serif" font-size="14" fill="#66706A">18 / 23</text>
+</svg>

@@ -8,7 +8,7 @@
 ## communication
 - audience: Quản lý trực tiếp, quản lý kỹ thuật và HR trong kỳ review tháng 7
 - objective: Báo cáo từng dự án với thời gian, công việc, kết quả, kỹ năng, tư duy, bài học, khó khăn và thành tích để thống nhất đánh giá và mục tiêu tiếp theo.
-- core_message: Giai đoạn 20/03–22/07 tạo kết quả rõ ở KNX và mở rộng sang sáu nhóm dự án/tool khác.
+- core_message: Giai đoạn 20/03–22/07 tạo kết quả rõ ở KNX, Auto Test, Tool Design và MSB; các tool test và tool loader được quy hoạch dưới Tool Design.
 - consumption_mode: balanced
 
 ## mode

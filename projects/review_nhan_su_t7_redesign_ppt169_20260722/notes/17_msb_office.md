@@ -1,1 +1,1 @@
-MSB tập trung xử lý lỗi đo sai năng lượng và kiểm tra Jig tại nhà máy.
+MSB là dự án riêng, tập trung xử lý lỗi đo sai năng lượng và kiểm tra Jig tại nhà máy.

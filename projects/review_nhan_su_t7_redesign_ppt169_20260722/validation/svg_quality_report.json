@@ -4,7 +4,7 @@
   "target": "D:\\DuongNV\\ppt-master\\projects\\review_nhan_su_t7_redesign_ppt169_20260722",
   "source_fingerprint": {
     "algorithm": "sha256",
-    "digest": "fced5d57585b37a29f6bb0736726091bb9d0ec3568068700864e976ac39c061d",
+    "digest": "5933e270d8549db560b307db231538a8ae31da0715df95d41b32c4a188f02405",
     "file_count": 23,
     "files": [
       {
@@ -17,7 +17,7 @@
       },
       {
         "file": "03_danh_muc_du_an.svg",
-        "sha256": "b38e6e9427ed9683e3504ac8e2e269b1c72ee0d23ec888983da2d83dc93b60ff"
+        "sha256": "d40430667d9678cf58ac80dbe5367aee75e9c4d5d2c5d05a636b3dc0a8c2b56c"
       },
       {
         "file": "04_knx_tong_quan.svg",
@@ -57,27 +57,27 @@
       },
       {
         "file": "13_tool_design.svg",
-        "sha256": "d10192559dd224d16eab0d28319ed5dab85178f8d0834a5cb24889f22c4ddae2"
+        "sha256": "c1b1169402b0c5d680c70b7c89a6523fd99bcf412750e47a1a51fdc8de42627c"
       },
       {
         "file": "14_tool_design_bang_chung.svg",
         "sha256": "8559f9e9e51981573647e494f44af455f2cb4c36bbe7d4f06e1ec408ec1a09f1"
       },
       {
-        "file": "15_iot_team.svg",
-        "sha256": "ed025bd08bcb1429c7959f9d00e68496867d5d0bd7935243e2f8b108cbb7a9fe"
+        "file": "15_tool_design_loader.svg",
+        "sha256": "9a0ada204116df7ddb2e128109e02ae0793be850a7126cd2d125da06247b543a"
       },
       {
-        "file": "16_lumes_v2.svg",
-        "sha256": "45365d96900b6aa8d75374e59d80c55ad0032d4665cd8e1d2dce005d88a7fc89"
+        "file": "16_tool_design_test_lumes_v2.svg",
+        "sha256": "009ffda37a2a4aac8094c17a1fe20c4112d159f213279a176f037c7ccf1cf411"
       },
       {
         "file": "17_msb_office.svg",
-        "sha256": "ea02519efc1c091722a6b6bf0b3a21c247411d2a5cd29b8306be40aff40d475e"
+        "sha256": "25258836e49a1d9f80b613368c24f5d59e7d532fc0370c3bdf40e47565f33548"
       },
       {
-        "file": "18_smart_lighting.svg",
-        "sha256": "ab39df49609f80588d2e4f2ea41622202a704eeee9149e251214183cb0b48849"
+        "file": "18_tool_design_test_smart_lighting.svg",
+        "sha256": "0259199708ad5005bd4487074d11421dd1f2e1ad8ff68f2c8b3f496861a851a3"
       },
       {
         "file": "19_ai_trong_cong_viec.svg",
@@ -85,7 +85,7 @@
       },
       {
         "file": "20_tu_danh_gia.svg",
-        "sha256": "e07e4d58ed9c685be1fb1edb9b1008d800413e601e97a1aca5ba10540b994494"
+        "sha256": "144cdb263d05ce9c32d944e8acc25233891875ce566f4e9a899032ea22e8754b"
       },
       {
         "file": "21_bai_hoc_kho_khan.svg",
@@ -103,8 +103,8 @@
   },
   "summary": {
     "total": 23,
-    "passed": 1,
-    "warnings": 22,
+    "passed": 6,
+    "warnings": 17,
     "errors": 0
   },
   "issue_types": {},
@@ -114,7 +114,7 @@
       "issues": []
     },
     "introduced": {
-      "count": 64,
+      "count": 45,
       "issues": [
         {
           "file": "01_review_nhan_su.svg",
@@ -126,38 +126,6 @@
         },
         {
           "file": "02_noi_dung.svg",
-          "message": "page SVG is missing root data-pptx-page-role"
-        },
-        {
-          "file": "03_danh_muc_du_an.svg",
-          "message": "<text> exceeds <g id=\"timeline\"> data-pptx-bounds on the vertical axis: content (300.0, 117.2)-(343.5, 135.2), container (52.0, 130.0)-(1220.0, 615.0), overflow horizontal 0.0%, vertical 2.6%; reflow the text or revise the root module bounds"
-        },
-        {
-          "file": "03_danh_muc_du_an.svg",
-          "message": "<text> exceeds <g id=\"timeline\"> data-pptx-bounds on the vertical axis: content (535.0, 117.2)-(578.5, 135.2), container (52.0, 130.0)-(1220.0, 615.0), overflow horizontal 0.0%, vertical 2.6%; reflow the text or revise the root module bounds"
-        },
-        {
-          "file": "03_danh_muc_du_an.svg",
-          "message": "<text> exceeds <g id=\"timeline\"> data-pptx-bounds on the vertical axis: content (770.0, 117.2)-(813.5, 135.2), container (52.0, 130.0)-(1220.0, 615.0), overflow horizontal 0.0%, vertical 2.6%; reflow the text or revise the root module bounds"
-        },
-        {
-          "file": "03_danh_muc_du_an.svg",
-          "message": "<text> exceeds <g id=\"timeline\"> data-pptx-bounds on the vertical axis: content (1000.0, 117.2)-(1043.5, 135.2), container (52.0, 130.0)-(1220.0, 615.0), overflow horizontal 0.0%, vertical 2.6%; reflow the text or revise the root module bounds"
-        },
-        {
-          "file": "03_danh_muc_du_an.svg",
-          "message": "<text> exceeds <g id=\"timeline\"> data-pptx-bounds on the vertical axis: content (1136.5, 117.2)-(1180.0, 135.2), container (52.0, 130.0)-(1220.0, 615.0), overflow horizontal 0.0%, vertical 2.6%; reflow the text or revise the root module bounds"
-        },
-        {
-          "file": "03_danh_muc_du_an.svg",
-          "message": "Top-level visible <g> #2 has no id; object-level animation config cannot reference it"
-        },
-        {
-          "file": "03_danh_muc_du_an.svg",
-          "message": "4 ungrouped top-level Slide-local element(s) in svg_output (<text> #3, <rect> #6, <text> #7, ...); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
-        },
-        {
-          "file": "03_danh_muc_du_an.svg",
           "message": "page SVG is missing root data-pptx-page-role"
         },
         {
@@ -261,14 +229,6 @@
           "message": "page SVG is missing root data-pptx-page-role"
         },
         {
-          "file": "13_tool_design.svg",
-          "message": "5 ungrouped top-level Slide-local element(s) in svg_output (<image> #2, <text> #3, <rect> #4, ...); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
-        },
-        {
-          "file": "13_tool_design.svg",
-          "message": "page SVG is missing root data-pptx-page-role"
-        },
-        {
           "file": "14_tool_design_bang_chung.svg",
           "message": "5 ungrouped top-level Slide-local element(s) in svg_output (<image> #2, <text> #3, <rect> #4, ...); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
         },
@@ -277,30 +237,6 @@
           "message": "page SVG is missing root data-pptx-page-role"
         },
         {
-          "file": "15_iot_team.svg",
-          "message": "Top-level visible <g> #6 has no id; object-level animation config cannot reference it"
-        },
-        {
-          "file": "15_iot_team.svg",
-          "message": "5 ungrouped top-level Slide-local element(s) in svg_output (<image> #2, <text> #3, <rect> #4, ...); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
-        },
-        {
-          "file": "15_iot_team.svg",
-          "message": "page SVG is missing root data-pptx-page-role"
-        },
-        {
-          "file": "16_lumes_v2.svg",
-          "message": "Top-level visible <g> #6 has no id; object-level animation config cannot reference it"
-        },
-        {
-          "file": "16_lumes_v2.svg",
-          "message": "5 ungrouped top-level Slide-local element(s) in svg_output (<image> #2, <text> #3, <rect> #4, ...); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
-        },
-        {
-          "file": "16_lumes_v2.svg",
-          "message": "page SVG is missing root data-pptx-page-role"
-        },
-        {
           "file": "17_msb_office.svg",
           "message": "Top-level visible <g> #6 has no id; object-level animation config cannot reference it"
         },
@@ -310,18 +246,6 @@
         },
         {
           "file": "17_msb_office.svg",
-          "message": "page SVG is missing root data-pptx-page-role"
-        },
-        {
-          "file": "18_smart_lighting.svg",
-          "message": "Top-level visible <g> #6 has no id; object-level animation config cannot reference it"
-        },
-        {
-          "file": "18_smart_lighting.svg",
-          "message": "5 ungrouped top-level Slide-local element(s) in svg_output (<image> #2, <text> #3, <rect> #4, ...); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\""
-        },
-        {
-          "file": "18_smart_lighting.svg",
           "message": "page SVG is missing root data-pptx-page-role"
         },
         {
@@ -388,9 +312,6 @@
   },
   "drift": {
     "colors": {
-      "#45A775": [
-        "03_danh_muc_du_an.svg"
-      ],
       "#66706A": [
         "02_noi_dung.svg",
         "03_danh_muc_du_an.svg",
@@ -405,10 +326,10 @@
         "12_auto_test.svg",
         "13_tool_design.svg",
         "14_tool_design_bang_chung.svg",
-        "15_iot_team.svg",
-        "16_lumes_v2.svg",
+        "15_tool_design_loader.svg",
+        "16_tool_design_test_lumes_v2.svg",
         "17_msb_office.svg",
-        "18_smart_lighting.svg",
+        "18_tool_design_test_smart_lighting.svg",
         "19_ai_trong_cong_viec.svg",
         "20_tu_danh_gia.svg",
         "21_bai_hoc_kho_khan.svg",
@@ -417,11 +338,9 @@
       "#B56A00": [
         "09_knx_nang_luc_bai_hoc.svg",
         "12_auto_test.svg",
-        "13_tool_design.svg",
-        "15_iot_team.svg",
-        "16_lumes_v2.svg",
+        "16_tool_design_test_lumes_v2.svg",
         "17_msb_office.svg",
-        "18_smart_lighting.svg",
+        "18_tool_design_test_smart_lighting.svg",
         "20_tu_danh_gia.svg",
         "21_bai_hoc_kho_khan.svg"
       ],
@@ -433,8 +352,9 @@
         "09_knx_nang_luc_bai_hoc.svg",
         "10_knx_tool_nap_code.svg",
         "11_knx_partner_certificate.svg",
-        "13_tool_design.svg",
-        "14_tool_design_bang_chung.svg"
+        "14_tool_design_bang_chung.svg",
+        "15_tool_design_loader.svg",
+        "16_tool_design_test_lumes_v2.svg"
       ],
       "#C8D8D0": [
         "05_knx_cong_viec_ket_qua.svg"
@@ -446,7 +366,9 @@
         "04_knx_tong_quan.svg"
       ],
       "#D7E4DD": [
-        "13_tool_design.svg"
+        "13_tool_design.svg",
+        "15_tool_design_loader.svg",
+        "18_tool_design_test_smart_lighting.svg"
       ],
       "#DDE6E1": [
         "02_noi_dung.svg"
@@ -468,10 +390,9 @@
         "12_auto_test.svg",
         "13_tool_design.svg",
         "14_tool_design_bang_chung.svg",
-        "15_iot_team.svg",
-        "16_lumes_v2.svg",
+        "15_tool_design_loader.svg",
+        "16_tool_design_test_lumes_v2.svg",
         "17_msb_office.svg",
-        "18_smart_lighting.svg",
         "19_ai_trong_cong_viec.svg",
         "20_tu_danh_gia.svg",
         "21_bai_hoc_kho_khan.svg",
@@ -481,26 +402,18 @@
         "09_knx_nang_luc_bai_hoc.svg",
         "11_knx_partner_certificate.svg",
         "12_auto_test.svg",
-        "13_tool_design.svg",
-        "15_iot_team.svg",
-        "16_lumes_v2.svg",
         "17_msb_office.svg",
-        "18_smart_lighting.svg",
         "19_ai_trong_cong_viec.svg",
         "22_muc_tieu_sap_toi.svg"
       ],
       "#F5A623": [
-        "03_danh_muc_du_an.svg",
         "20_tu_danh_gia.svg"
       ],
       "#FFF7E8": [
         "09_knx_nang_luc_bai_hoc.svg",
         "12_auto_test.svg",
-        "13_tool_design.svg",
-        "15_iot_team.svg",
-        "16_lumes_v2.svg",
         "17_msb_office.svg",
-        "18_smart_lighting.svg",
+        "18_tool_design_test_smart_lighting.svg",
         "20_tu_danh_gia.svg",
         "21_bai_hoc_kho_khan.svg"
       ]
@@ -570,35 +483,24 @@
       "path": "projects\\review_nhan_su_t7_redesign_ppt169_20260722\\svg_output\\03_danh_muc_du_an.svg",
       "exists": true,
       "errors": [],
-      "warnings": [
-        "<text> exceeds <g id=\"timeline\"> data-pptx-bounds on the vertical axis: content (300.0, 117.2)-(343.5, 135.2), container (52.0, 130.0)-(1220.0, 615.0), overflow horizontal 0.0%, vertical 2.6%; reflow the text or revise the root module bounds",
-        "<text> exceeds <g id=\"timeline\"> data-pptx-bounds on the vertical axis: content (535.0, 117.2)-(578.5, 135.2), container (52.0, 130.0)-(1220.0, 615.0), overflow horizontal 0.0%, vertical 2.6%; reflow the text or revise the root module bounds",
-        "<text> exceeds <g id=\"timeline\"> data-pptx-bounds on the vertical axis: content (770.0, 117.2)-(813.5, 135.2), container (52.0, 130.0)-(1220.0, 615.0), overflow horizontal 0.0%, vertical 2.6%; reflow the text or revise the root module bounds",
-        "<text> exceeds <g id=\"timeline\"> data-pptx-bounds on the vertical axis: content (1000.0, 117.2)-(1043.5, 135.2), container (52.0, 130.0)-(1220.0, 615.0), overflow horizontal 0.0%, vertical 2.6%; reflow the text or revise the root module bounds",
-        "<text> exceeds <g id=\"timeline\"> data-pptx-bounds on the vertical axis: content (1136.5, 117.2)-(1180.0, 135.2), container (52.0, 130.0)-(1220.0, 615.0), overflow horizontal 0.0%, vertical 2.6%; reflow the text or revise the root module bounds",
-        "Top-level visible <g> #2 has no id; object-level animation config cannot reference it",
-        "4 ungrouped top-level Slide-local element(s) in svg_output (<text> #3, <rect> #6, <text> #7, ...); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\"",
-        "page SVG is missing root data-pptx-page-role"
-      ],
+      "warnings": [],
       "info": {
         "viewbox": "0 0 1280 720",
         "fonts": [
           "Arial, sans-serif"
         ],
-        "text_elements": 27,
-        "tspan_elements": 0,
+        "text_elements": 26,
+        "tspan_elements": 2,
         "contextual_values": {
           "colors": [
-            "#45A775",
             "#66706A",
             "#CBD8D1",
-            "#EAF6F0",
-            "#F5A623"
+            "#EAF6F0"
           ]
         }
       },
       "passed": true,
-      "source_sha256": "b38e6e9427ed9683e3504ac8e2e269b1c72ee0d23ec888983da2d83dc93b60ff"
+      "source_sha256": "d40430667d9678cf58ac80dbe5367aee75e9c4d5d2c5d05a636b3dc0a8c2b56c"
     },
     {
       "file": "04_knx_tong_quan.svg",
@@ -867,31 +769,24 @@
       "path": "projects\\review_nhan_su_t7_redesign_ppt169_20260722\\svg_output\\13_tool_design.svg",
       "exists": true,
       "errors": [],
-      "warnings": [
-        "5 ungrouped top-level Slide-local element(s) in svg_output (<image> #2, <text> #3, <rect> #4, ...); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\"",
-        "page SVG is missing root data-pptx-page-role"
-      ],
+      "warnings": [],
       "info": {
         "viewbox": "0 0 1280 720",
         "fonts": [
           "Arial, sans-serif"
         ],
-        "text_elements": 15,
-        "tspan_elements": 12,
+        "text_elements": 26,
+        "tspan_elements": 0,
         "contextual_values": {
           "colors": [
             "#66706A",
-            "#B56A00",
-            "#B8D8C7",
             "#D7E4DD",
-            "#EAF6F0",
-            "#EEF3FF",
-            "#FFF7E8"
+            "#EAF6F0"
           ]
         }
       },
       "passed": true,
-      "source_sha256": "d10192559dd224d16eab0d28319ed5dab85178f8d0834a5cb24889f22c4ddae2"
+      "source_sha256": "c1b1169402b0c5d680c70b7c89a6523fd99bcf412750e47a1a51fdc8de42627c"
     },
     {
       "file": "14_tool_design_bang_chung.svg",
@@ -921,64 +816,54 @@
       "source_sha256": "8559f9e9e51981573647e494f44af455f2cb4c36bbe7d4f06e1ec408ec1a09f1"
     },
     {
-      "file": "15_iot_team.svg",
-      "path": "projects\\review_nhan_su_t7_redesign_ppt169_20260722\\svg_output\\15_iot_team.svg",
+      "file": "15_tool_design_loader.svg",
+      "path": "projects\\review_nhan_su_t7_redesign_ppt169_20260722\\svg_output\\15_tool_design_loader.svg",
       "exists": true,
       "errors": [],
-      "warnings": [
-        "Top-level visible <g> #6 has no id; object-level animation config cannot reference it",
-        "5 ungrouped top-level Slide-local element(s) in svg_output (<image> #2, <text> #3, <rect> #4, ...); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\"",
-        "page SVG is missing root data-pptx-page-role"
-      ],
+      "warnings": [],
       "info": {
         "viewbox": "0 0 1280 720",
         "fonts": [
           "Arial, sans-serif"
         ],
-        "text_elements": 17,
-        "tspan_elements": 15,
+        "text_elements": 24,
+        "tspan_elements": 6,
         "contextual_values": {
           "colors": [
             "#66706A",
-            "#B56A00",
-            "#EAF6F0",
-            "#EEF3FF",
-            "#FFF7E8"
+            "#B8D8C7",
+            "#D7E4DD",
+            "#EAF6F0"
           ]
         }
       },
       "passed": true,
-      "source_sha256": "ed025bd08bcb1429c7959f9d00e68496867d5d0bd7935243e2f8b108cbb7a9fe"
+      "source_sha256": "9a0ada204116df7ddb2e128109e02ae0793be850a7126cd2d125da06247b543a"
     },
     {
-      "file": "16_lumes_v2.svg",
-      "path": "projects\\review_nhan_su_t7_redesign_ppt169_20260722\\svg_output\\16_lumes_v2.svg",
+      "file": "16_tool_design_test_lumes_v2.svg",
+      "path": "projects\\review_nhan_su_t7_redesign_ppt169_20260722\\svg_output\\16_tool_design_test_lumes_v2.svg",
       "exists": true,
       "errors": [],
-      "warnings": [
-        "Top-level visible <g> #6 has no id; object-level animation config cannot reference it",
-        "5 ungrouped top-level Slide-local element(s) in svg_output (<image> #2, <text> #3, <rect> #4, ...); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\"",
-        "page SVG is missing root data-pptx-page-role"
-      ],
+      "warnings": [],
       "info": {
         "viewbox": "0 0 1280 720",
         "fonts": [
           "Arial, sans-serif"
         ],
-        "text_elements": 16,
-        "tspan_elements": 15,
+        "text_elements": 18,
+        "tspan_elements": 14,
         "contextual_values": {
           "colors": [
             "#66706A",
             "#B56A00",
-            "#EAF6F0",
-            "#EEF3FF",
-            "#FFF7E8"
+            "#B8D8C7",
+            "#EAF6F0"
           ]
         }
       },
       "passed": true,
-      "source_sha256": "45365d96900b6aa8d75374e59d80c55ad0032d4665cd8e1d2dce005d88a7fc89"
+      "source_sha256": "009ffda37a2a4aac8094c17a1fe20c4112d159f213279a176f037c7ccf1cf411"
     },
     {
       "file": "17_msb_office.svg",
@@ -1008,37 +893,32 @@
         }
       },
       "passed": true,
-      "source_sha256": "ea02519efc1c091722a6b6bf0b3a21c247411d2a5cd29b8306be40aff40d475e"
+      "source_sha256": "25258836e49a1d9f80b613368c24f5d59e7d532fc0370c3bdf40e47565f33548"
     },
     {
-      "file": "18_smart_lighting.svg",
-      "path": "projects\\review_nhan_su_t7_redesign_ppt169_20260722\\svg_output\\18_smart_lighting.svg",
+      "file": "18_tool_design_test_smart_lighting.svg",
+      "path": "projects\\review_nhan_su_t7_redesign_ppt169_20260722\\svg_output\\18_tool_design_test_smart_lighting.svg",
       "exists": true,
       "errors": [],
-      "warnings": [
-        "Top-level visible <g> #6 has no id; object-level animation config cannot reference it",
-        "5 ungrouped top-level Slide-local element(s) in svg_output (<image> #2, <text> #3, <rect> #4, ...); group only logical content units in a top-level <g id=\"...\">. Keep genuine static page framing as a root primitive and declare a supported data-pptx-role such as \"background\" or \"decoration\"",
-        "page SVG is missing root data-pptx-page-role"
-      ],
+      "warnings": [],
       "info": {
         "viewbox": "0 0 1280 720",
         "fonts": [
           "Arial, sans-serif"
         ],
-        "text_elements": 17,
-        "tspan_elements": 15,
+        "text_elements": 18,
+        "tspan_elements": 6,
         "contextual_values": {
           "colors": [
             "#66706A",
             "#B56A00",
-            "#EAF6F0",
-            "#EEF3FF",
+            "#D7E4DD",
             "#FFF7E8"
           ]
         }
       },
       "passed": true,
-      "source_sha256": "ab39df49609f80588d2e4f2ea41622202a704eeee9149e251214183cb0b48849"
+      "source_sha256": "0259199708ad5005bd4487074d11421dd1f2e1ad8ff68f2c8b3f496861a851a3"
     },
     {
       "file": "19_ai_trong_cong_viec.svg",
@@ -1096,7 +976,7 @@
         }
       },
       "passed": true,
-      "source_sha256": "e07e4d58ed9c685be1fb1edb9b1008d800413e601e97a1aca5ba10540b994494"
+      "source_sha256": "144cdb263d05ce9c32d944e8acc25233891875ce566f4e9a899032ea22e8754b"
     },
     {
       "file": "21_bai_hoc_kho_khan.svg",

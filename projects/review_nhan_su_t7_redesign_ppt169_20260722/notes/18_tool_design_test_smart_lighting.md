@@ -1,0 +1,1 @@
+Nhánh Tool Design cho Smart Lighting bắt đầu từ ngày 20 tháng 7 và đang dựng nền tool test cho Deep Dimming và CCT Tunable. Trọng tâm hiện tại là chốt dải đo, cấu trúc dữ liệu và tiêu chí pass fail trước khi hoàn thiện tool.

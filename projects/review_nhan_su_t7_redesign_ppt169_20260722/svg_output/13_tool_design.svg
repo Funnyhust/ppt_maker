@@ -1,28 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
-  <rect id="background" data-pptx-role="background" width="1280" height="720" fill="#FFFFFF"/>
-  <image href="../images/image_8fa7a601c29ca778.png" x="50" y="28" width="140" height="40" preserveAspectRatio="xMidYMid meet"/>
-  <text x="260" y="68" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#008C4F">3. Dự án Tool Design</text>
-  <rect x="970" y="30" width="250" height="42" rx="21" fill="#EAF6F0"/>
-  <text x="1095" y="57" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#008C4F">21/05–27/05/2026</text>
-
-  <g id="project-review" data-pptx-bounds="56 112 560 456" font-family="Arial, sans-serif">
-    <g><rect x="56" y="112" width="270" height="210" rx="16" fill="#F4F7F5"/><text x="80" y="150" font-size="17" font-weight="700" fill="#008C4F">CÔNG VIỆC CHÍNH</text><text x="80" y="188" font-size="16" fill="#1F2329"><tspan x="80">Chỉnh sửa tool nguồn DC</tspan><tspan x="80" dy="28">Điều chỉnh flow nhà máy</tspan><tspan x="80" dy="28">Rà soát vận hành</tspan></text></g>
-    <g><rect x="346" y="112" width="270" height="210" rx="16" fill="#EAF6F0"/><text x="370" y="150" font-size="17" font-weight="700" fill="#008C4F">KẾT QUẢ</text><text x="370" y="188" font-size="16" fill="#1F2329"><tspan x="370">2 task Done</tspan><tspan x="370" dy="28">Hoàn tất 2 vòng chỉnh sửa</tspan><tspan x="370" dy="28">2 task chưa khởi tạo</tspan></text></g>
-    <g><rect x="56" y="342" width="270" height="210" rx="16" fill="#EEF3FF"/><text x="80" y="380" font-size="17" font-weight="700" fill="#1456F0">KỸ NĂNG &amp; TƯ DUY</text><text x="80" y="418" font-size="16" fill="#1F2329"><tspan x="80">Phân tích tool phần cứng</tspan><tspan x="80" dy="28">Ưu tiên ổn định, bảo trì</tspan><tspan x="80" dy="28">Thiết kế theo người dùng</tspan></text></g>
-    <g><rect x="346" y="342" width="270" height="210" rx="16" fill="#FFF7E8"/><text x="370" y="380" font-size="17" font-weight="700" fill="#B56A00">BÀI HỌC &amp; KHÓ KHĂN</text><text x="370" y="418" font-size="16" fill="#1F2329"><tspan x="370">Yêu cầu thực địa thay đổi</tspan><tspan x="370" dy="28">Task mở thiếu mô tả</tspan><tspan x="370" dy="28">Cần checklist acceptance sớm</tspan></text></g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content">
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <image id="logo" data-pptx-role="logo" href="../images/image_8fa7a601c29ca778.png" x="50" y="28" width="140" height="40" preserveAspectRatio="xMidYMid meet"/>
+  <g id="page-header" data-pptx-bounds="260 28 960 52" font-family="Arial, sans-serif">
+    <text x="260" y="68" font-size="36" font-weight="700" fill="#008C4F">3. Dự án Tool Design</text>
+    <rect x="978" y="28" width="242" height="42" rx="4" fill="#EAF6F0"/>
+    <text x="1099" y="55" text-anchor="middle" font-size="17" font-weight="700" fill="#008C4F">18/05/2026–ONGOING</text>
   </g>
-
-  <g id="tool-evidence" data-pptx-bounds="646 112 578 456" font-family="Arial, sans-serif">
-    <rect x="646" y="112" width="578" height="456" rx="18" fill="#FFFFFF" stroke="#B8D8C7" stroke-width="2"/>
-    <text x="672" y="150" font-size="15" font-weight="700" letter-spacing="1.4" fill="#66706A">BẰNG CHỨNG THỰC TẾ · TOOL NẠP CODE</text>
-    <rect x="672" y="168" width="526" height="272" rx="10" fill="#F4F7F5"/>
-    <image href="../images/du_an_tool_design/tool_nap_code/image.png" x="672" y="168" width="526" height="272" preserveAspectRatio="xMidYMid meet"/>
-    <line x1="672" y1="464" x2="1198" y2="464" stroke="#D7E4DD"/>
-    <text x="672" y="497" font-size="17" font-weight="700" fill="#1F2329">Giao diện vận hành được điều chỉnh theo flow nhà máy</text>
-    <rect x="672" y="516" width="196" height="34" rx="17" fill="#008C4F"/>
-    <text x="770" y="539" text-anchor="middle" font-size="15" font-weight="700" fill="#FFFFFF">02 VÒNG HOÀN TẤT</text>
-    <text x="890" y="539" font-size="15" fill="#66706A">Ưu tiên ổn định · dễ dùng · dễ bảo trì</text>
+  <g id="scope-statement" data-pptx-bounds="56 112 1168 76" font-family="Arial, sans-serif">
+    <rect x="56" y="112" width="1168" height="76" rx="4" fill="#008C4F"/>
+    <text x="82" y="143" font-size="15" font-weight="700" fill="#FFFFFF">PHẠM VI ĐÃ QUY HOẠCH LẠI</text>
+    <text x="82" y="171" font-size="22" font-weight="700" fill="#FFFFFF">Toàn bộ tool test và tool loader sản xuất được quản lý dưới Tool Design.</text>
   </g>
-  <text x="1220" y="708" text-anchor="end" font-family="Arial, sans-serif" font-size="14" fill="#66706A">13 / 23</text>
+  <g id="workstream-dc" data-pptx-bounds="56 216 548 78" font-family="Arial, sans-serif">
+    <text x="56" y="242" font-size="17" font-weight="700" fill="#008C4F">01</text>
+    <text x="108" y="242" font-size="22" font-weight="700" fill="#1F2329">Tool nguồn DC</text>
+    <text x="108" y="270" font-size="17" fill="#66706A">Hai vòng chỉnh sửa theo flow vận hành nhà máy</text>
+    <line x1="56" y1="292" x2="604" y2="292" stroke="#D7E4DD" stroke-width="2"/>
+  </g>
+  <g id="workstream-luto" data-pptx-bounds="646 216 578 78" font-family="Arial, sans-serif">
+    <text x="646" y="242" font-size="17" font-weight="700" fill="#008C4F">02</text>
+    <text x="698" y="242" font-size="22" font-weight="700" fill="#1F2329">Loader Luto</text>
+    <text x="698" y="270" font-size="17" fill="#66706A">Hoàn thành, bàn giao và làm rõ interface sử dụng</text>
+    <line x1="646" y1="292" x2="1224" y2="292" stroke="#D7E4DD" stroke-width="2"/>
+  </g>
+  <g id="workstream-lumes" data-pptx-bounds="56 322 548 78" font-family="Arial, sans-serif">
+    <text x="56" y="348" font-size="17" font-weight="700" fill="#008C4F">03</text>
+    <text x="108" y="348" font-size="22" font-weight="700" fill="#1F2329">Tool test &amp; loader Lumes V2</text>
+    <text x="108" y="376" font-size="17" fill="#66706A">Tách công đoạn test nguồn và nạp code mạch main</text>
+    <line x1="56" y1="398" x2="604" y2="398" stroke="#D7E4DD" stroke-width="2"/>
+  </g>
+  <g id="workstream-lighting" data-pptx-bounds="646 322 578 78" font-family="Arial, sans-serif">
+    <text x="646" y="348" font-size="17" font-weight="700" fill="#1456F0">04</text>
+    <text x="698" y="348" font-size="22" font-weight="700" fill="#1F2329">Tool test Smart Lighting</text>
+    <text x="698" y="376" font-size="17" fill="#66706A">Deep Dimming &amp; CCT Tunable · đang triển khai</text>
+    <line x1="646" y1="398" x2="1224" y2="398" stroke="#D7E4DD" stroke-width="2"/>
+  </g>
+  <g id="capability-model" data-pptx-bounds="56 438 1168 164" font-family="Arial, sans-serif">
+    <rect x="56" y="438" width="1168" height="164" rx="4" fill="#F4F7F5"/>
+    <text x="82" y="470" font-size="15" font-weight="700" fill="#66706A">NĂNG LỰC CHUNG</text>
+    <text x="82" y="510" font-size="22" font-weight="700" fill="#1F2329">Tích hợp phần cứng–phần mềm</text>
+    <text x="82" y="543" font-size="17" fill="#66706A">Đo lường · giao tiếp thiết bị · logging</text>
+    <text x="440" y="510" font-size="22" font-weight="700" fill="#1F2329">Thiết kế theo operator</text>
+    <text x="440" y="543" font-size="17" fill="#66706A">Ít thao tác · dễ sử dụng · dễ bảo trì</text>
+    <text x="824" y="510" font-size="22" font-weight="700" fill="#1F2329">Chuẩn hóa bàn giao</text>
+    <text x="824" y="543" font-size="17" fill="#66706A">Interface · acceptance · tài liệu</text>
+    <rect x="82" y="570" width="1108" height="4" fill="#008C4F"/>
+  </g>
+  <g id="achievement-strip" data-pptx-bounds="56 620 1168 46" font-family="Arial, sans-serif">
+    <text x="56" y="649" font-size="17" font-weight="700" fill="#008C4F">KẾT QUẢ</text>
+    <text x="168" y="649" font-size="17" fill="#1F2329">Tool đã hoàn thành được dùng làm nền tái sử dụng cho các dòng sản phẩm tiếp theo.</text>
+  </g>
+  <text id="page-number" data-pptx-role="page-number" x="1220" y="708" text-anchor="end" font-family="Arial, sans-serif" font-size="14" fill="#66706A">13 / 23</text>
 </svg>

@@ -1,1 +1,1 @@
-Trong kỳ có 114 task thuộc 7 nhóm dự án; 102 task đã Done, tương đương 89,5%.
+Trong kỳ có 114 task được quy hoạch thành bốn nhóm dự án chính; 102 task đã Done, tương đương 89,5%. KNX, Auto Test và MSB giữ phạm vi riêng, còn toàn bộ tool test và tool loader sản xuất được gom dưới Tool Design.

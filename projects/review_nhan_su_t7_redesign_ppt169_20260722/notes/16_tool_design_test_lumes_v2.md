@@ -1,0 +1,1 @@
+Với Lumes V2, phần tool test nguồn được tách rõ khỏi công đoạn nạp code. Tool đã hoàn thành theo flow nhà máy, đồng thời cho thấy bài học cần xác nhận sớm fixture, tương thích mạch và tiêu chí acceptance.
