@@ -1,0 +1,1 @@
+Bài học chung là chuẩn hóa interface, logging, acceptance và handoff càng sớm càng tốt.

@@ -1,0 +1,1 @@
+Báo cáo tổng hợp kết quả pass/fail và bằng chứng test, giúp truy vết và xác nhận đầu ra.

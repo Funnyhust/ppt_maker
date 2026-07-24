@@ -1,0 +1,1 @@
+Đóng góp cho IoT gồm loader Luto và phối hợp định hướng Auto Test; cả hai task đã hoàn thành.

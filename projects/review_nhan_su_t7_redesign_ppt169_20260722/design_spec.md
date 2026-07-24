@@ -138,6 +138,7 @@
 - Luôn giữ đủ khung hình bằng `meet`/`no-crop`; đặt trên nền trung tính, viền xanh mảnh và chú thích ngắn.
 - Khi có nhiều ảnh cùng một luồng, dùng dải bằng chứng đánh số; khi có một đến hai ảnh, dùng cột hoặc panel bằng chứng riêng.
 - Các phiên bản sau tiếp tục ngôn ngữ này để có thể bổ sung ảnh theo từng dự án mà không phá bố cục.
+- Tiêu đề trang bằng chứng dùng vai trò `evidence_title` 32 px để nhường tối đa diện tích cho screenshot.
 
 ## IX. Content Outline
 
@@ -180,21 +181,49 @@
 
 #### Slide 05 - KNX: Công việc và kết quả
 - **Audience move**: Biết tổng quan → thấy các đầu việc và đầu ra cụ thể.
-- **Layout**: Ba thẻ tóm tắt Thiết bị / Tool & hệ thống / Tài liệu & đào tạo phía trên; dải ba ảnh bằng chứng benchmark phía dưới, đánh số và có chú thích.
+- **Layout**: Ba cột lớn Thiết bị / Tool & hệ thống / Tài liệu & đào tạo; không đặt screenshot nhỏ ở trang tổng hợp.
 - **Title**: KNX — Công việc chính & kết quả
 - **Core message**: Đầu ra KNX bao phủ toàn chuỗi phát triển và vận hành.
 - **Content**: Firmware 2/4 nút, Rèm, Actuator, KNOB và .knxprod; Jig/loader/benchmark/GA/Coupler; giáo trình, ETS, Quiz, Q&A, Topology.
-- **Images**: bang_dieu_khien.png; tao_test_case.png; bao_cao.png; giữ nguyên toàn bộ UI, không crop.
+- **Images**: Không dùng; ba screenshot được tách thành các trang 06–08.
 
-#### Slide 06 - KNX: Kỹ năng, tư duy và bài học
+#### Slide 06 - KNX Benchmark: Bảng điều khiển
+- **Audience move**: Biết các nhóm công việc → nhìn rõ giao diện điều khiển benchmark.
+- **Layout**: Screenshot no-crop chiếm 65–80% diện tích; một dòng mục đích phía dưới.
+- **Title**: KNX Benchmark — Bảng điều khiển
+- **Core message**: Theo dõi thiết bị và trạng thái benchmark tập trung.
+- **Images**: bang_dieu_khien.png.
+
+#### Slide 07 - KNX Benchmark: Tạo test case
+- **Audience move**: Thấy bảng điều khiển → hiểu cách chuẩn hóa dữ liệu kiểm thử.
+- **Layout**: Screenshot no-crop chiếm 65–80% diện tích; một dòng kết quả phía dưới.
+- **Title**: KNX Benchmark — Tạo test case
+- **Core message**: Chuẩn hóa đầu vào và thao tác tạo test case.
+- **Images**: tao_test_case.png.
+
+#### Slide 08 - KNX Benchmark: Báo cáo
+- **Audience move**: Hiểu cách tạo test → thấy đầu ra báo cáo và truy vết.
+- **Layout**: Screenshot no-crop chiếm 65–80% diện tích; một dòng đầu ra phía dưới.
+- **Title**: KNX Benchmark — Báo cáo kết quả
+- **Core message**: Tổng hợp pass/fail và bằng chứng kiểm thử.
+- **Images**: bao_cao.png.
+
+#### Slide 09 - KNX: Kỹ năng, tư duy và bài học
 - **Audience move**: Thấy đầu ra → hiểu năng lực, cách tư duy và khó khăn thực tế.
-- **Layout**: Bốn thẻ nội dung 2×2 ở trái; cột bằng chứng ở phải gồm tool nạp code KNX và kết quả khóa học; KPI thành tích tích hợp vào cột này.
+- **Layout**: Bốn thẻ nội dung 2×2 ở trái; cột thành tích và kết quả khóa học ở phải.
 - **Title**: KNX — Năng lực & bài học
 - **Core message**: Học được cách nhìn hệ thống và biến vấn đề thành quy trình kiểm chứng.
 - **Content**: Firmware/ETS/debugging; tư duy end-to-end; bài học chuẩn hóa test; khó khăn GA delay/miss, secure, Coupler và lỗi download; xử lý bằng tái hiện–đo–đối chiếu–xác nhận; thành tích 91 task Done và hoàn thành KNX Basic.
-- **Images**: tool_nap_code_knx/image.png; knx_certificate/course_result.png; không crop.
+- **Images**: knx_certificate/course_result.png; không crop.
 
-#### Slide 07 - Auto Test
+#### Slide 10 - KNX: Tool nạp code
+- **Audience move**: Hiểu năng lực → nhìn rõ tool vận hành thực tế.
+- **Layout**: Screenshot no-crop chiếm 65–80% diện tích; một dòng giá trị phía dưới.
+- **Title**: KNX — Tool nạp code
+- **Core message**: Gom cấu hình, điều khiển nhiều máy và log vận hành.
+- **Images**: tool_nap_code_knx/image.png.
+
+#### Slide 11 - Auto Test
 - **Audience move**: Hiểu KNX → thấy dự án automation mới và trạng thái hiện tại.
 - **Layout**: Dải thời gian 06/07–25/07 dự kiến; ảnh Jig; lưới 2×3 review dự án.
 - **Title**: 2. Dự án Auto Test
@@ -202,22 +231,29 @@
 - **Content**: Công việc; kết quả; kỹ năng; tư duy modular/API-first; bài học và khó khăn tích hợp phần cứng; thành tích 4/5 task Done trong phạm vi review.
 - **Images**: Jig Auto Test.
 
-#### Slide 08 - Tool Design
+#### Slide 12 - Tool Design
 - **Audience move**: Biết Auto Test → hiểu đóng góp với tool nguồn nhà máy.
-- **Layout**: Dải thời gian 21/05–27/05; bốn thẻ review 2×2 ở trái; panel ảnh giao diện tool lớn ở phải cùng KPI thành tích.
+- **Layout**: Dải thời gian 21/05–27/05; bốn thẻ review 2×2 và KPI thành tích; screenshot chuyển sang trang riêng.
 - **Title**: 3. Dự án Tool Design
 - **Core message**: Chỉnh sửa tool nguồn DC để phù hợp vận hành nhà máy.
 - **Content**: Hai task Done; hai task chưa khởi tạo trong dữ liệu; kỹ năng phần cứng/tool; tư duy ưu tiên khả năng bảo trì; bài học về yêu cầu nhà máy; khó khăn thiếu mô tả ở các task mở; thành tích hoàn tất hai vòng chỉnh sửa.
-- **Images**: du_an_tool_design/tool_nap_code/image.png; giữ nguyên UI và chú thích như bằng chứng công việc.
+- **Images**: Không dùng ở trang tổng hợp.
 
-#### Slide 09 - IoT Team
+#### Slide 13 - Tool Design: Bằng chứng giao diện
+- **Audience move**: Hiểu đóng góp → nhìn rõ giao diện tool sau hai vòng chỉnh sửa.
+- **Layout**: Screenshot no-crop chiếm 65–80% diện tích; một dòng thành tích phía dưới.
+- **Title**: Tool Design — Giao diện vận hành
+- **Core message**: Ưu tiên flow nhà máy, ổn định và khả năng bảo trì.
+- **Images**: du_an_tool_design/tool_nap_code/image.png.
+
+#### Slide 14 - IoT Team
 - **Audience move**: Hiểu tool nhà máy → thấy khả năng hỗ trợ team khác.
 - **Layout**: Dải thời gian 26/05–15/06; lưới 2×3 review, nhấn 2/2 Done.
 - **Title**: 4. Dự án IoT
 - **Core message**: Hoàn thành tool nạp code Luto và phối hợp định hướng Auto Test.
 - **Content**: Công việc; kết quả 2/2 Done; kỹ năng loader và phối hợp; tư duy tái sử dụng; bài học làm rõ interface; khó khăn đồng bộ nhiều team; thành tích bàn giao tool.
 
-#### Slide 10 - LumesV2
+#### Slide 15 - LumesV2
 - **Audience move**: Biết IoT → thấy đầu ra tool cho công tắc cơ smart.
 - **Layout**: Dải thời gian 18/05–16/06; ảnh sản phẩm; lưới 2×3 review.
 - **Title**: 5. Dự án LumesV2
@@ -225,7 +261,7 @@
 - **Content**: Hai đầu việc Done; kỹ năng test nguồn/nạp code; tư duy tách công đoạn; bài học về flow nhà máy; khó khăn tương thích mạch; thành tích 2/2 Done.
 - **Images**: ảnh công tắc Lumes.
 
-#### Slide 11 - MSB Office
+#### Slide 16 - MSB Office
 - **Audience move**: Hiểu Lumes → thấy năng lực xử lý lỗi Jig tại nhà máy.
 - **Layout**: Dải thời gian 07/04–10/04; ảnh Jig; lưới 2×3 review.
 - **Title**: 6. Dự án MSB Office
@@ -233,7 +269,7 @@
 - **Content**: Công việc; kết quả; kỹ năng đo lường/debug Jig; tư duy dựa trên dữ liệu; bài học về hiệu chuẩn; khó khăn tái hiện lỗi thực địa; thành tích xử lý lỗi đo sai.
 - **Images**: ảnh Jig/tool.
 
-#### Slide 12 - Smart Lighting
+#### Slide 17 - Smart Lighting
 - **Audience move**: Biết MSB → thấy dự án mới đang triển khai.
 - **Layout**: Dải thời gian từ 20/07, trạng thái Ongoing; lưới 2×3 review với phần dự kiến rõ ràng.
 - **Title**: 7. Dự án Smart Lighting
@@ -242,21 +278,21 @@
 
 ### Part 3: AI và tự đánh giá
 
-#### Slide 13 - Sử dụng AI trong công việc
+#### Slide 18 - Sử dụng AI trong công việc
 - **Audience move**: Biết kết quả dự án → hiểu AI hỗ trợ nhưng không thay thế kiểm chứng kỹ thuật.
 - **Layout**: Ba use-case lớn: code/debug, tài liệu, học nhanh; một nguyên tắc kiểm chứng.
 - **Title**: Sử dụng AI trong công việc
 - **Core message**: AI rút ngắn thời gian tìm hiểu và soạn thảo; kết quả kỹ thuật vẫn được kiểm thử thực tế.
 - **Content**: Gợi ý code và test case; tóm tắt tài liệu/ETS; chuẩn hóa API/flow/Q&A; nguyên tắc không dùng AI thay cho đo và xác nhận.
 
-#### Slide 14 - Tự đánh giá: Kỹ năng & tư duy
+#### Slide 19 - Tự đánh giá: Kỹ năng & tư duy
 - **Audience move**: Biết cách dùng AI → thấy điểm mạnh và điểm cần cải thiện.
 - **Layout**: Hai cột Ưu điểm / Cần cải thiện; dải bằng chứng từ dự án.
 - **Title**: Tự đánh giá ưu, nhược điểm
 - **Core message**: Điểm mạnh là end-to-end và chủ động; cần cải thiện ưu tiên, ước lượng và đóng task đúng hạn.
 - **Content**: Ưu điểm: firmware–tool–test–tài liệu, học nhanh, phối hợp; hạn chế: phân tán nhiều luồng, một số task Late/Not started, cần chuẩn hóa kế hoạch.
 
-#### Slide 15 - Bài học & khó khăn xuyên dự án
+#### Slide 20 - Bài học & khó khăn xuyên dự án
 - **Audience move**: Biết điểm mạnh/yếu → hiểu các bài học hành động được.
 - **Layout**: Bốn cặp Khó khăn → Bài học, nối bằng mũi tên.
 - **Title**: Bài học & khó khăn
@@ -265,14 +301,14 @@
 
 ### Part 4: Mục tiêu và kết
 
-#### Slide 16 - Mục tiêu sắp tới
+#### Slide 21 - Mục tiêu sắp tới
 - **Audience move**: Hiểu bài học → có kế hoạch cụ thể cho kỳ tiếp theo.
 - **Layout**: Now / Next / Scale với chỉ số theo dõi.
 - **Title**: Mục tiêu sắp tới
 - **Core message**: Hoàn tất Auto Test và Smart Lighting, đóng task còn mở, chuẩn hóa tài sản dùng lại.
 - **Content**: Now: Auto Test/Smart Lighting; Next: xử lý Late/Not started; Scale: chuẩn hóa tool, test case, tài liệu và đào tạo; KPI theo dõi.
 
-#### Slide 17 - Cảm ơn
+#### Slide 22 - Cảm ơn
 - **Audience move**: Có kế hoạch → kết thúc bằng nhận diện template gốc và sẵn sàng trao đổi.
 - **Layout**: Giữ nguyên trang kết xanh, motif vòng tròn và collage ba điện thoại.
 - **Title**: CẢM ƠN!

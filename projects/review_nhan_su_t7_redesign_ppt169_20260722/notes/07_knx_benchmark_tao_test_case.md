@@ -1,0 +1,1 @@
+Giao diện tạo test case chuẩn hóa dữ liệu đầu vào và giảm thao tác rời rạc trong quá trình kiểm thử.

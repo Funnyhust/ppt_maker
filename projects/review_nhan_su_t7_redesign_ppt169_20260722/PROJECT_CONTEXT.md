@@ -8,16 +8,16 @@ Tạo deck review nhân sự tháng 7 cho Nguyễn Văn Dương, tổng hợp c�
 
 - Route: Generate PPTX, SVG → native DrawingML PPTX.
 - Canvas: PPT 16:9, 1280 × 720.
-- Số trang: 17.
+- Số trang: 22.
 - Font: Arial.
 - Màu chính: LUMI green `#008C4F`, blue `#1456F0`, white `#FFFFFF`.
 - Chế độ đọc: balanced.
 - Cấu trúc PPTX: flat; chữ và shape được xuất thành đối tượng PowerPoint editable.
-- Kiểm tra SVG: 17/17 trang passed, 0 lỗi; cảnh báo còn lại là advisory về group/bounds, không có lỗi tràn hoặc chồng chữ.
-- Postflight PPTX: `passed-with-warnings`, quality gate passed, 17 slides. Cảnh báo thuộc nhóm cấu trúc SVG advisory.
-- Bản review phong cách ảnh mới nhất: `exports/review_nhan_su_t7_redesign_20260724_202044.pptx`.
+- Kiểm tra SVG: 22/22 trang passed, 0 lỗi; cảnh báo còn lại là advisory về group/bounds.
+- Postflight PPTX: `passed-with-warnings`, quality gate passed, 22 slides.
+- Bản review ảnh lớn mới nhất: `exports/review_nhan_su_t7_redesign_20260724_203516.pptx`.
 - Bản chính thức dùng chế độ `--no-merge` để giữ từng dòng chữ độc lập khi chuyển sang DrawingML.
-- Đã render lại toàn bộ 17 trang bằng chính Microsoft PowerPoint tại `validation/pptx_render_20260724_202044/`; ảnh được nhúng đúng, không phát hiện chồng chữ hoặc lệch khung.
+- Đã render lại toàn bộ 22 trang bằng chính Microsoft PowerPoint tại `validation/pptx_render_20260724_203516/`; ảnh được nhúng đúng, screenshot đủ lớn để đọc và không phát hiện chồng chữ.
 
 ## 3. Dữ liệu nguồn và số liệu khóa
 
@@ -42,27 +42,31 @@ Deck LUMI tham chiếu nằm tại `sources/review_nhan_su_alignment_20260722_20
 - Tiêu đề ưu tiên một dòng; nội dung dài phải chia card hoặc tách trang, không giảm chữ xuống mức khó đọc.
 - Chỉ sử dụng ảnh có sẵn trong source; không dùng ảnh AI hoặc ảnh web.
 - Ảnh giao diện/chứng nhận được trình bày như bằng chứng công việc: luôn `no-crop`, đặt trong khung trung tính viền xanh và có chú thích ngắn.
-- Với nhiều ảnh cùng một luồng dùng dải bằng chứng đánh số; với một đến hai ảnh dùng panel/cột bằng chứng. Trang 5, 6 và 8 là các prototype đã chốt để mở rộng cho ảnh dự án về sau.
+- Screenshot giao diện quan trọng phải có trang bằng chứng riêng, chiếm khoảng 65–80% diện tích slide; không ép nhiều ảnh nhỏ vào một trang.
+- Trang tổng hợp chỉ trình bày công việc/kết quả. Các trang 06–08, 10 và 13 là prototype ảnh lớn để áp dụng cho ảnh dự án bổ sung sau này.
 
-## 5. Cấu trúc 17 trang
+## 5. Cấu trúc 22 trang
 
 1. Bìa Review nhân sự — giữ template gốc, thêm ngày/giai đoạn review.
 2. Nội dung — điện thoại và bốn ô số cắt góc của template cũ.
 3. Danh mục 7 dự án và timeline 20/03–22/07.
 4. KNX — tổng quan, thời gian, KPI và thành tích.
-5. KNX — công việc chính, kết quả và dải ba ảnh benchmark.
-6. KNX — kỹ năng, tư duy, bài học, khó khăn; cột bằng chứng tool nạp code và kết quả KNX Basic.
-7. Auto Test — review đầy đủ theo lưới 2×3.
-8. Tool Design — review 2×2 và panel ảnh giao diện tool lớn.
-9. IoT — review đầy đủ theo lưới 2×3.
-10. LumesV2 — review đầy đủ theo lưới 2×3.
-11. MSB Office — review đầy đủ theo lưới 2×3.
-12. Smart Lighting — review đầy đủ, ghi rõ Ongoing.
-13. Sử dụng AI trong công việc.
-14. Tự đánh giá ưu, nhược điểm.
-15. Bài học và khó khăn xuyên dự án.
-16. Mục tiêu sắp tới.
-17. Cảm ơn — giữ nguyên template kết cũ.
+5. KNX — tổng hợp công việc chính và kết quả.
+6–8. KNX Benchmark — ba screenshot lớn: bảng điều khiển, tạo test case và báo cáo.
+9. KNX — kỹ năng, tư duy, bài học, khó khăn và KNX Basic.
+10. KNX — screenshot lớn tool nạp code.
+11. Auto Test — review đầy đủ.
+12. Tool Design — review tổng hợp.
+13. Tool Design — screenshot lớn giao diện vận hành.
+14. IoT — review đầy đủ.
+15. LumesV2 — review đầy đủ.
+16. MSB Office — review đầy đủ.
+17. Smart Lighting — review đầy đủ, ghi rõ Ongoing.
+18. Sử dụng AI trong công việc.
+19. Tự đánh giá ưu, nhược điểm.
+20. Bài học và khó khăn xuyên dự án.
+21. Mục tiêu sắp tới.
+22. Cảm ơn — giữ nguyên template kết cũ.
 
 Chi tiết nội dung, ảnh và layout từng trang nằm trong `design_spec.md` mục IX. Các token bắt buộc cho Executor nằm trong `spec_lock.md`.
 

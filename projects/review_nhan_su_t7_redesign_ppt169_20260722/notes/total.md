@@ -18,50 +18,70 @@ KNX là trọng tâm lớn nhất với 98 task, bao phủ sản phẩm, tool, h
 
 Đầu ra KNX đi xuyên suốt từ firmware đến Jig, benchmark, kiểm thử, tài liệu và đào tạo.
 
-# 06_knx_nang_luc_bai_hoc
+# 06_knx_benchmark_bang_dieu_khien
+
+Ảnh phóng lớn cho thấy bảng điều khiển tập trung, hỗ trợ theo dõi thiết bị và trạng thái benchmark.
+
+# 07_knx_benchmark_tao_test_case
+
+Giao diện tạo test case chuẩn hóa dữ liệu đầu vào và giảm thao tác rời rạc trong quá trình kiểm thử.
+
+# 08_knx_benchmark_bao_cao
+
+Báo cáo tổng hợp kết quả pass/fail và bằng chứng test, giúp truy vết và xác nhận đầu ra.
+
+# 09_knx_nang_luc_bai_hoc
 
 Điểm tiến bộ chính là tư duy end-to-end và quy trình tái hiện, đo, đối chiếu, xác nhận.
 
-# 07_auto_test
+# 10_knx_tool_nap_code
+
+Tool nạp code gom cấu hình, điều khiển nhiều máy và log vận hành vào một giao diện thống nhất.
+
+# 11_auto_test
 
 Auto Test đang ở giai đoạn xây nền, đã hoàn thành 4 trên 5 task trong phạm vi review.
 
-# 08_tool_design
+# 12_tool_design
 
 Tool Design tập trung chỉnh sửa tool nguồn DC cho flow vận hành thực tế tại nhà máy.
 
-# 09_iot_team
+# 13_tool_design_bang_chung
+
+Ảnh giao diện phóng lớn minh họa hai vòng chỉnh sửa, ưu tiên độ ổn định, dễ dùng và dễ bảo trì.
+
+# 14_iot_team
 
 Đóng góp cho IoT gồm loader Luto và phối hợp định hướng Auto Test; cả hai task đã hoàn thành.
 
-# 10_lumes_v2
+# 15_lumes_v2
 
 LumesV2 đã có tool test nguồn và tool nạp code cho mạch main V2.
 
-# 11_msb_office
+# 16_msb_office
 
 MSB tập trung xử lý lỗi đo sai năng lượng và kiểm tra Jig tại nhà máy.
 
-# 12_smart_lighting
+# 17_smart_lighting
 
 Smart Lighting mới khởi động từ 20/07, đang dựng nền tool test cho Deep Dimming và CCT Tunable.
 
-# 13_ai_trong_cong_viec
+# 18_ai_trong_cong_viec
 
 AI hỗ trợ code, tài liệu và học nhanh; mọi kết luận kỹ thuật vẫn phải được kiểm chứng thực tế.
 
-# 14_tu_danh_gia
+# 19_tu_danh_gia
 
 Điểm mạnh là năng lực end-to-end và chủ động; điểm cần cải thiện là ưu tiên và đóng vòng công việc.
 
-# 15_bai_hoc_kho_khan
+# 20_bai_hoc_kho_khan
 
 Bài học chung là chuẩn hóa interface, logging, acceptance và handoff càng sớm càng tốt.
 
-# 16_muc_tieu_sap_toi
+# 21_muc_tieu_sap_toi
 
 Mục tiêu tiếp theo là hoàn tất dự án đang chạy, đóng task còn mở và chuẩn hóa tài sản dùng lại.
 
-# 17_cam_on
+# 22_cam_on
 
 Cảm ơn và sẵn sàng trao đổi thêm.

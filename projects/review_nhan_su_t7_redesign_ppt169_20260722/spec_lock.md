@@ -34,6 +34,7 @@
 - body: 22
 - title: 36
 - subtitle: 28
+- evidence_title: 32
 - annotation: 17
 - compact_body: 19
 - eyebrow: 15
@@ -72,18 +73,23 @@
 - P03: dense
 - P04: anchor
 - P05: dense
-- P06: dense
-- P07: dense
-- P08: dense
+- P06: breathing
+- P07: breathing
+- P08: breathing
 - P09: dense
-- P10: dense
+- P10: breathing
 - P11: dense
 - P12: dense
 - P13: breathing
 - P14: dense
 - P15: dense
-- P16: anchor
-- P17: breathing
+- P16: dense
+- P17: dense
+- P18: breathing
+- P19: dense
+- P20: dense
+- P21: anchor
+- P22: breathing
 
 ## pptx_structure
 - mode: flat

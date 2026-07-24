@@ -1,0 +1,1 @@
+Ảnh phóng lớn cho thấy bảng điều khiển tập trung, hỗ trợ theo dõi thiết bị và trạng thái benchmark.

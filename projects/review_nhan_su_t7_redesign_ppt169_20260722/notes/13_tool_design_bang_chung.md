@@ -1,0 +1,1 @@
+Ảnh giao diện phóng lớn minh họa hai vòng chỉnh sửa, ưu tiên độ ổn định, dễ dùng và dễ bảo trì.

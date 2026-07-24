@@ -13,13 +13,13 @@
       "scope": "project",
       "path": "spec_lock.md",
       "exists": true,
-      "sha256": "3c903e170fc90f2e960439549634797d4c51668e88ebdf0c24618360b43f97b1"
+      "sha256": "182df2295d134a985d6a70d8c32f7eddb52b132504ca74a3627b9f105b8e478a"
     },
     {
       "scope": "project",
       "path": "design_spec.md",
       "exists": true,
-      "sha256": "61e577890da944aba4b0df33bb637d69a31930d57433a46184d79ba16f54a037"
+      "sha256": "def322480a6e85e1bd863bc70b3809bd231a7c4d898e7fb5b715c3c8c53915f3"
     }
   ],
   "references": [
@@ -27,7 +27,7 @@
       "kind": "design-spec",
       "scope": "project",
       "path": "design_spec.md",
-      "sha256": "61e577890da944aba4b0df33bb637d69a31930d57433a46184d79ba16f54a037",
+      "sha256": "def322480a6e85e1bd863bc70b3809bd231a7c4d898e7fb5b715c3c8c53915f3",
       "load_policy": "once-per-execution-context",
       "same_context_edit_policy": "targeted-readback-and-rebind"
     }
@@ -37,9 +37,9 @@
       "kind": "page-context",
       "scope": "page",
       "path": "stdout:page-context",
-      "sha256": "9dcb0391f8954fd75dca143c896115c2c68ec9f82cea011f89448241b64904dc",
-      "utf8_bytes": 4121,
-      "characters": 3890,
+      "sha256": "7ec8f7ef8a5200abea54eaa7a4fe8f321bd69acebc763789cca877a0dfc5b64c",
+      "utf8_bytes": 3584,
+      "characters": 3429,
       "tokens": null
     },
     {
@@ -53,9 +53,9 @@
     }
   ],
   "controlled_output": {
-    "sha256": "9dcb0391f8954fd75dca143c896115c2c68ec9f82cea011f89448241b64904dc",
-    "utf8_bytes": 4121,
-    "characters": 3890,
+    "sha256": "7ec8f7ef8a5200abea54eaa7a4fe8f321bd69acebc763789cca877a0dfc5b64c",
+    "utf8_bytes": 3584,
+    "characters": 3429,
     "tokens": null
   },
   "totals": {

@@ -13,13 +13,13 @@
       "scope": "project",
       "path": "spec_lock.md",
       "exists": true,
-      "sha256": "3c903e170fc90f2e960439549634797d4c51668e88ebdf0c24618360b43f97b1"
+      "sha256": "182df2295d134a985d6a70d8c32f7eddb52b132504ca74a3627b9f105b8e478a"
     },
     {
       "scope": "project",
       "path": "design_spec.md",
       "exists": true,
-      "sha256": "61e577890da944aba4b0df33bb637d69a31930d57433a46184d79ba16f54a037"
+      "sha256": "def322480a6e85e1bd863bc70b3809bd231a7c4d898e7fb5b715c3c8c53915f3"
     }
   ],
   "references": [
@@ -27,7 +27,7 @@
       "kind": "design-spec",
       "scope": "project",
       "path": "design_spec.md",
-      "sha256": "61e577890da944aba4b0df33bb637d69a31930d57433a46184d79ba16f54a037",
+      "sha256": "def322480a6e85e1bd863bc70b3809bd231a7c4d898e7fb5b715c3c8c53915f3",
       "load_policy": "once-per-execution-context",
       "same_context_edit_policy": "targeted-readback-and-rebind"
     }
@@ -37,9 +37,9 @@
       "kind": "page-context",
       "scope": "page",
       "path": "stdout:page-context",
-      "sha256": "40f626130de3b552a841ded4e191e6425fe1924cf7b75b2219fc448a3034091b",
-      "utf8_bytes": 4301,
-      "characters": 4058,
+      "sha256": "08807a7ff2283265a97c0ae6fa8cf6347704e77f48ac11a8232ade546df07d4a",
+      "utf8_bytes": 3639,
+      "characters": 3478,
       "tokens": null
     },
     {
@@ -53,9 +53,9 @@
     }
   ],
   "controlled_output": {
-    "sha256": "40f626130de3b552a841ded4e191e6425fe1924cf7b75b2219fc448a3034091b",
-    "utf8_bytes": 4301,
-    "characters": 4058,
+    "sha256": "08807a7ff2283265a97c0ae6fa8cf6347704e77f48ac11a8232ade546df07d4a",
+    "utf8_bytes": 3639,
+    "characters": 3478,
     "tokens": null
   },
   "totals": {
