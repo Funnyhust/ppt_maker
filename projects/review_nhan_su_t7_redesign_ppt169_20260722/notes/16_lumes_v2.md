@@ -1,0 +1,1 @@
+LumesV2 đã có tool test nguồn và tool nạp code cho mạch main V2.

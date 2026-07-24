@@ -38,50 +38,54 @@ Báo cáo tổng hợp kết quả pass/fail và bằng chứng test, giúp truy
 
 Tool nạp code gom cấu hình, điều khiển nhiều máy và log vận hành vào một giao diện thống nhất.
 
-# 11_auto_test
+# 11_knx_partner_certificate
+
+Đã hoàn thành KNX Basic Course, đạt 88,5% lý thuyết và 96% thực hành; được KNX Association công nhận KNX Partner số 147063 ngày 31/05/2026.
+
+# 12_auto_test
 
 Auto Test đang ở giai đoạn xây nền, đã hoàn thành 4 trên 5 task trong phạm vi review.
 
-# 12_tool_design
+# 13_tool_design
 
 Tool Design tập trung chỉnh sửa tool nguồn DC cho flow vận hành thực tế tại nhà máy.
 
-# 13_tool_design_bang_chung
+# 14_tool_design_bang_chung
 
 Ảnh giao diện phóng lớn minh họa hai vòng chỉnh sửa, ưu tiên độ ổn định, dễ dùng và dễ bảo trì.
 
-# 14_iot_team
+# 15_iot_team
 
 Đóng góp cho IoT gồm loader Luto và phối hợp định hướng Auto Test; cả hai task đã hoàn thành.
 
-# 15_lumes_v2
+# 16_lumes_v2
 
 LumesV2 đã có tool test nguồn và tool nạp code cho mạch main V2.
 
-# 16_msb_office
+# 17_msb_office
 
 MSB tập trung xử lý lỗi đo sai năng lượng và kiểm tra Jig tại nhà máy.
 
-# 17_smart_lighting
+# 18_smart_lighting
 
 Smart Lighting mới khởi động từ 20/07, đang dựng nền tool test cho Deep Dimming và CCT Tunable.
 
-# 18_ai_trong_cong_viec
+# 19_ai_trong_cong_viec
 
 AI hỗ trợ code, tài liệu và học nhanh; mọi kết luận kỹ thuật vẫn phải được kiểm chứng thực tế.
 
-# 19_tu_danh_gia
+# 20_tu_danh_gia
 
 Điểm mạnh là năng lực end-to-end và chủ động; điểm cần cải thiện là ưu tiên và đóng vòng công việc.
 
-# 20_bai_hoc_kho_khan
+# 21_bai_hoc_kho_khan
 
 Bài học chung là chuẩn hóa interface, logging, acceptance và handoff càng sớm càng tốt.
 
-# 21_muc_tieu_sap_toi
+# 22_muc_tieu_sap_toi
 
 Mục tiêu tiếp theo là hoàn tất dự án đang chạy, đóng task còn mở và chuẩn hóa tài sản dùng lại.
 
-# 22_cam_on
+# 23_cam_on
 
 Cảm ơn và sẵn sàng trao đổi thêm.

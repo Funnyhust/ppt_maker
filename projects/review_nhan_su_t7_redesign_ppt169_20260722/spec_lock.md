@@ -65,6 +65,7 @@
 - knx_benchmark_report: images/du_an_knx/tool_becnh_mark/bao_cao.png | source=user | pattern=evidence-filmstrip | crop=no-crop
 - knx_code_loader: images/du_an_knx/tool_nap_code_knx/image.png | source=user | pattern=evidence-column | crop=no-crop
 - knx_course_result: images/knx_certificate/course_result.png | source=user | pattern=evidence-inset | crop=no-crop
+- knx_partner_certificate: images/knx_certificate/knx_partner_certificate.png | source=user | pattern=certificate-hero | crop=no-crop
 - tool_design_code_loader: images/du_an_tool_design/tool_nap_code/image.png | source=user | pattern=side-evidence | crop=no-crop
 
 ## page_rhythm
@@ -78,18 +79,19 @@
 - P08: breathing
 - P09: dense
 - P10: breathing
-- P11: dense
+- P11: anchor
 - P12: dense
-- P13: breathing
-- P14: dense
+- P13: dense
+- P14: breathing
 - P15: dense
 - P16: dense
 - P17: dense
-- P18: breathing
-- P19: dense
+- P18: dense
+- P19: breathing
 - P20: dense
-- P21: anchor
-- P22: breathing
+- P21: dense
+- P22: anchor
+- P23: breathing
 
 ## pptx_structure
 - mode: flat

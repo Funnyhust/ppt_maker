@@ -1,0 +1,1 @@
+Đã hoàn thành KNX Basic Course, đạt 88,5% lý thuyết và 96% thực hành; được KNX Association công nhận KNX Partner số 147063 ngày 31/05/2026.

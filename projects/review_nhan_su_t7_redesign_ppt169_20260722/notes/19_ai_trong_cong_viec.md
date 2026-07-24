@@ -1,0 +1,1 @@
+AI hỗ trợ code, tài liệu và học nhanh; mọi kết luận kỹ thuật vẫn phải được kiểm chứng thực tế.

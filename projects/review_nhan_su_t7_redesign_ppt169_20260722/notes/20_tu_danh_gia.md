@@ -1,0 +1,1 @@
+Điểm mạnh là năng lực end-to-end và chủ động; điểm cần cải thiện là ưu tiên và đóng vòng công việc.

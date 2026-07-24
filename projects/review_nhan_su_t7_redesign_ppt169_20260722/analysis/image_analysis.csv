@@ -19,3 +19,4 @@ No,Filename,Width,Height,AspectRatio,PixelAspectRatio,RatioSource,UsageCount,Dis
 18,image_cd22578ee1f97165.png,359,687,0.52,0.52,manifest,1,0.52,bitmap,True,True,208.5,Portrait,314x600,826x600
 19,image_deea19358d7d9df9.jpg,1024,906,1.13,1.13,manifest,1,1.13,bitmap,True,True,37.8,Near square,678x600,462x600
 20,knx_certificate/course_result.png,476,305,1.56,1.56,pixel,1,,bitmap,True,True,15.0,Wide landscape,812x520,328x600
+21,knx_certificate/knx_partner_certificate.png,1489,2105,0.71,0.71,pixel,1,,bitmap,True,True,499.8,Portrait,424x600,716x600

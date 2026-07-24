@@ -1,0 +1,1 @@
+Tool Design tập trung chỉnh sửa tool nguồn DC cho flow vận hành thực tế tại nhà máy.
