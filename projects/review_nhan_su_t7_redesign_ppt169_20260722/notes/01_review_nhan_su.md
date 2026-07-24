@@ -1,1 +1,1 @@
-Xin chào anh chị. Đây là phần review nhân sự tháng 7 của Nguyễn Văn Dương, tổng hợp các công việc từ ngày 20 tháng 3 đến ngày 22 tháng 7 năm 2026. Nội dung tập trung vào kết quả thực tế, các năng lực đã được củng cố và trọng tâm triển khai tiếp theo.
+Mở đầu kỳ review ngày 23/07/2026, phạm vi đánh giá từ 20/03 đến 22/07/2026.

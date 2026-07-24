@@ -3,7 +3,7 @@
 Image Size Analysis Tool
 ========================
 Reports objective parameters (width, height, aspect ratio, category) for all
-images in a folder. Intentionally does NOT prescribe a layout — the Strategist
+images in a folder tree. Intentionally does NOT prescribe a layout — the Strategist
 decides narrative intent (hero / atmosphere / side-by-side / accent) per
 references/strategist-image.md; this tool only supplies the numbers.
 
@@ -99,7 +99,7 @@ def _warn_office_vectors_without_manifest(images_dir: str, manifest: dict[str, d
         return
 
     vector_files = [
-        path for path in Path(images_dir).iterdir()
+        path for path in Path(images_dir).rglob("*")
         if path.is_file() and path.suffix.lower() in OFFICE_VECTOR_EXTENSIONS
     ]
     if not vector_files:
@@ -312,26 +312,34 @@ def compute_layout_dimensions(
 
 
 def analyze_images(images_dir: str) -> list[ImageAnalysis]:
-    """Analyze all image files in a directory.
+    """Analyze all image files in a directory tree.
 
     Args:
-        images_dir: Directory that contains image files.
+        images_dir: Root directory that contains image files.
 
     Returns:
-        A list of image analysis records sorted by filename.
+        A list of image analysis records sorted by relative path.
     """
 
     results: list[ImageAnalysis] = []
     manifest = _load_image_manifest(images_dir)
     seen_filenames: set[str] = set()
+    root = Path(images_dir)
 
-    # Iterate through all files in the directory
-    for filename in sorted(os.listdir(images_dir)):
-        filepath = os.path.join(images_dir, filename)
+    # Keep relative paths so duplicate basenames in project subfolders remain distinct.
+    image_paths = sorted(
+        path for path in root.rglob("*")
+        if path.is_file() and path.suffix.lower() in IMAGE_EXTENSIONS | OFFICE_VECTOR_EXTENSIONS
+    )
+    for path in image_paths:
+        filename = path.relative_to(root).as_posix()
+        filepath = str(path)
         meta = manifest.get(filename)
+        if path.parent == root:
+            meta = meta or manifest.get(path.name)
 
         # Check if it is an image file
-        if os.path.isfile(filepath) and Path(filename).suffix.lower() in IMAGE_EXTENSIONS:
+        if path.suffix.lower() in IMAGE_EXTENSIONS:
             try:
                 with Image.open(filepath) as img:
                     width, height = img.size
@@ -354,7 +362,7 @@ def analyze_images(images_dir: str) -> list[ImageAnalysis]:
                     seen_filenames.add(filename)
             except Exception as e:
                 print(f"[WARN] Cannot read {filename}: {e}")
-        elif os.path.isfile(filepath) and meta:
+        elif meta:
             result = _result_from_manifest(filename, filepath, meta)
             if result:
                 results.append(result)

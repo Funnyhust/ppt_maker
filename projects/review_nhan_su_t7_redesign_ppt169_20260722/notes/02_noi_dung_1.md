@@ -1,1 +1,0 @@
-Phần đầu đi từ tổng quan kết quả đến ba lớp đóng góp chính trong KNX: thiết bị và firmware, tool/Jig, rồi kiểm thử hệ thống. Mục lục được tách thành hai trang để mỗi ý có khoảng thở và giữ đúng phong cách điện thoại, nhãn số của mẫu LUMI.

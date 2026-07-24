@@ -7,6 +7,8 @@ backup/
 
 # Local browser runtime state and logs.
 live_preview/
+validation/pptx_render_*/
+validation/final_preview_project/
 .confirm_ui.lock
 confirm_ui/server.log
 confirm_ui/session.json

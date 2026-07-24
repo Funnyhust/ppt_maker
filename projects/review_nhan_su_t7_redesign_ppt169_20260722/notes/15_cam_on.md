@@ -1,1 +1,0 @@
-Tóm lại, giai đoạn này có 102 task Done trên bảy nhóm dự án, với trọng tâm rõ ràng ở KNX và bước mở rộng sang automation, tool. Giai đoạn tiếp theo sẽ ưu tiên hoàn thiện Auto Test và chuẩn hóa các tài sản dùng lại. Cảm ơn anh chị và mình sẵn sàng trao đổi thêm.

@@ -1,0 +1,1 @@
+Cảm ơn và sẵn sàng trao đổi thêm.

@@ -1,1 +1,0 @@
-Nhìn theo thời gian, công việc phát triển theo bốn chặng. Tháng 3 và 4 tập trung firmware và thiết bị. Tháng 5 mở rộng sang Jig, loader và test hệ thống. Tháng 6 bổ sung benchmark và đào tạo. Tháng 7 tiếp tục với LUKA, Topology và Auto Test.

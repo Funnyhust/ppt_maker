@@ -1,27 +1,27 @@
 <!-- ppt-master-schema: design-spec/v1 -->
-# Review nhân sự T7 - Design Spec
+# Review nhân sự T7 V2 - Design Spec
 
 ## I. Project Information
 
 | Item | Value |
 | --- | --- |
-| Project Name | Review nhân sự T7 — Nguyễn Văn Dương |
+| Project Name | Review nhân sự T7 — Nguyễn Văn Dương — V2 |
 | Canvas Format | PPT 16:9, 1280 × 720 px |
-| Page Count | 15 |
+| Page Count | 17 |
 | Target Audience | Quản lý trực tiếp, quản lý kỹ thuật và HR tham gia kỳ review nhân sự tháng 7. |
-| Communication Intent | Báo cáo kết quả từ 20/03 đến 22/07, làm rõ phạm vi đóng góp và năng lực đã phát triển, sau đó thống nhất trọng tâm giai đoạn tiếp theo. |
-| Desired Audience Outcome | Người xem nhanh chóng nắm được quy mô công việc, kết quả theo từng nhóm dự án, giá trị đóng góp và các ưu tiên tiếp theo. |
-| Core Message / Ask / Action | Khối lượng công việc lớn đã được hoàn thành với trọng tâm KNX, đồng thời mở rộng sang Auto Test, Tool Design, IoT, MSB và Smart Lighting. |
-| Delivery Context | Trình bày trực tiếp trong buổi review khoảng 15–20 phút; deck cũng cần tự đọc được khi gửi lại sau cuộc họp. |
-| Artifact Afterlife | Tài liệu lưu hồ sơ review nhân sự và làm mốc đối chiếu cho kỳ review tiếp theo. |
+| Communication Intent | Báo cáo theo từng dự án: thời gian, công việc, kết quả, kỹ năng, tư duy, bài học, khó khăn và thành tích; sau đó tự đánh giá và thống nhất mục tiêu tiếp theo. |
+| Desired Audience Outcome | Người xem hiểu rõ đóng góp của từng dự án và có đủ bằng chứng để đánh giá năng lực, tiến bộ và định hướng phát triển. |
+| Core Message / Ask / Action | Giai đoạn 20/03–22/07 tạo ra kết quả rõ ràng ở KNX và mở rộng sang Auto Test, Tool Design, IoT, LumesV2, MSB và Smart Lighting. |
+| Delivery Context | Review trực tiếp ngày 23/07/2026, thời lượng 15–20 phút; file dùng lại sau buổi họp. |
+| Artifact Afterlife | Hồ sơ review nhân sự và mốc đối chiếu cho kỳ review tiếp theo. |
 | Reading Mode | balanced |
-| Content Strategy | Được phép tái cấu trúc và mở rộng số trang, nhưng phải giữ đúng dữ liệu nguồn, nhận diện LUMI và tinh thần của trang mục lục mẫu. |
-| Design Style | LUMI refined: swiss-minimal, nhiều khoảng trắng, phân cấp mạnh, số liệu và ảnh bằng chứng nổi bật. |
+| Content Strategy | Giữ cấu trúc, bìa, trang nội dung và kết của template gốc; làm đẹp phần thân nhưng không thay đổi tinh thần LUMI. |
+| Design Style | Original LUMI refined — giữ template gốc, tăng phân cấp và khoảng thở trong các trang dự án. |
 | Formula Policy | text-only |
 | AI Image Acquisition Path | not applicable |
 | Generation Mode | continuous |
 | Spec Refinement | disabled |
-| Created Date | 2026-07-22 |
+| Created Date | 2026-07-23 |
 
 ## II. Canvas Specification
 
@@ -30,8 +30,8 @@
 | Format | PPT 16:9 |
 | Dimensions | 1280 × 720 |
 | viewBox | `0 0 1280 720` |
-| Margins | 56 px trái/phải; 46 px trên; 34 px dưới |
-| Content Area | x=56–1224, y=46–676 |
+| Margins | 42 px bìa/kết; 56 px trang nội dung |
+| Content Area | x=56–1224, y=42–666 |
 
 ## III. Visual Theme
 
@@ -39,19 +39,21 @@
 
 - **Mode**: briefing
 - **Visual style**: swiss-minimal
-- **Theme**: LUMI refined — giữ logo, màu xanh LUMI và ngôn ngữ điện thoại/nhãn số của mẫu; tái cấu trúc thành hệ thống module gọn.
-- **Tone**: Tin cậy, kỹ thuật, sáng sủa, có bằng chứng nhưng không nặng báo cáo bảng biểu.
+- **Theme**: LUMI original — bìa/kết xanh, thân trắng, logo góc trái, tiêu đề xanh và motif điện thoại/đường bao số.
+- **Tone**: Kỹ thuật, rõ ràng, có bằng chứng, gần template review cũ.
 
 ### Color Scheme
 
 | Role | HEX | Purpose |
 | --- | --- | --- |
-| Background | #FFFFFF | Nền chính |
-| Secondary background | #F4F7F5 | Card, vùng phân nhóm |
-| Primary | #008C4F | Tiêu đề, số mục, điểm nhấn LUMI |
-| Accent | #1456F0 | Trạng thái, mốc dữ liệu phụ |
-| Secondary accent | #79C6A3 | Đường nối, nhãn nhẹ, vùng phụ |
+| Background | #FFFFFF | Nền trang nội dung |
+| Secondary background | #F4F7F5 | Card và vùng phân nhóm |
+| Primary | #008C4F | Xanh LUMI, tiêu đề và nhấn chính |
+| Accent | #1456F0 | Trạng thái, kết quả phụ |
+| Secondary accent | #79C6A3 | Viền số, connector, nhấn nhẹ |
 | Body text | #1F2329 | Nội dung chính |
+| Cover background | #008C4F | Bìa và trang kết |
+| White text | #FFFFFF | Chữ trên nền xanh |
 
 ## IV. Typography System
 
@@ -64,38 +66,37 @@
 
 - **Title stack**: Arial, sans-serif
 - **Body stack**: Arial, sans-serif
-- **Role rationale**: Arial giữ đúng template LUMI, hỗ trợ tiếng Việt ổn định và giảm sai lệch khi mở trên Windows/PowerPoint.
+- **Role rationale**: Arial giữ đúng template gốc và ổn định tiếng Việt khi mở trên PowerPoint Windows.
 
 ### Font Size Hierarchy
 
 | Purpose | Anchor Size (px) |
 | --- | ---: |
-| Body | 24 |
-| Title | 42 |
-| Subtitle | 32 |
-| Annotation | 18 |
-| Compact body | 21 |
+| Body | 22 |
+| Title | 36 |
+| Subtitle | 28 |
+| Annotation | 17 |
+| Compact body | 19 |
 | Eyebrow | 15 |
 | Footer | 14 |
-| TOC item | 29 |
-| TOC item compact | 27 |
-| KPI number | 54 |
+| TOC item | 28 |
+| KPI number | 48 |
 
 ## V. Layout Principles
 
 ### Page Structure
 
-- **Header area**: Logo LUMI ở góc trái, tiêu đề một dòng bắt đầu quanh x=360 hoặc x=430; không cho tự xuống dòng.
-- **Content area**: Lưới 12 cột; tối đa 3 khối thông tin chính/trang; nội dung dài tách trang thay vì thu chữ.
-- **Footer area**: Chỉ dùng số trang và đường mảnh xám; không đặt nội dung quan trọng dưới y=665.
+- **Header area**: Logo trái, tiêu đề xanh nằm một dòng, nhãn dự án/phần ở mép phải.
+- **Content area**: Trang dự án dùng dải thời gian và lưới review 2×3; KNX được tách ba trang để tránh nhồi chữ.
+- **Footer area**: Đường mảnh xám và số trang; bìa/kết dùng www.lumi.vn giống mẫu.
 
 ### Spacing Specification
 
 | Element | Current Project |
 | --- | --- |
 | Safe margin | 56 px |
-| Content block gap | 24–32 px |
-| Icon-text gap | 12–16 px |
+| Content block gap | 18–28 px |
+| Icon-text gap | 10–14 px |
 
 ## VI. Icon Usage Specification
 
@@ -103,186 +104,187 @@
 
 | Purpose | Icon Path | Page |
 | --- | --- | --- |
-| Trạng thái hoàn thành | tabler-outline/circle-check | P04, P14 |
-| Firmware và mã nguồn | tabler-outline/code | P06 |
-| Tool và Jig | tabler-outline/tool | P07, P11 |
-| Kiểm thử | tabler-outline/test-pipe | P08 |
-| Đào tạo | tabler-outline/school | P09, P10 |
+| Công việc | tabler-outline/tool | P04–P12 |
+| Kết quả | tabler-outline/circle-check | P04–P12 |
+| Kỹ năng | tabler-outline/brain | P04–P15 |
+| Khó khăn | tabler-outline/alert-triangle | P06–P15 |
 
 ## VIII. Image Resource List
 
 | Filename | Dimensions | Ratio | Purpose | Type | Layout pattern | Crop Policy | Acquire Via | Status | Reference | text_policy | page_role |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| image_8fa7a601c29ca778.png | 262×76 | 3.45 | Logo LUMI lặp lại | PNG | brand-header | no-crop | user | Sourced | Deck nguồn | no embedded text | brand |
-| image_b3ef018bf0b10f2b.png | 1143×1143 | 1.00 | Họa tiết vòng tròn trang bìa/kết | PNG | hero-accent | no-crop | user | Sourced | Deck nguồn | no embedded text | atmosphere |
-| image_010fcf8f9f909b91.png | 465×926 | 0.50 | Khung điện thoại trang mục lục | PNG | portrait-left | no-crop | user | Sourced | Deck nguồn | no embedded text | hero |
-| image_3db7369d2c1e7d49.jpg | 1372×784 | 1.75 | Thiết bị KNX | JPG | right-evidence | no-crop | user | Sourced | Deck nguồn | no embedded text | evidence |
-| image_6519313ef59a5f53.png | 1111×619 | 1.79 | Sơ đồ hệ thống KNX | PNG | wide-diagram | no-crop | user | Sourced | Deck nguồn | preserve legibility | evidence |
-| image_bc82a45d35f49412.jpg | 960×540 | 1.78 | Jig/tool kiểm thử | JPG | right-evidence | adaptive | user | Sourced | Deck nguồn | no embedded text | evidence |
-| image_9f31c49d5ae33b66.jpg | 422×714 | 0.59 | Jig Auto Test | JPG | portrait-right | adaptive | user | Sourced | Deck nguồn | no embedded text | evidence |
-| image_5a1205fbd766d78e.png | 291×625 | 0.47 | UI ứng dụng LUMI | PNG | portrait-right | no-crop | user | Sourced | Deck nguồn | preserve UI text | evidence |
-| image_deea19358d7d9df9.jpg | 1024×906 | 1.13 | Công tắc cơ LUMI | JPG | right-evidence | adaptive | user | Sourced | Deck nguồn | no embedded text | evidence |
+| image_bb7dad2eee78ee9d.png | 262×76 | 3.42 | Logo LUMI trắng | PNG | cover-brand | no-crop | user | Sourced | Template gốc | no embedded text | brand |
+| image_8fa7a601c29ca778.png | 262×76 | 3.45 | Logo LUMI xanh | PNG | content-brand | no-crop | user | Sourced | Template gốc | no embedded text | brand |
+| image_b3ef018bf0b10f2b.png | 1143×1143 | 1.00 | Motif vòng tròn bìa/kết | PNG | hero-accent | no-crop | user | Sourced | Template gốc | no embedded text | atmosphere |
+| image_010fcf8f9f909b91.png | 465×926 | 0.50 | Điện thoại mục lục | PNG | portrait-left | no-crop | user | Sourced | Template gốc | no embedded text | hero |
+| image_3db7369d2c1e7d49.jpg | 1372×784 | 1.75 | Thiết bị KNX | JPG | right-evidence | no-crop | user | Sourced | Template gốc | no embedded text | evidence |
+| image_6519313ef59a5f53.png | 1111×619 | 1.79 | Sơ đồ hệ thống KNX | PNG | wide-diagram | no-crop | user | Sourced | Template gốc | preserve text | evidence |
+| image_bc82a45d35f49412.jpg | 960×540 | 1.78 | Jig/tool | JPG | right-evidence | adaptive | user | Sourced | Template gốc | no embedded text | evidence |
+| image_9f31c49d5ae33b66.jpg | 422×714 | 0.59 | Jig Auto Test | JPG | portrait-right | adaptive | user | Sourced | Template gốc | no embedded text | evidence |
+| image_deea19358d7d9df9.jpg | 1024×906 | 1.13 | Công tắc Lumes/MSB | JPG | right-evidence | adaptive | user | Sourced | Template gốc | no embedded text | evidence |
+| image_cd22578ee1f97165.png | 359×687 | 0.52 | Màn hình music trên điện thoại | PNG | closing-collage | no-crop | user | Sourced | Template gốc | preserve UI | evidence |
+| image_5a1205fbd766d78e.png | 291×625 | 0.47 | Màn hình app Lumi | PNG | closing-collage | no-crop | user | Sourced | Template gốc | preserve UI | evidence |
+| image_3f64fe1646839cff.png | 330×656 | 0.50 | Khung điện thoại | PNG | closing-collage | no-crop | user | Sourced | Template gốc | no embedded text | evidence |
+| du_an_knx/tool_becnh_mark/bang_dieu_khien.png | 1871×899 | 2.08 | Giao diện điều khiển benchmark KNX | PNG | evidence-filmstrip | no-crop | user | Sourced | Ảnh công việc thực tế | preserve UI | evidence |
+| du_an_knx/tool_becnh_mark/tao_test_case.png | 1857×881 | 2.11 | Giao diện tạo test case benchmark KNX | PNG | evidence-filmstrip | no-crop | user | Sourced | Ảnh công việc thực tế | preserve UI | evidence |
+| du_an_knx/tool_becnh_mark/bao_cao.png | 1899×891 | 2.13 | Báo cáo benchmark KNX | PNG | evidence-filmstrip | no-crop | user | Sourced | Ảnh công việc thực tế | preserve UI | evidence |
+| du_an_knx/tool_nap_code_knx/image.png | 1893×997 | 1.90 | Tool nạp code KNX | PNG | evidence-column | no-crop | user | Sourced | Ảnh công việc thực tế | preserve UI | evidence |
+| knx_certificate/course_result.png | 476×305 | 1.56 | Kết quả khóa học KNX Basic | PNG | evidence-inset | no-crop | user | Sourced | Chứng nhận/kết quả đào tạo | preserve text | evidence |
+| du_an_tool_design/tool_nap_code/image.png | 1898×982 | 1.93 | Giao diện tool nạp code | PNG | side-evidence | no-crop | user | Sourced | Ảnh công việc thực tế | preserve UI | evidence |
+
+### Image presentation rule
+
+- Ảnh giao diện và chứng nhận là bằng chứng công việc, không dùng như ảnh trang trí.
+- Luôn giữ đủ khung hình bằng `meet`/`no-crop`; đặt trên nền trung tính, viền xanh mảnh và chú thích ngắn.
+- Khi có nhiều ảnh cùng một luồng, dùng dải bằng chứng đánh số; khi có một đến hai ảnh, dùng cột hoặc panel bằng chứng riêng.
+- Các phiên bản sau tiếp tục ngôn ngữ này để có thể bổ sung ảnh theo từng dự án mà không phá bố cục.
 
 ## IX. Content Outline
 
-### Part 1: Mở đầu và định hướng
+### Part 1: Mở đầu
 
-#### Slide 01 - Review nhân sự tháng 7
-
-- **Audience move**: Chưa có bối cảnh → biết rõ kỳ đánh giá, người trình bày và khoảng thời gian.
-- **Layout**: Bìa trắng, logo trái trên, tiêu đề lớn bên trái và vòng tròn LUMI lớn lệch phải.
+#### Slide 01 - Review nhân sự
+- **Audience move**: Chưa có bối cảnh → biết người review, ngày review và giai đoạn đánh giá.
+- **Layout**: Giữ nguyên bìa xanh gốc; chỉ thêm hai dòng thời gian nhỏ dưới tên.
 - **Title**: REVIEW NHÂN SỰ
-- **Core message**: Tổng kết công việc giai đoạn 20/03–22/07/2026.
-- **Content**: Họ và tên: Nguyễn Văn Dương; Review tháng 7/2026; giai đoạn dữ liệu 20/03–22/07.
-- **Images**: image_8fa7a601c29ca778.png; image_b3ef018bf0b10f2b.png.
-- **Cover impact**: Nhận diện LUMI rõ, tối giản và tự tin.
+- **Core message**: Review Nguyễn Văn Dương cho giai đoạn 20/03–22/07/2026.
+- **Content**: Họ và tên; Ngày review 23/07/2026; Giai đoạn review 20/03–22/07/2026; www.lumi.vn.
+- **Images**: white logo và vòng tròn template.
+- **Cover impact**: Giống bìa gốc, chỉ bổ sung thông tin cần thiết.
 
-#### Slide 02 - Nội dung 1/2
-
-- **Audience move**: Chưa biết cấu trúc → hiểu bốn phần đầu của câu chuyện.
-- **Layout**: Khung điện thoại cao bên trái có chữ “NỘI DUNG”; bên phải là 4 nhãn số vector theo mẫu gốc, khoảng cách đều.
+#### Slide 02 - Nội dung
+- **Audience move**: Chưa biết cấu trúc → hiểu đúng bốn phần của template gốc.
+- **Layout**: Điện thoại trái; bốn ô số viền cắt góc có connector và hatch chéo giống mẫu; nội dung bên phải.
 - **Title**: NỘI DUNG
-- **Core message**: Bắt đầu từ kết quả tổng quan rồi đi sâu vào KNX.
-- **Content**: 01 Tổng quan kết quả; 02 Thiết bị & firmware KNX; 03 Tool/Jig & benchmark; 04 Kiểm thử hệ thống.
-- **Images**: image_8fa7a601c29ca778.png; image_010fcf8f9f909b91.png.
+- **Core message**: Giữ nguyên cấu trúc review quen thuộc.
+- **Content**: 01 Các dự án tham gia và kết quả; 02 Sử dụng AI trong công việc; 03 Tự đánh giá ưu, nhược điểm; 04 Mục tiêu sắp tới.
+- **Images**: green logo và điện thoại mục lục.
 
-#### Slide 03 - Nội dung 2/2
+### Part 2: Các dự án tham gia và kết quả
 
-- **Audience move**: Biết phần đầu → thấy đầy đủ bảy nhóm nội dung, không hiểu nhầm deck chỉ có bốn ý.
-- **Layout**: Giữ nguyên khung điện thoại và nhãn số; 3 mục lớn, thoáng hơn, thêm chỉ báo “2/2”.
-- **Title**: NỘI DUNG
-- **Core message**: Phần sau bao quát đào tạo, dự án khác và định hướng phát triển.
-- **Content**: 05 Đào tạo & tài liệu; 06 Dự án/tool khác; 07 Năng lực & bước tiếp theo.
-- **Images**: image_8fa7a601c29ca778.png; image_010fcf8f9f909b91.png.
+#### Slide 03 - Danh mục dự án
+- **Audience move**: Biết bốn phần → thấy toàn bộ 7 dự án và thời gian triển khai.
+- **Layout**: Timeline portfolio 20/03–22/07, mỗi dự án là một lane ngắn; KPI 114 task và 102 Done.
+- **Title**: Các dự án tham gia và kết quả
+- **Core message**: 7 nhóm dự án trải từ firmware, tool đến automation và kiểm thử.
+- **Content**: KNX; Auto Test; Tool Design; IoT; LumesV2; MSB; Smart Lighting; mốc bắt đầu/kết thúc tương ứng.
+- **Visualization**: Timeline data-driven từ CSV.
 
-### Part 2: Kết quả tổng quan
+#### Slide 04 - KNX: Tổng quan dự án
+- **Audience move**: Biết KNX là trọng tâm → hiểu thời gian, phạm vi và thành tích chính.
+- **Layout**: Dải thời gian 20/03–22/07; ảnh sản phẩm; KPI 98 task/91 Done; ba achievement cards.
+- **Title**: 1. Dự án KNX — Tổng quan
+- **Core message**: Đóng góp xuyên suốt sản phẩm, tool, hệ thống và đào tạo.
+- **Content**: Thời gian; phạm vi; kết quả nổi bật; thành tích: firmware nhiều thiết bị, tool/Jig và benchmark, giáo trình/đào tạo.
+- **Images**: thiết bị KNX.
 
-#### Slide 04 - Kết quả nổi bật
+#### Slide 05 - KNX: Công việc và kết quả
+- **Audience move**: Biết tổng quan → thấy các đầu việc và đầu ra cụ thể.
+- **Layout**: Ba thẻ tóm tắt Thiết bị / Tool & hệ thống / Tài liệu & đào tạo phía trên; dải ba ảnh bằng chứng benchmark phía dưới, đánh số và có chú thích.
+- **Title**: KNX — Công việc chính & kết quả
+- **Core message**: Đầu ra KNX bao phủ toàn chuỗi phát triển và vận hành.
+- **Content**: Firmware 2/4 nút, Rèm, Actuator, KNOB và .knxprod; Jig/loader/benchmark/GA/Coupler; giáo trình, ETS, Quiz, Q&A, Topology.
+- **Images**: bang_dieu_khien.png; tao_test_case.png; bao_cao.png; giữ nguyên toàn bộ UI, không crop.
 
-- **Audience move**: Biết cấu trúc → nắm quy mô và tỷ lệ hoàn thành trong vài giây.
-- **Layout**: Một câu kết luận lớn, bốn KPI card 2×2, dải nhóm dự án ở cuối.
-- **Title**: Kết quả nổi bật
-- **Core message**: 102/114 task đã Done, phần lớn tập trung vào KNX nhưng phạm vi đã mở rộng đáng kể.
-- **Content**: 114 task được ghi nhận; 102 Done = 89,5%; 98 task KNX; 7 nhóm dự án gồm KNX, Auto Test, Tool Design, IoT, LumesV2, MSB, Smart Lighting. Trạng thái còn lại: 5 Ongoing, 4 Not yet started, 2 Late, 1 Closed.
-- **Visualization**: KPI cards và thanh trạng thái tỷ lệ; data-driven từ CSV.
-- **Fact IDs**: CSV-COUNT-114, CSV-DONE-102, CSV-KNX-98, CSV-GROUPS-7.
+#### Slide 06 - KNX: Kỹ năng, tư duy và bài học
+- **Audience move**: Thấy đầu ra → hiểu năng lực, cách tư duy và khó khăn thực tế.
+- **Layout**: Bốn thẻ nội dung 2×2 ở trái; cột bằng chứng ở phải gồm tool nạp code KNX và kết quả khóa học; KPI thành tích tích hợp vào cột này.
+- **Title**: KNX — Năng lực & bài học
+- **Core message**: Học được cách nhìn hệ thống và biến vấn đề thành quy trình kiểm chứng.
+- **Content**: Firmware/ETS/debugging; tư duy end-to-end; bài học chuẩn hóa test; khó khăn GA delay/miss, secure, Coupler và lỗi download; xử lý bằng tái hiện–đo–đối chiếu–xác nhận; thành tích 91 task Done và hoàn thành KNX Basic.
+- **Images**: tool_nap_code_knx/image.png; knx_certificate/course_result.png; không crop.
 
-#### Slide 05 - Hành trình 20/03–22/07
+#### Slide 07 - Auto Test
+- **Audience move**: Hiểu KNX → thấy dự án automation mới và trạng thái hiện tại.
+- **Layout**: Dải thời gian 06/07–25/07 dự kiến; ảnh Jig; lưới 2×3 review dự án.
+- **Title**: 2. Dự án Auto Test
+- **Core message**: Xây nền Auto Test với cảm biến màu, servo và mạch điều khiển.
+- **Content**: Công việc; kết quả; kỹ năng; tư duy modular/API-first; bài học và khó khăn tích hợp phần cứng; thành tích 4/5 task Done trong phạm vi review.
+- **Images**: Jig Auto Test.
 
-- **Audience move**: Biết tổng số → hiểu nhịp phát triển theo thời gian và sự chuyển dịch phạm vi.
-- **Layout**: Timeline ngang 4 chặng với các thẻ bằng chứng ngắn; không dùng bảng.
-- **Title**: Hành trình 20/03–22/07
-- **Core message**: Công việc tiến từ firmware thiết bị sang tool/hệ thống, rồi đào tạo và mở rộng Auto Test.
-- **Content**: 20/03–30/04: firmware và thiết bị KNX; 05/2026: Jig, tool, code loader và test hệ thống; 06/2026: benchmark, giáo trình, ETS/Quiz; 07/2026: LUKA Q&A/Topology và Auto Test servo/cảm biến.
-- **Visualization**: Timeline data-driven theo ngày bắt đầu/kết thúc trong CSV.
+#### Slide 08 - Tool Design
+- **Audience move**: Biết Auto Test → hiểu đóng góp với tool nguồn nhà máy.
+- **Layout**: Dải thời gian 21/05–27/05; bốn thẻ review 2×2 ở trái; panel ảnh giao diện tool lớn ở phải cùng KPI thành tích.
+- **Title**: 3. Dự án Tool Design
+- **Core message**: Chỉnh sửa tool nguồn DC để phù hợp vận hành nhà máy.
+- **Content**: Hai task Done; hai task chưa khởi tạo trong dữ liệu; kỹ năng phần cứng/tool; tư duy ưu tiên khả năng bảo trì; bài học về yêu cầu nhà máy; khó khăn thiếu mô tả ở các task mở; thành tích hoàn tất hai vòng chỉnh sửa.
+- **Images**: du_an_tool_design/tool_nap_code/image.png; giữ nguyên UI và chú thích như bằng chứng công việc.
 
-### Part 3: Trọng tâm KNX
+#### Slide 09 - IoT Team
+- **Audience move**: Hiểu tool nhà máy → thấy khả năng hỗ trợ team khác.
+- **Layout**: Dải thời gian 26/05–15/06; lưới 2×3 review, nhấn 2/2 Done.
+- **Title**: 4. Dự án IoT
+- **Core message**: Hoàn thành tool nạp code Luto và phối hợp định hướng Auto Test.
+- **Content**: Công việc; kết quả 2/2 Done; kỹ năng loader và phối hợp; tư duy tái sử dụng; bài học làm rõ interface; khó khăn đồng bộ nhiều team; thành tích bàn giao tool.
 
-#### Slide 06 - Thiết bị & firmware KNX
+#### Slide 10 - LumesV2
+- **Audience move**: Biết IoT → thấy đầu ra tool cho công tắc cơ smart.
+- **Layout**: Dải thời gian 18/05–16/06; ảnh sản phẩm; lưới 2×3 review.
+- **Title**: 5. Dự án LumesV2
+- **Core message**: Hoàn thành tool test nguồn và tool nạp code cho mạch main V2.
+- **Content**: Hai đầu việc Done; kỹ năng test nguồn/nạp code; tư duy tách công đoạn; bài học về flow nhà máy; khó khăn tương thích mạch; thành tích 2/2 Done.
+- **Images**: ảnh công tắc Lumes.
 
-- **Audience move**: Biết KNX là trọng tâm → thấy rõ đầu ra kỹ thuật cụ thể.
-- **Layout**: Cột trái là 4 thẻ đầu ra; cột phải là ảnh sản phẩm KNX lớn; một dải “impact” ở cuối.
-- **Title**: Thiết bị & firmware KNX
-- **Core message**: Đã tham gia xuyên suốt từ firmware, thiết bị đến file sản phẩm để sẵn sàng kiểm thử và tích hợp.
-- **Content**: Firmware thiết bị 2/4 nút, Rèm và Actuator; phát triển KNOB; tạo/chỉnh sửa file .knxprod; xử lý lỗi và cập nhật hành vi thiết bị qua các vòng test.
-- **Images**: image_3db7369d2c1e7d49.jpg.
-- **Fact IDs**: CSV-KNX-DEVICE.
+#### Slide 11 - MSB Office
+- **Audience move**: Hiểu Lumes → thấy năng lực xử lý lỗi Jig tại nhà máy.
+- **Layout**: Dải thời gian 07/04–10/04; ảnh Jig; lưới 2×3 review.
+- **Title**: 6. Dự án MSB Office
+- **Core message**: Fix lỗi đo sai năng lượng và hỗ trợ kiểm tra Jig tại nhà máy.
+- **Content**: Công việc; kết quả; kỹ năng đo lường/debug Jig; tư duy dựa trên dữ liệu; bài học về hiệu chuẩn; khó khăn tái hiện lỗi thực địa; thành tích xử lý lỗi đo sai.
+- **Images**: ảnh Jig/tool.
 
-#### Slide 07 - Tool, Jig & code loader
+#### Slide 12 - Smart Lighting
+- **Audience move**: Biết MSB → thấy dự án mới đang triển khai.
+- **Layout**: Dải thời gian từ 20/07, trạng thái Ongoing; lưới 2×3 review với phần dự kiến rõ ràng.
+- **Title**: 7. Dự án Smart Lighting
+- **Core message**: Khởi động tool test cho Driver Deep Dimming/CCT Tunable.
+- **Content**: Công việc chính; kết quả hiện tại là xác định phạm vi; kỹ năng cần dùng; tư duy test theo dải; bài học ban đầu; khó khăn chưa đủ dữ liệu; thành tích là dựng nền tool test.
 
-- **Audience move**: Thấy đầu ra thiết bị → hiểu các công cụ giúp rút ngắn vòng lặp phát triển.
-- **Layout**: 3 module nối theo flow Build → Load → Verify, ảnh Jig bên phải; số thứ tự lớn.
-- **Title**: Tool, Jig & code loader
-- **Core message**: Tool hóa các bước nạp code và kiểm tra giúp tăng tốc lặp và giảm thao tác thủ công.
-- **Content**: Phát triển Jig KNX; tool/code loader; hỗ trợ nạp firmware; benchmark thao tác; hoàn thiện flow kiểm tra và tài liệu sử dụng.
-- **Images**: image_bc82a45d35f49412.jpg.
-- **Fact IDs**: CSV-KNX-TOOLS.
+### Part 3: AI và tự đánh giá
 
-#### Slide 08 - Benchmark & kiểm thử hệ thống
+#### Slide 13 - Sử dụng AI trong công việc
+- **Audience move**: Biết kết quả dự án → hiểu AI hỗ trợ nhưng không thay thế kiểm chứng kỹ thuật.
+- **Layout**: Ba use-case lớn: code/debug, tài liệu, học nhanh; một nguyên tắc kiểm chứng.
+- **Title**: Sử dụng AI trong công việc
+- **Core message**: AI rút ngắn thời gian tìm hiểu và soạn thảo; kết quả kỹ thuật vẫn được kiểm thử thực tế.
+- **Content**: Gợi ý code và test case; tóm tắt tài liệu/ETS; chuẩn hóa API/flow/Q&A; nguyên tắc không dùng AI thay cho đo và xác nhận.
 
-- **Audience move**: Biết tool hỗ trợ phát triển → thấy chiều sâu kiểm thử hệ thống và xử lý rủi ro.
-- **Layout**: Sơ đồ KNX rộng ở nửa phải; nửa trái là ba lớp kiểm thử và hộp “vấn đề đã xử lý”.
-- **Title**: Benchmark & kiểm thử hệ thống
-- **Core message**: Phạm vi kiểm thử đã mở rộng từ thiết bị đơn lẻ sang hành vi hệ thống và tương tác bus.
-- **Content**: Benchmark Jig/tool; test hệ thống; xử lý GA delay/miss; kiểm tra Coupler và GA secure; tái hiện lỗi, đối chiếu và xác nhận sau sửa.
-- **Images**: image_6519313ef59a5f53.png.
-- **Fact IDs**: CSV-KNX-SYSTEM-TEST.
+#### Slide 14 - Tự đánh giá: Kỹ năng & tư duy
+- **Audience move**: Biết cách dùng AI → thấy điểm mạnh và điểm cần cải thiện.
+- **Layout**: Hai cột Ưu điểm / Cần cải thiện; dải bằng chứng từ dự án.
+- **Title**: Tự đánh giá ưu, nhược điểm
+- **Core message**: Điểm mạnh là end-to-end và chủ động; cần cải thiện ưu tiên, ước lượng và đóng task đúng hạn.
+- **Content**: Ưu điểm: firmware–tool–test–tài liệu, học nhanh, phối hợp; hạn chế: phân tán nhiều luồng, một số task Late/Not started, cần chuẩn hóa kế hoạch.
 
-### Part 4: Chia sẻ tri thức và mở rộng phạm vi
+#### Slide 15 - Bài học & khó khăn xuyên dự án
+- **Audience move**: Biết điểm mạnh/yếu → hiểu các bài học hành động được.
+- **Layout**: Bốn cặp Khó khăn → Bài học, nối bằng mũi tên.
+- **Title**: Bài học & khó khăn
+- **Core message**: Chuẩn hóa interface, test và tài liệu sớm giúp giảm vòng lặp sửa lỗi.
+- **Content**: Hệ thống nhiều thiết bị; lỗi khó tái hiện; yêu cầu nhà máy thay đổi; phối hợp đa team; bài học tương ứng về logging, benchmark, checklist và handoff.
 
-#### Slide 09 - Đào tạo KNX
+### Part 4: Mục tiêu và kết
 
-- **Audience move**: Thấy năng lực triển khai → nhận ra đóng góp vào khả năng tự chủ của đội ngũ.
-- **Layout**: Một đường học tập 4 bước: nền tảng → ETS → topology → thực hành; thẻ số lượng đầu ra.
-- **Title**: Đào tạo KNX
-- **Core message**: Kiến thức KNX được hệ thống hóa thành hành trình học có thể dùng lại.
-- **Content**: Giáo trình/khóa đào tạo KNX; slide ETS; Quiz; Topology; LUKA Q&A; hỗ trợ Tester và App; chuẩn hóa nội dung cho người mới.
-- **Visualization**: Learning path khái niệm, không phải biểu đồ dữ liệu.
-- **Fact IDs**: CSV-KNX-TRAINING.
+#### Slide 16 - Mục tiêu sắp tới
+- **Audience move**: Hiểu bài học → có kế hoạch cụ thể cho kỳ tiếp theo.
+- **Layout**: Now / Next / Scale với chỉ số theo dõi.
+- **Title**: Mục tiêu sắp tới
+- **Core message**: Hoàn tất Auto Test và Smart Lighting, đóng task còn mở, chuẩn hóa tài sản dùng lại.
+- **Content**: Now: Auto Test/Smart Lighting; Next: xử lý Late/Not started; Scale: chuẩn hóa tool, test case, tài liệu và đào tạo; KPI theo dõi.
 
-#### Slide 10 - Tài liệu & khả năng bàn giao
-
-- **Audience move**: Biết có hoạt động đào tạo → thấy các tài sản cụ thể phục vụ bàn giao và tái sử dụng.
-- **Layout**: 4 “document cards” dạng trang giấy, mỗi card có loại tài liệu và người dùng chính; kết luận lớn bên phải.
-- **Title**: Tài liệu & khả năng bàn giao
-- **Core message**: Đầu ra không dừng ở code; tài liệu giúp chuyển giao, kiểm thử và vận hành nhất quán.
-- **Content**: Tài liệu API/flow; hướng dẫn tool/Jig; slide đào tạo và Quiz; Q&A/Topology; người dùng chính: Dev, Tester, App và nhân sự mới.
-- **Fact IDs**: CSV-DOCS.
-
-#### Slide 11 - Auto Test & Tool Design
-
-- **Audience move**: Hiểu trọng tâm KNX → thấy năng lực được chuyển sang tự động hóa kiểm thử.
-- **Layout**: Ảnh Jig dọc bên phải; cột trái có kiến trúc 3 lớp và 4 đầu việc.
-- **Title**: Auto Test & Tool Design
-- **Core message**: Đang xây nền cho hệ thống Auto Test với servo, cảm biến và mạch điều khiển.
-- **Content**: API servo/cảm biến; mô tả luồng hoạt động; module servo/cảm biến; chức năng trên mạch điều khiển; 5 task Ongoing tại thời điểm 22/07 tập trung vào giai đoạn tiếp theo.
-- **Images**: image_9f31c49d5ae33b66.jpg.
-- **Fact IDs**: CSV-AUTOTEST.
-
-#### Slide 12 - Các dự án & tool khác
-
-- **Audience move**: Biết Auto Test → thấy phạm vi đóng góp đa dự án nhưng vẫn có logic chung.
-- **Layout**: Bốn quadrant theo dự án, ảnh sản phẩm/app làm điểm neo; mỗi quadrant một đầu ra ngắn.
-- **Title**: Các dự án & tool khác
-- **Core message**: Kinh nghiệm firmware, tool và test được tái sử dụng trên nhiều nhóm sản phẩm.
-- **Content**: LumesV2 — test/source/programming; MSB — Jig kiểm tra lỗi năng lượng và factory checking; IoT — Luto loader và phối hợp Auto Test; Smart Lighting — tool test Deep Dimming/CCT Tunable.
-- **Images**: image_deea19358d7d9df9.jpg; image_5a1205fbd766d78e.png.
-- **Fact IDs**: CSV-OTHER-PROJECTS.
-
-### Part 5: Năng lực và bước tiếp theo
-
-#### Slide 13 - Năng lực được củng cố
-
-- **Audience move**: Biết danh sách việc → hiểu năng lực hình thành từ chuỗi đầu ra.
-- **Layout**: 5 năng lực xếp theo dạng “radar” không số, nối tới các bằng chứng task cụ thể.
-- **Title**: Năng lực được củng cố
-- **Core message**: Giá trị nổi bật là khả năng nối firmware, tool, test hệ thống và chia sẻ tri thức thành một chuỗi hoàn chỉnh.
-- **Content**: Firmware & thiết bị; Tool/Jig automation; System testing & debugging; Documentation & training; Phối hợp đa nhóm. Mỗi năng lực có 1–2 bằng chứng ngắn từ các slide trước.
-- **Visualization**: Capability map khái niệm, không dùng thang điểm tự đánh giá giả.
-
-#### Slide 14 - Trọng tâm tiếp theo
-
-- **Audience move**: Hiểu năng lực hiện tại → có kế hoạch hành động ngắn hạn rõ ràng.
-- **Layout**: Ba horizon Now / Next / Scale; bên trái có snapshot 5 Ongoing và phần việc còn lại.
-- **Title**: Trọng tâm tiếp theo
-- **Core message**: Ưu tiên hoàn tất Auto Test, đóng các task còn mở và chuẩn hóa tài sản dùng lại.
-- **Content**: Now: hoàn thành module servo/cảm biến và chức năng mạch điều khiển; Next: đóng Not yet started/Late và xác nhận chất lượng; Scale: chuẩn hóa tool, tài liệu, test case và chia sẻ nội bộ. Chỉ số theo dõi: task Done, thời gian vòng lặp test, số tài sản dùng lại.
-- **Visualization**: Roadmap 3 horizon; snapshot trạng thái data-driven từ CSV.
-
-#### Slide 15 - Kết luận
-
-- **Audience move**: Có kế hoạch → ghi nhớ một thông điệp tổng kết và sẵn sàng trao đổi.
-- **Layout**: Nền trắng, logo và vòng tròn LUMI, ba dòng kết luận ngắn, “Cảm ơn” lớn.
-- **Title**: CẢM ƠN
-- **Core message**: Đã tạo kết quả rõ ràng ở KNX, mở rộng năng lực sang automation/tool và có lộ trình tiếp theo cụ thể.
-- **Content**: 102 task Done; 7 nhóm dự án; trọng tâm tiếp theo: Auto Test và chuẩn hóa tài sản dùng lại; mời trao đổi.
-- **Images**: image_8fa7a601c29ca778.png; image_b3ef018bf0b10f2b.png.
-- **Closing impact**: Khép lại bằng kết quả, phạm vi và hành động tiếp theo.
+#### Slide 17 - Cảm ơn
+- **Audience move**: Có kế hoạch → kết thúc bằng nhận diện template gốc và sẵn sàng trao đổi.
+- **Layout**: Giữ nguyên trang kết xanh, motif vòng tròn và collage ba điện thoại.
+- **Title**: CẢM ƠN!
+- **Core message**: Kết thúc ngắn gọn, đúng template cũ.
+- **Content**: www.lumi.vn.
+- **Images**: white logo, vòng tròn và ba màn hình điện thoại.
+- **Closing impact**: Khớp trang kết gốc.
 
 ## X. Speaker Notes Requirements
 
 - **Filename**: match each SVG filename under `notes/`
-- **Content**: Mỗi trang 50–100 từ tiếng Việt; giải thích thêm chi tiết từ CSV nhưng không đọc lại toàn bộ chữ trên trang; nêu rõ số liệu theo nguồn task list.
+- **Content**: 60–100 từ/trang; giải thích bằng chứng từ CSV, phân biệt kết quả thực tế và mục tiêu/dự kiến.
 - **Total duration**: 15–20 phút
-- **Notes style**: conversational, concise, evidence-led
+- **Notes style**: conversational, evidence-led
 - **Presentation purpose**: report, explain, align

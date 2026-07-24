@@ -7,19 +7,19 @@
   },
   "encoding": "o200k_base",
   "token_status": "unavailable",
-  "image_selection": "explicit",
+  "image_selection": "explicit+unassigned",
   "inputs": [
     {
       "scope": "project",
       "path": "spec_lock.md",
       "exists": true,
-      "sha256": "539bc43c1bf482aa9c2582d7e9f8ef11814b16c5ec36b7524f40c1742bbc29be"
+      "sha256": "3c903e170fc90f2e960439549634797d4c51668e88ebdf0c24618360b43f97b1"
     },
     {
       "scope": "project",
       "path": "design_spec.md",
       "exists": true,
-      "sha256": "3d30084b38d870206834f312abe6a187f483440643de86c33ba2512902c18021"
+      "sha256": "61e577890da944aba4b0df33bb637d69a31930d57433a46184d79ba16f54a037"
     }
   ],
   "references": [
@@ -27,7 +27,7 @@
       "kind": "design-spec",
       "scope": "project",
       "path": "design_spec.md",
-      "sha256": "3d30084b38d870206834f312abe6a187f483440643de86c33ba2512902c18021",
+      "sha256": "61e577890da944aba4b0df33bb637d69a31930d57433a46184d79ba16f54a037",
       "load_policy": "once-per-execution-context",
       "same_context_edit_policy": "targeted-readback-and-rebind"
     }
@@ -37,25 +37,25 @@
       "kind": "page-context",
       "scope": "page",
       "path": "stdout:page-context",
-      "sha256": "3d93482f18f0528cd718e9ac2a7c247cb29e5d85753c570141087e46f28724d5",
-      "utf8_bytes": 2517,
-      "characters": 2301,
+      "sha256": "9dcb0391f8954fd75dca143c896115c2c68ec9f82cea011f89448241b64904dc",
+      "utf8_bytes": 4121,
+      "characters": 3890,
       "tokens": null
     },
     {
       "kind": "lock-projection",
       "scope": "component",
       "path": "stdout:global",
-      "sha256": "1dd07cca7ad60fb2baff2dce2f581e1149ef3b9dc1366c49991a5fedb53d1a04",
-      "utf8_bytes": 1042,
-      "characters": 971,
+      "sha256": "1c90f0c4022ed909bff622bdf59c4c7036694086bce86883878dc32c99cd9b1e",
+      "utf8_bytes": 1194,
+      "characters": 1105,
       "tokens": null
     }
   ],
   "controlled_output": {
-    "sha256": "3d93482f18f0528cd718e9ac2a7c247cb29e5d85753c570141087e46f28724d5",
-    "utf8_bytes": 2517,
-    "characters": 2301,
+    "sha256": "9dcb0391f8954fd75dca143c896115c2c68ec9f82cea011f89448241b64904dc",
+    "utf8_bytes": 4121,
+    "characters": 3890,
     "tokens": null
   },
   "totals": {

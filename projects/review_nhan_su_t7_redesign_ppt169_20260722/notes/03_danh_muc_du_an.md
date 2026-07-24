@@ -1,0 +1,1 @@
+Trong kỳ có 114 task thuộc 7 nhóm dự án; 102 task đã Done, tương đương 89,5%.

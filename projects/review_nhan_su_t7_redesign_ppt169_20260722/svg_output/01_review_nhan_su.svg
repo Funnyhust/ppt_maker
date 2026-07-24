@@ -1,25 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="cover">
-  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
-  <g id="cover-decoration" data-pptx-role="decoration" data-pptx-bounds="0 0 1280 720">
-    <rect x="0" y="0" width="18" height="720" fill="#008C4F"/>
-    <circle cx="1090" cy="122" r="310" fill="#F4F7F5"/>
-    <image id="ring-motif" href="../images/image_b3ef018bf0b10f2b.png" x="780" y="0" width="500" height="500" preserveAspectRatio="xMidYMid meet" opacity="0.94"/>
-    <circle cx="942" cy="454" r="146" fill="#008C4F"/>
-    <circle cx="942" cy="454" r="109" fill="#FFFFFF"/>
-    <circle cx="942" cy="454" r="15" fill="#1456F0"/>
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#008C4F" />
+  <g id="brand-logo" data-pptx-bounds="42 34 164 48">
+    <image href="../images/image_bb7dad2eee78ee9d.png" x="42" y="34" width="164" height="48" preserveAspectRatio="xMidYMid meet" />
   </g>
-  <g id="cover-brand" data-pptx-bounds="58 42 142 42"><image id="logo" href="../images/image_8fa7a601c29ca778.png" x="58" y="42" width="142" height="42" preserveAspectRatio="xMidYMid meet"/></g>
-  <g id="cover-copy" data-pptx-bounds="78 215 650 310">
-    <text x="78" y="258" font-family="Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="2" fill="#008C4F">REVIEW THÁNG 7 / 2026</text>
-    <text x="78" y="340" font-family="Arial, sans-serif" font-size="56" font-weight="700" fill="#1F2329">REVIEW NHÂN SỰ</text>
-    <rect x="78" y="372" width="86" height="5" rx="2.5" fill="#008C4F"/>
-    <text x="78" y="430" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#1F2329">Nguyễn Văn Dương</text>
-    <text x="78" y="474" font-family="Arial, sans-serif" font-size="21" fill="#5E6862">Tổng kết công việc từ 20/03 đến 22/07/2026</text>
+  <g id="cover-copy" data-pptx-bounds="42 270 570 210">
+    <text x="42" y="315" font-family="Arial, sans-serif" font-size="36" font-weight="400" fill="#FFFFFF">REVIEW NHÂN SỰ</text>
+    <text x="42" y="370" font-family="Arial, sans-serif" font-size="20" fill="#FFFFFF">Họ và tên: Nguyễn Văn Dương</text>
+    <line x1="42" y1="395" x2="470" y2="395" stroke="#FFFFFF" stroke-opacity="0.45" stroke-width="1" />
+    <text x="42" y="427" font-family="Arial, sans-serif" font-size="17" fill="#FFFFFF">Ngày review: 23/07/2026</text>
+    <text x="42" y="458" font-family="Arial, sans-serif" font-size="17" fill="#FFFFFF">Giai đoạn review: 20/03–22/07/2026</text>
   </g>
-  <g id="cover-period" data-pptx-bounds="78 565 500 72">
-    <text x="78" y="588" font-family="Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="1.2" fill="#7A827E">GIAI ĐOẠN ĐÁNH GIÁ</text>
-    <text x="78" y="626" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#008C4F">20.03 — 22.07.2026</text>
+  <g id="cover-motif" data-pptx-bounds="660 44 540 540">
+    <image href="../images/image_b3ef018bf0b10f2b.png" x="712" y="89" width="540" height="540" preserveAspectRatio="xMidYMid meet" />
   </g>
-  <g id="cover-footer" data-pptx-bounds="1060 650 160 40"><text x="1208" y="679" text-anchor="end" font-family="Arial, sans-serif" font-size="15" fill="#89918D">www.lumi.vn</text></g>
+  <g id="cover-footer" data-pptx-bounds="42 655 220 24">
+    <text x="42" y="674" font-family="Arial, sans-serif" font-size="16" fill="#FFFFFF">www.lumi.vn</text>
+  </g>
 </svg>

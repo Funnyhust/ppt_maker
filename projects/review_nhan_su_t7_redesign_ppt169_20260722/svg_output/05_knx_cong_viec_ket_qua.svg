@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect id="background" data-pptx-role="background" width="1280" height="720" fill="#FFFFFF"/>
+  <image href="../images/image_8fa7a601c29ca778.png" x="50" y="28" width="140" height="40" preserveAspectRatio="xMidYMid meet"/>
+  <text x="260" y="68" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#008C4F">KNX — Công việc chính &amp; kết quả</text>
+  <rect x="970" y="30" width="250" height="42" rx="21" fill="#EAF6F0"/>
+  <text x="1095" y="57" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#008C4F">20/03–22/07/2026</text>
+
+  <g id="work-summary" data-pptx-bounds="56 112 1168 202" font-family="Arial, sans-serif">
+    <g>
+      <rect x="56" y="112" width="360" height="202" rx="16" fill="#F4F7F5"/>
+      <rect x="56" y="112" width="8" height="202" rx="4" fill="#008C4F"/>
+      <text x="84" y="150" font-size="18" font-weight="700" fill="#008C4F">01  THIẾT BỊ &amp; FIRMWARE</text>
+      <text x="84" y="187" font-size="17" fill="#1F2329"><tspan x="84">• Công tắc 2/4 nút, Rèm</tspan><tspan x="84" dy="29">• Actuator, KNOB, .knxprod</tspan></text>
+      <line x1="84" y1="252" x2="388" y2="252" stroke="#C8D8D0"/>
+      <text x="84" y="281" font-size="15" font-weight="700" fill="#008C4F">KẾT QUẢ</text>
+      <text x="168" y="281" font-size="16" fill="#1F2329">Chuẩn hóa firmware &amp; kiểm thử</text>
+    </g>
+    <g>
+      <rect x="442" y="112" width="360" height="202" rx="16" fill="#EAF6F0"/>
+      <rect x="442" y="112" width="8" height="202" rx="4" fill="#008C4F"/>
+      <text x="470" y="150" font-size="18" font-weight="700" fill="#008C4F">02  TOOL &amp; HỆ THỐNG</text>
+      <text x="470" y="187" font-size="17" fill="#1F2329"><tspan x="470">• Jig, loader, benchmark</tspan><tspan x="470" dy="29">• GA, Coupler, KNX Secure</tspan></text>
+      <line x1="470" y1="252" x2="774" y2="252" stroke="#B8D8C7"/>
+      <text x="470" y="281" font-size="15" font-weight="700" fill="#008C4F">KẾT QUẢ</text>
+      <text x="554" y="281" font-size="16" fill="#1F2329">Tái hiện, đo và xác nhận lỗi</text>
+    </g>
+    <g>
+      <rect x="828" y="112" width="396" height="202" rx="16" fill="#F4F7F5"/>
+      <rect x="828" y="112" width="8" height="202" rx="4" fill="#008C4F"/>
+      <text x="856" y="150" font-size="18" font-weight="700" fill="#008C4F">03  TÀI LIỆU &amp; ĐÀO TẠO</text>
+      <text x="856" y="187" font-size="17" fill="#1F2329"><tspan x="856">• Giáo trình, ETS, Quiz</tspan><tspan x="856" dy="29">• Q&amp;A, Topology, hỗ trợ Tester</tspan></text>
+      <line x1="856" y1="252" x2="1196" y2="252" stroke="#C8D8D0"/>
+      <text x="856" y="281" font-size="15" font-weight="700" fill="#008C4F">KẾT QUẢ</text>
+      <text x="940" y="281" font-size="16" fill="#1F2329">Tri thức có thể dùng lại</text>
+    </g>
+  </g>
+
+  <text x="56" y="350" font-family="Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="1.5" fill="#66706A">BẰNG CHỨNG CÔNG VIỆC · TOOL BENCHMARK</text>
+  <g id="evidence-filmstrip" data-pptx-bounds="56 368 1168 270" font-family="Arial, sans-serif">
+    <g>
+      <rect x="56" y="368" width="360" height="270" rx="16" fill="#FFFFFF" stroke="#B8D8C7" stroke-width="2"/>
+      <rect x="70" y="382" width="332" height="166" rx="8" fill="#F4F7F5"/>
+      <image href="../images/du_an_knx/tool_becnh_mark/bang_dieu_khien.png" x="70" y="382" width="332" height="166" preserveAspectRatio="xMidYMid meet"/>
+      <circle cx="88" cy="582" r="16" fill="#008C4F"/><text x="88" y="588" text-anchor="middle" font-size="16" font-weight="700" fill="#FFFFFF">1</text>
+      <text x="116" y="578" font-size="17" font-weight="700" fill="#1F2329">Bảng điều khiển benchmark</text>
+      <text x="116" y="605" font-size="15" fill="#66706A">Theo dõi thiết bị và trạng thái test</text>
+    </g>
+    <g>
+      <rect x="442" y="368" width="360" height="270" rx="16" fill="#FFFFFF" stroke="#B8D8C7" stroke-width="2"/>
+      <rect x="456" y="382" width="332" height="166" rx="8" fill="#F4F7F5"/>
+      <image href="../images/du_an_knx/tool_becnh_mark/tao_test_case.png" x="456" y="382" width="332" height="166" preserveAspectRatio="xMidYMid meet"/>
+      <circle cx="474" cy="582" r="16" fill="#008C4F"/><text x="474" y="588" text-anchor="middle" font-size="16" font-weight="700" fill="#FFFFFF">2</text>
+      <text x="502" y="578" font-size="17" font-weight="700" fill="#1F2329">Tạo test case</text>
+      <text x="502" y="605" font-size="15" fill="#66706A">Chuẩn hóa dữ liệu đầu vào kiểm thử</text>
+    </g>
+    <g>
+      <rect x="828" y="368" width="396" height="270" rx="16" fill="#FFFFFF" stroke="#B8D8C7" stroke-width="2"/>
+      <rect x="842" y="382" width="368" height="166" rx="8" fill="#F4F7F5"/>
+      <image href="../images/du_an_knx/tool_becnh_mark/bao_cao.png" x="842" y="382" width="368" height="166" preserveAspectRatio="xMidYMid meet"/>
+      <circle cx="860" cy="582" r="16" fill="#008C4F"/><text x="860" y="588" text-anchor="middle" font-size="16" font-weight="700" fill="#FFFFFF">3</text>
+      <text x="888" y="578" font-size="17" font-weight="700" fill="#1F2329">Báo cáo kết quả</text>
+      <text x="888" y="605" font-size="15" fill="#66706A">Tổng hợp trạng thái và bằng chứng test</text>
+    </g>
+  </g>
+  <text x="1220" y="708" text-anchor="end" font-family="Arial, sans-serif" font-size="14" fill="#66706A">05 / 17</text>
+</svg>

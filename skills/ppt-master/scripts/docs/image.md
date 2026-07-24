@@ -158,7 +158,7 @@ MINIMAX_API_KEY=your-api-key
 
 ## `analyze_images.py`
 
-Analyze images in a project directory before writing the design spec or composing slide layouts.
+Analyze images recursively in a project directory before writing the design spec or composing slide layouts. The CSV keeps paths relative to `images/`, so project-specific subfolders and duplicate basenames remain distinct.
 
 ```bash
 python3 scripts/analyze_images.py <project_path>/images

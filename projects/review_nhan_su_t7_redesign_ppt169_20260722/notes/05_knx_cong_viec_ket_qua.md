@@ -1,0 +1,1 @@
+Đầu ra KNX đi xuyên suốt từ firmware đến Jig, benchmark, kiểm thử, tài liệu và đào tạo.

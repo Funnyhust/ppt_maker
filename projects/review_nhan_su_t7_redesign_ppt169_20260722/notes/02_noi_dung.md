@@ -1,0 +1,1 @@
+Bài trình bày giữ nguyên bốn phần của template cũ: dự án, AI, tự đánh giá và mục tiêu.

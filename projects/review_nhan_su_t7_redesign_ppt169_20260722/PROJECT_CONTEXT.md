@@ -8,14 +8,16 @@ Tạo deck review nhân sự tháng 7 cho Nguyễn Văn Dương, tổng hợp c�
 
 - Route: Generate PPTX, SVG → native DrawingML PPTX.
 - Canvas: PPT 16:9, 1280 × 720.
-- Số trang: 15.
+- Số trang: 17.
 - Font: Arial.
 - Màu chính: LUMI green `#008C4F`, blue `#1456F0`, white `#FFFFFF`.
 - Chế độ đọc: balanced.
 - Cấu trúc PPTX: flat; chữ và shape được xuất thành đối tượng PowerPoint editable.
-- Kiểm tra SVG: 15/15 trang passed, 0 lỗi, 0 cảnh báo.
-- Postflight PPTX: passed, 15 slides, 0 warning categories.
-- Bản xuất hiện tại: `exports/review_nhan_su_t7_redesign_20260722_215349.pptx`.
+- Kiểm tra SVG: 17/17 trang passed, 0 lỗi; cảnh báo còn lại là advisory về group/bounds, không có lỗi tràn hoặc chồng chữ.
+- Postflight PPTX: `passed-with-warnings`, quality gate passed, 17 slides. Cảnh báo thuộc nhóm cấu trúc SVG advisory.
+- Bản review phong cách ảnh mới nhất: `exports/review_nhan_su_t7_redesign_20260724_202044.pptx`.
+- Bản chính thức dùng chế độ `--no-merge` để giữ từng dòng chữ độc lập khi chuyển sang DrawingML.
+- Đã render lại toàn bộ 17 trang bằng chính Microsoft PowerPoint tại `validation/pptx_render_20260724_202044/`; ảnh được nhúng đúng, không phát hiện chồng chữ hoặc lệch khung.
 
 ## 3. Dữ liệu nguồn và số liệu khóa
 
@@ -31,30 +33,36 @@ Deck LUMI tham chiếu nằm tại `sources/review_nhan_su_alignment_20260722_20
 
 ## 4. Quyết định thiết kế đã chốt
 
-- Giữ logo, màu sắc, ảnh sản phẩm và phong cách LUMI.
-- Mục lục được tách thành hai trang để trình bày đủ 7 nhóm nội dung mà không nhồi chữ.
-- Trang mục lục giữ khung điện thoại bên trái và nhãn số dạng connector giống template mẫu.
+- Giữ nguyên bố cục bìa xanh và trang kết xanh của template cũ; bìa chỉ bổ sung ngày review và giai đoạn review.
+- Mục lục giữ đúng bốn phần của template cũ trên một trang.
+- Trang mục lục giữ điện thoại bên trái và khôi phục ô số cắt góc, connector, hatch chéo giống mẫu gốc.
+- Mỗi dự án có thời gian bắt đầu/kết thúc hoặc trạng thái đang triển khai.
+- Mỗi dự án trình bày theo cùng hệ 2×3: công việc chính, kết quả, kỹ năng, tư duy, bài học & khó khăn, thành tích nổi bật.
 - Không dùng bảng chữ dày; thay bằng KPI card, timeline, flow, capability map và roadmap.
 - Tiêu đề ưu tiên một dòng; nội dung dài phải chia card hoặc tách trang, không giảm chữ xuống mức khó đọc.
 - Chỉ sử dụng ảnh có sẵn trong source; không dùng ảnh AI hoặc ảnh web.
+- Ảnh giao diện/chứng nhận được trình bày như bằng chứng công việc: luôn `no-crop`, đặt trong khung trung tính viền xanh và có chú thích ngắn.
+- Với nhiều ảnh cùng một luồng dùng dải bằng chứng đánh số; với một đến hai ảnh dùng panel/cột bằng chứng. Trang 5, 6 và 8 là các prototype đã chốt để mở rộng cho ảnh dự án về sau.
 
-## 5. Cấu trúc 15 trang
+## 5. Cấu trúc 17 trang
 
-1. Review nhân sự tháng 7.
-2. Nội dung 1/2: tổng quan và ba nhóm KNX.
-3. Nội dung 2/2: đào tạo, dự án khác, năng lực và bước tiếp theo.
-4. Kết quả nổi bật.
-5. Hành trình 20/03–22/07.
-6. Thiết bị và firmware KNX.
-7. Tool, Jig và code loader.
-8. Benchmark và kiểm thử hệ thống.
-9. Đào tạo KNX.
-10. Tài liệu và khả năng bàn giao.
-11. Auto Test và Tool Design.
-12. Các dự án và tool khác.
-13. Năng lực được củng cố.
-14. Trọng tâm tiếp theo.
-15. Kết luận.
+1. Bìa Review nhân sự — giữ template gốc, thêm ngày/giai đoạn review.
+2. Nội dung — điện thoại và bốn ô số cắt góc của template cũ.
+3. Danh mục 7 dự án và timeline 20/03–22/07.
+4. KNX — tổng quan, thời gian, KPI và thành tích.
+5. KNX — công việc chính, kết quả và dải ba ảnh benchmark.
+6. KNX — kỹ năng, tư duy, bài học, khó khăn; cột bằng chứng tool nạp code và kết quả KNX Basic.
+7. Auto Test — review đầy đủ theo lưới 2×3.
+8. Tool Design — review 2×2 và panel ảnh giao diện tool lớn.
+9. IoT — review đầy đủ theo lưới 2×3.
+10. LumesV2 — review đầy đủ theo lưới 2×3.
+11. MSB Office — review đầy đủ theo lưới 2×3.
+12. Smart Lighting — review đầy đủ, ghi rõ Ongoing.
+13. Sử dụng AI trong công việc.
+14. Tự đánh giá ưu, nhược điểm.
+15. Bài học và khó khăn xuyên dự án.
+16. Mục tiêu sắp tới.
+17. Cảm ơn — giữ nguyên template kết cũ.
 
 Chi tiết nội dung, ảnh và layout từng trang nằm trong `design_spec.md` mục IX. Các token bắt buộc cho Executor nằm trong `spec_lock.md`.
 
@@ -77,7 +85,7 @@ python skills/ppt-master/scripts/project_manager.py validate projects/review_nha
 python skills/ppt-master/scripts/svg_quality_checker.py projects/review_nhan_su_t7_redesign_ppt169_20260722 --json
 python skills/ppt-master/scripts/total_md_split.py projects/review_nhan_su_t7_redesign_ppt169_20260722
 python skills/ppt-master/scripts/finalize_svg.py projects/review_nhan_su_t7_redesign_ppt169_20260722
-python skills/ppt-master/scripts/svg_to_pptx.py projects/review_nhan_su_t7_redesign_ppt169_20260722
+python skills/ppt-master/scripts/svg_to_pptx.py projects/review_nhan_su_t7_redesign_ppt169_20260722 --no-merge
 ```
 
 Để xem và chỉnh trực quan:
@@ -128,11 +136,12 @@ Prompt tiếp tục gợi ý:
 - `design_spec.md`, `spec_lock.md`, `PROJECT_CONTEXT.md`.
 - `svg_output/`, `svg_final/`, `notes/`.
 - `confirm_ui/recommendations.json`, `confirm_ui/result.json`.
-- `validation/`, `exports/`.
+- Các báo cáo trong `validation/` và toàn bộ `exports/`.
 
 Không version vì có thể tái tạo:
 
 - `.preview/`, `.review/`, `backup/`, `live_preview/`.
+- Ảnh render PowerPoint tạm trong `validation/pptx_render_*/` và preview tổng hợp trong `validation/final_preview_project/`.
 - Runtime locks, server logs và Python caches.
 
 ## 10. Lưu ý bảo mật

@@ -4,19 +4,19 @@
   "target": "D:\\DuongNV\\ppt-master\\projects\\review_nhan_su_t7_redesign_ppt169_20260722",
   "source_fingerprint": {
     "algorithm": "sha256",
-    "digest": "a3889550b1ae916e2641e237698fc59554fa56a6a12569384fcca33d1fc1100e",
+    "digest": "d2a7648c2fec7164db8b05d7ec43b248c371d51f6ff69247ae572e15832da26e",
     "file_count": 1,
     "files": [
       {
         "file": "01_review_nhan_su.svg",
-        "sha256": "9f01810ba841d9f98abf594ba4b6e31ae5bc55ee7ff51997c11b6042be8bc47c"
+        "sha256": "dfce49390bf04727b4bfb16d15d6a5032fdd1b93557aeffbe8d06c874da9fcfd"
       }
     ]
   },
   "summary": {
     "total": 1,
-    "passed": 1,
-    "warnings": 0,
+    "passed": 0,
+    "warnings": 1,
     "errors": 0
   },
   "issue_types": {},
@@ -26,8 +26,13 @@
       "issues": []
     },
     "introduced": {
-      "count": 0,
-      "issues": []
+      "count": 1,
+      "issues": [
+        {
+          "file": "01_review_nhan_su.svg",
+          "message": "Detected 1 paragraph-like line run(s) split across sibling <text> elements (<g id=\"cover-copy\"> x=42.0, y=427.0..458.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+        }
+      ]
     },
     "inherited": {
       "count": 0,
@@ -42,29 +47,9 @@
     }
   },
   "drift": {
-    "colors": {
-      "#5E6862": [
-        "01_review_nhan_su.svg"
-      ],
-      "#7A827E": [
-        "01_review_nhan_su.svg"
-      ],
-      "#89918D": [
-        "01_review_nhan_su.svg"
-      ]
-    },
+    "colors": {},
     "fonts": {},
-    "sizes": {
-      "15": [
-        "01_review_nhan_su.svg"
-      ],
-      "21": [
-        "01_review_nhan_su.svg"
-      ],
-      "56": [
-        "01_review_nhan_su.svg"
-      ]
-    }
+    "sizes": {}
   },
   "project_issues": {
     "template": [],
@@ -79,29 +64,19 @@
       "path": "projects\\review_nhan_su_t7_redesign_ppt169_20260722\\svg_output\\01_review_nhan_su.svg",
       "exists": true,
       "errors": [],
-      "warnings": [],
+      "warnings": [
+        "Detected 1 paragraph-like line run(s) split across sibling <text> elements (<g id=\"cover-copy\"> x=42.0, y=427.0..458.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+      ],
       "info": {
         "viewbox": "0 0 1280 720",
         "fonts": [
           "Arial, sans-serif"
         ],
-        "text_elements": 7,
-        "tspan_elements": 0,
-        "contextual_values": {
-          "colors": [
-            "#5E6862",
-            "#7A827E",
-            "#89918D"
-          ]
-        },
-        "sparse_typography_sizes": {
-          "15": 2,
-          "21": 1,
-          "56": 1
-        }
+        "text_elements": 5,
+        "tspan_elements": 0
       },
       "passed": true,
-      "source_sha256": "9f01810ba841d9f98abf594ba4b6e31ae5bc55ee7ff51997c11b6042be8bc47c"
+      "source_sha256": "dfce49390bf04727b4bfb16d15d6a5032fdd1b93557aeffbe8d06c874da9fcfd"
     }
   ]
 }

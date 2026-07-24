@@ -1,1 +1,0 @@
-Phạm vi kiểm thử không chỉ dừng ở thiết bị đơn lẻ. Mình thực hiện benchmark Jig/tool, test tương tác hệ thống, xử lý tình huống GA delay hoặc miss, đồng thời kiểm tra Coupler và GA secure. Cách làm là tái hiện, đối chiếu và xác nhận lại sau khi sửa.

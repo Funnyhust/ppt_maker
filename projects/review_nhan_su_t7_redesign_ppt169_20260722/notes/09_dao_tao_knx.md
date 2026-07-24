@@ -1,1 +1,0 @@
-Một phần quan trọng khác là hệ thống hóa kiến thức KNX. Các đầu ra gồm giáo trình, slide ETS, Quiz, Topology và LUKA Q&A. Nội dung này phục vụ Dev, Tester, App và nhân sự mới, giúp đội ngũ chủ động hơn khi học và xử lý tình huống.

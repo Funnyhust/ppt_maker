@@ -1,1 +1,0 @@
-Song song với thiết bị, mình phát triển Jig và code loader để chuẩn hóa vòng lặp build, load và verify. Tool hóa các thao tác này giúp giảm bước thủ công, hỗ trợ benchmark và tạo cơ sở để người khác có thể tiếp nhận quy trình dễ hơn.

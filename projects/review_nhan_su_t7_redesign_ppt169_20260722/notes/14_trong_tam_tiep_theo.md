@@ -1,1 +1,0 @@
-Trọng tâm tiếp theo gồm ba horizon. Now là hoàn thiện Auto Test. Next là xử lý các task Late và Not yet started, đồng thời xác nhận chất lượng. Scale là chuẩn hóa tool, test case và tài liệu để tăng khả năng tái sử dụng. Chỉ số theo dõi nên bám task Done và thời gian vòng lặp test.

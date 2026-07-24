@@ -1,1 +1,0 @@
-Nhìn từ các đầu ra, năm năng lực được củng cố là firmware và thiết bị, Tool/Jig automation, kiểm thử hệ thống, tài liệu và đào tạo, cùng khả năng phối hợp đa nhóm. Điểm nổi bật là các năng lực này nối thành một chuỗi build, test và share hoàn chỉnh.

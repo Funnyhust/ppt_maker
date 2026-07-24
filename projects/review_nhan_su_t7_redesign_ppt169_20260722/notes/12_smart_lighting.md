@@ -1,0 +1,1 @@
+Smart Lighting mới khởi động từ 20/07, đang dựng nền tool test cho Deep Dimming và CCT Tunable.

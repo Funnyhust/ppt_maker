@@ -1,0 +1,1 @@
+Điểm tiến bộ chính là tư duy end-to-end và quy trình tái hiện, đo, đối chiếu, xác nhận.

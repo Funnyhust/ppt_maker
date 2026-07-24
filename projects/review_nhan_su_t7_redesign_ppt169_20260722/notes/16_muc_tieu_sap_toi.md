@@ -1,0 +1,1 @@
+Mục tiêu tiếp theo là hoàn tất dự án đang chạy, đóng task còn mở và chuẩn hóa tài sản dùng lại.

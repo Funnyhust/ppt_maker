@@ -1,1 +1,0 @@
-Ở nhóm thiết bị và firmware KNX, công việc bao phủ firmware cho thiết bị 2/4 nút, Rèm, Actuator, phát triển KNOB và xử lý file knxprod. Điều quan trọng là các đầu ra được cập nhật qua nhiều vòng test để sẵn sàng cho tích hợp và bàn giao.
